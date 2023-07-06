@@ -11,11 +11,11 @@ function Header() {
   return (
     <nav className="navbar">
       <Link to="/" className="site-title">
-        Ass Nordre Tolerud
+        Aas Nordre Tolerud
       </Link>
       <ul>
-        <CustomLink to="/menu">Menu</CustomLink>
         <CustomLink to="/about">About</CustomLink>
+        <CustomLink to="/menu">Menu</CustomLink>
         <CustomLink to="/contact">Contact</CustomLink>
       </ul>
     </nav>

@@ -9,7 +9,7 @@
 }
 
 .site-title {
-  font-size: 2rem;
+  font-size: 1.3rem;
 }
 
 .navbar ul {
@@ -35,4 +35,10 @@
 
 .navbar li:hover {
   background-color: #777;
+}
+
+@media (max-width: 320px) {
+  .navbar {
+    min-width: 320px;
+  }
 }
