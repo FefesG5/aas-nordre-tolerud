@@ -1,0 +1,24 @@
+.contact-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-image {
+  max-width: 100%;
+  height: auto;
+}
+
+.contact-form-label {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.contact-form-input {
+  display: block;
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}

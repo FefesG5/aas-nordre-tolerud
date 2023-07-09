@@ -4,7 +4,7 @@ import "../styles/home.css";
 function Home() {
   return (
     <div className="home-container">
-      <h2>Aas Nordre Tolerud Gard Catering Services</h2>
+      <h2>Aas Nordre Tolerud Gard</h2>
       <img className="home-image" src={gingerHouseView} alt="" />
       <p className="home-text">
         Nestled in the picturesque Tolerud region lies Nordre Tolerud Farm, a
