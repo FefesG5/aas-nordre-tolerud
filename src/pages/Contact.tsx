@@ -7,7 +7,11 @@ function Contact() {
     <>
       <h2>Contact Us</h2>
       <div className="contact-container">
-        <img className="contact-image" src={gingerHouseBack} alt="" />
+        <img
+          className="contact-image"
+          src={gingerHouseBack}
+          alt="Ginger House Back View"
+        />
       </div>
       <ContactForm />
     </>
