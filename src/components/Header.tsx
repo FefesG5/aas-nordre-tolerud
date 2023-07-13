@@ -1,6 +1,7 @@
 import React from "react";
 import "../styles/header.css";
 import { Link, useMatch, useResolvedPath } from "react-router-dom";
+import { useTranslation } from "react-i18next";
 
 interface CustomLinkProps {
   to: string;
@@ -8,16 +9,42 @@ interface CustomLinkProps {
 }
 
 function Header() {
+  const { i18n } = useTranslation();
+
+  const changeLanguage = (lng: string) => {
+    i18n.changeLanguage(lng);
+  };
+
+  const { t } = useTranslation();
+
   return (
     <nav className="navbar">
       <Link to="/" className="site-title">
         Aas Nordre Tolerud
       </Link>
       <ul>
-        <CustomLink to="/about">About</CustomLink>
-        <CustomLink to="/menu">Menu</CustomLink>
-        <CustomLink to="/contact">Contact</CustomLink>
+        <CustomLink to="/about">{t("About")}</CustomLink>
+        <CustomLink to="/menu">{t("Menu")}</CustomLink>
+        <CustomLink to="/contact">{t("Contact")}</CustomLink>
       </ul>
+      <div className="language-buttons">
+        <button
+          className={`language-button ${
+            i18n.language === "en" ? "active" : ""
+          }`}
+          onClick={() => changeLanguage("en")}
+        >
+          EN
+        </button>
+        <button
+          className={`language-button ${
+            i18n.language === "no" ? "active" : ""
+          }`}
+          onClick={() => changeLanguage("no")}
+        >
+          NO
+        </button>
+      </div>
     </nav>
   );
 }

@@ -18,6 +18,7 @@
   list-style: none;
   display: flex;
   gap: 1rem;
+  flex-wrap: wrap;
 }
 
 .navbar a {
@@ -37,8 +38,41 @@
   background-color: #777;
 }
 
+.language-buttons {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.language-button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 0.5rem;
+  margin-left: 0.5rem;
+  color: white;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.language-button:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+.language-button:active {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
 @media (max-width: 320px) {
   .navbar {
     min-width: 320px;
+    flex-direction: column; /* Add this line */
+    align-items: flex-start; /* Add this line */
+  }
+  .navbar ul {
+    flex-direction: column; /* Add this line */
+    align-items: flex-start; /* Add this line */
+  }
+  .language-buttons {
+    margin-top: 0.5rem; /* Add this line */
   }
 }
