@@ -1,5 +1,7 @@
 .about-container {
+  width: 100%;
   max-width: 100%;
+  padding: 0 0.5rem;
 }
 
 .about-image {

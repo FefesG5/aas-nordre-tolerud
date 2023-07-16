@@ -1,23 +1,39 @@
 import DishCard from "../components/DishCard";
 import greekSpinachQuiche from "../images/GreekQuiche.jpg";
 import greekRatatouille from "../images/GreekBakedRata.jpg";
+import chickenBaconCrunchSalad from "../images/chickenBaconCrunchSalad.jpg";
+import jalapenoPepperMacAndCheese from "../images/jalapenoPepperMacAndCheese.jpg";
+import { useTranslation } from "react-i18next";
 import "../styles/menu.css";
 
 function Menu() {
+  const { t } = useTranslation();
   return (
     <>
-      <h2>Mediterranean Theme Cuisine</h2>
+      <h2>{t("featuredCuisineTitle")}</h2>
+      <div className="menu-container">
+        <DishCard
+          image={chickenBaconCrunchSalad}
+          title={t("dishCard.chickenBaconCrunchSaladTitle")}
+          description={t("dishCard.chickenBaconCrunchSaladDescription")}
+        />
+        <DishCard
+          image={jalapenoPepperMacAndCheese}
+          title={t("dishCard.jalapenoPepperMacAndCheeseTitle")}
+          description={t("dishCard.jalapenoPepperMacAndCheeseDescription")}
+        />
+      </div>
+      <h2>{t("mediterraneanCuisineTitle")}</h2>
       <div className="menu-container">
         <DishCard
           image={greekSpinachQuiche}
-          title="Greek Spinach Quiche"
-          description="
-        Greek Spinach Quiche: A delightful dish that combines the flavors of creamy and savory filling. This quiche features a golden, flaky crust filled with a luscious mixture of spinach, feta cheese, onions, and aromatic herbs. The harmonious blend of tangy feta, earthy spinach, and fragrant herbs creates a mouthwatering experience."
+          title={t("dishCard.greekSpinachQuicheTitle")}
+          description={t("dishCard.greekSpinachQuicheDescription")}
         />
         <DishCard
           image={greekRatatouille}
-          title="Greek Ratatouille"
-          description="Greek Ratatouille: A medley of fresh vegetables such as eggplant, zucchini, bell peppers, and tomatoes, all simmered together with herbs and spices. Bursting with Mediterranean flavors, this hearty and healthy dish offers a perfect balance of textures and tastes. Each spoonful unveils tender vegetables infused with fragrant herbs, creating a harmonious blend that is both satisfying and comforting."
+          title={t("dishCard.greekRatatouilleTitle")}
+          description={t("dishCard.greekRatatouilleDescription")}
         />
       </div>
     </>
