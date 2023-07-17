@@ -3,6 +3,7 @@
   "Menu": "Menu",
   "About": "About",
   "Contact": "Contact",
+  "AasNordreTolerudGard": "Aas Nordre Tolerud Gard",
   "homeText": "Nestled in the picturesque Tolerud region lies Nordre Tolerud Farm, a family-owned and operated piece of land with a rich history dating back centuries. Our farm is one of two in the Tolerud area, and has been passed down through our family since 1840. Our deep roots in the region extend even further back, with ancestors residing in Tolerud as far back as the Middle Ages. Come experience the timeless beauty of our farm and taste the quality of our locally-sourced products, all while supporting a piece of history.",
   "meetIngvarTitle": "Meet Ingvar",
   "about-text-1": "A humble chef with a love for cooking and a great sense of humor. With a desire to create delicious and satisfying meals, Ingvar blends taste, presentation, and quality to create unforgettable culinary experiences. As a local in his hometown, Ingvar is proud to use only the freshest ingredients, ensuring each dish is made with care and attention to detail.",
@@ -18,5 +19,9 @@
     "greekSpinachQuicheDescription": "Greek Spinach Quiche: A delightful dish that combines the flavors of creamy and savory filling. This quiche features a golden, flaky crust filled with a luscious mixture of spinach, feta cheese, onions, and aromatic herbs. The harmonious blend of tangy feta, earthy spinach, and fragrant herbs creates a mouthwatering experience.",
     "greekRatatouilleTitle": "Greek Ratatouille",
     "greekRatatouilleDescription": "Greek Ratatouille: A medley of fresh vegetables such as eggplant, zucchini, bell peppers, and tomatoes, all simmered together with herbs and spices. Bursting with Mediterranean flavors, this hearty and healthy dish offers a perfect balance of textures and tastes. Each spoonful unveils tender vegetables infused with fragrant herbs, creating a harmonious blend that is both satisfying and comforting."
-  }
+  },
+  "contactUs": "Contact Us",
+  "name": "Name",
+  "email": "Email",
+  "message": "Message"
 }

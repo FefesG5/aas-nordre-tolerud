@@ -1,6 +1,8 @@
 import { useState } from "react";
+import { useTranslation } from "react-i18next";
 
 function ContactForm() {
+  const { t } = useTranslation();
   interface FormType {
     name: string;
     email: string;
@@ -24,7 +26,7 @@ function ContactForm() {
   return (
     <form>
       <label htmlFor="name" className="contact-form-label">
-        Name:{" "}
+        {t("name")}:{" "}
       </label>
       <div>
         <input
@@ -34,13 +36,13 @@ function ContactForm() {
           name="name"
           value={form.name}
           required
-          placeholder="Name"
+          placeholder={t("name")}
           onChange={handleChange}
         ></input>
       </div>
       <div>
         <label htmlFor="email" className="contact-form-label">
-          Email:{" "}
+          {t("email")}:{" "}
         </label>
         <input
           className="contact-form-input"
@@ -49,13 +51,13 @@ function ContactForm() {
           name="email"
           value={form.email}
           required
-          placeholder="Email"
+          placeholder={t("email")}
           onChange={handleChange}
         ></input>
       </div>
       <div>
         <label htmlFor="message" className="contact-form-label">
-          Message:{" "}
+          {t("message")}:{" "}
         </label>
         <input
           className="contact-form-input"
@@ -66,7 +68,7 @@ function ContactForm() {
           required
           minLength={2}
           maxLength={200}
-          placeholder="Message"
+          placeholder={t("message")}
           onChange={handleChange}
         ></input>
       </div>
