@@ -1,4 +1,4 @@
-import ingvar from "../images/ingvar.jpg";
+import ingvar from "../images/Ingvar.jpg";
 import "../styles/about.css";
 import { useTranslation } from "react-i18next";
 

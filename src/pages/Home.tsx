@@ -1,5 +1,5 @@
 import { useTranslation } from "react-i18next";
-import gingerHouseView from "../images/gingerHouseView.jpg";
+import gingerHouseView from "../images/GingerHouseView.jpg";
 import "../styles/home.css";
 
 function Home() {
