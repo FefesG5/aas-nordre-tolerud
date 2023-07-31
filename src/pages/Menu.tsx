@@ -1,8 +1,8 @@
 import DishCard from "../components/DishCard";
 import greekSpinachQuiche from "../images/GreekQuiche.jpg";
 import greekRatatouille from "../images/GreekBakedRata.jpg";
-import chickenBaconCrunchSalad from "../images/ChickenBaconCrunchSalad.jpg";
-import jalapenoPepperMacAndCheese from "../images/JalapenoPepperMacAndCheese.jpg";
+import chickenBaconSalad from "../images/ChickenBaconSalad.jpg";
+import jalapenoPepperMacCheese from "../images/JalapenoPepperMacCheese.jpg";
 import ratatouille from "../images/Ratatouille.jpg";
 import cauliflowerCheese from "../images/CauliflowerCheese.jpg";
 import { useTranslation } from "react-i18next";
@@ -15,12 +15,12 @@ function Menu() {
       <h2>{t("featuredCuisineTitle")}</h2>
       <div className="menu-container">
         <DishCard
-          image={chickenBaconCrunchSalad}
+          image={chickenBaconSalad}
           title={t("dishCard.chickenBaconCrunchSaladTitle")}
           description={t("dishCard.chickenBaconCrunchSaladDescription")}
         />
         <DishCard
-          image={jalapenoPepperMacAndCheese}
+          image={jalapenoPepperMacCheese}
           title={t("dishCard.jalapenoPepperMacAndCheeseTitle")}
           description={t("dishCard.jalapenoPepperMacAndCheeseDescription")}
         />

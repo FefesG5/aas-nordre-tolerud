@@ -1,5 +1,5 @@
 import { useTranslation } from "react-i18next";
-import gingerHouseView from "../images/GingerHouseView.jpg";
+import gingerHouseViewValley from "../images/GingerHouseViewValley.jpg";
 import "../styles/home.css";
 
 function Home() {
@@ -7,7 +7,7 @@ function Home() {
   return (
     <div className="home-container">
       <h2>{t("AasNordreTolerudGard")}</h2>
-      <img className="home-image" src={gingerHouseView} alt="" />
+      <img className="home-image" src={gingerHouseViewValley} alt="" />
       <p className="home-text">{t("homeText")}</p>
     </div>
   );

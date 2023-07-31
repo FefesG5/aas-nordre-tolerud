@@ -1,4 +1,4 @@
-import ingvar from "../images/Ingvar.jpg";
+import ingvarSitting from "../images/IngvarSitting.jpg";
 import "../styles/about.css";
 import { useTranslation } from "react-i18next";
 
@@ -8,7 +8,7 @@ function About() {
     <div className="about-container">
       <h2>{t("meetIngvarTitle")}</h2>
       <img
-        src={ingvar}
+        src={ingvarSitting}
         alt="Owner sitting on a rock in Engerdal"
         className="about-image"
       />
