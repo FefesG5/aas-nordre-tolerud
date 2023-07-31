@@ -2,6 +2,8 @@ import React from "react";
 import "../styles/header.css";
 import { Link, useMatch, useResolvedPath } from "react-router-dom";
 import { useTranslation } from "react-i18next";
+import NorwayIcon from "../images/NorwayIcon.png";
+import UnitedKingdomIcon from "../images/UnitedKingdomIcon.png";
 
 interface CustomLinkProps {
   to: string;
@@ -28,22 +30,40 @@ function Header() {
         <CustomLink to="/contact">{t("Contact")}</CustomLink>
       </ul>
       <div className="language-buttons">
-        <button
+        <div
           className={`language-button ${
             i18n.language === "en" ? "active" : ""
           }`}
           onClick={() => changeLanguage("en")}
         >
-          EN
-        </button>
-        <button
+          <img src={UnitedKingdomIcon} className="flag-icon" alt="" />
+        </div>
+        <div
           className={`language-button ${
             i18n.language === "no" ? "active" : ""
           }`}
           onClick={() => changeLanguage("no")}
         >
-          NO
-        </button>
+          {" "}
+          <img src={NorwayIcon} className="flag-icon" alt="" />
+        </div>
+
+        {
+          // Need to move down to footer
+          /* <div className="attribution">
+          <a
+            href="https://www.flaticon.com/free-icons/norway"
+            title="norway icons"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Norway icons created by GeekClick - Flaticon
+          </a>
+          <a href="https://www.flaticon.com/free-icons/uk" title="uk icons">
+            Uk icons created by Roundicons - Flaticon
+          </a>
+        </div> */
+        }
       </div>
     </nav>
   );
