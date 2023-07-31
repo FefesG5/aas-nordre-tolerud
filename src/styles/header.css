@@ -5,7 +5,7 @@
   justify-content: space-between;
   align-items: center;
   gap: 1rem;
-  padding: 0 0.5rem;
+  padding: 1rem 1rem;
 }
 
 .site-title {
@@ -47,7 +47,9 @@
 
 .language-button {
   background-color: transparent;
+  display: flex;
   border: none;
+  align-items: center;
   cursor: pointer;
   padding: 0.5rem;
   margin: 0;
@@ -65,17 +67,24 @@
   background-color: rgba(255, 255, 255, 0.5);
 }
 
+.flag-icon {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+}
+
 @media (max-width: 320px) {
   .navbar {
     min-width: 320px;
-    flex-direction: column; /* Add this line */
-    align-items: flex-start; /* Add this line */
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 1.5rem;
   }
   .navbar ul {
-    flex-direction: column; /* Add this line */
-    align-items: flex-start; /* Add this line */
+    flex-direction: column;
+    align-items: flex-start;
   }
   .language-buttons {
-    margin-top: 0.5rem; /* Add this line */
+    margin-top: 1rem;
   }
 }
