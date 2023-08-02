@@ -1,0 +1,19 @@
+.footer-container {
+  background-color: pink;
+  padding: 20px 0;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer-container p {
+  margin: 5px 0;
+  color: #333;
+}
+
+@media (max-width: 768px) {
+  .footer-container {
+    padding: 20px;
+  }
+}
