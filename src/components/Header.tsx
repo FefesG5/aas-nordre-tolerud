@@ -47,23 +47,6 @@ function Header() {
           {" "}
           <img src={NorwayIcon} className="flag-icon" alt="" />
         </div>
-
-        {
-          // Need to move down to footer
-          /* <div className="attribution">
-          <a
-            href="https://www.flaticon.com/free-icons/norway"
-            title="norway icons"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Norway icons created by GeekClick - Flaticon
-          </a>
-          <a href="https://www.flaticon.com/free-icons/uk" title="uk icons">
-            Uk icons created by Roundicons - Flaticon
-          </a>
-        </div> */
-        }
       </div>
     </nav>
   );
