@@ -26,4 +26,10 @@ describe("DishCard", () => {
     );
     expect(descriptionElement).toBeInTheDocument();
   });
+  it("is should render an image Sample Dish", () => {
+    render(<MockDishCard />);
+    const imageElement = screen.getByAltText(/Sample Dish Title/i);
+    expect(imageElement).toBeInTheDocument();
+    expect(imageElement).toHaveAttribute("src", sampleDish);
+  });
 });
