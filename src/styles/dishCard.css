@@ -9,6 +9,16 @@
 .dish-card-image {
   width: 100%;
   height: auto;
+  border: 2px solid #888;
+  border-radius: 10px;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+  transition: border-color 0.3s, transform 0.3s, box-shadow 0.3s;
+}
+
+.dish-card-image:hover {
+  border-color: black;
+  transform: scale(1.03);
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
 }
 
 .dish-card-description {
