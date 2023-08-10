@@ -1,6 +1,18 @@
+:root {
+  --san-juan: #284b61;
+  --stiletto: #9e3e2c;
+  --catskill-white: #e1e7f0;
+  --tulip-tree: #e49e3d;
+  --granny-smith: #8a999c;
+  --heather: #b2c0ca;
+  --rodeo-dust: #cdb99e;
+  --del-rio: #b19b93;
+  --bazaar: #9c6b7c;
+}
+
 .navbar {
-  background-color: pink;
-  color: white;
+  background-color: var(--san-juan);
+  color: var(--catskill-white);
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -31,11 +43,11 @@
 }
 
 .navbar li.active {
-  background-color: #555;
+  background-color: var(--stiletto);
 }
 
 .navbar li:hover {
-  background-color: #777;
+  background-color: var(--bazaar);
 }
 
 .language-buttons {
@@ -53,7 +65,7 @@
   cursor: pointer;
   padding: 0.5rem;
   margin: 0;
-  color: white;
+  color: var(--catskill-white);
   font-weight: bold;
   transition: background-color 0.3s ease;
   font-size: 0.9rem;

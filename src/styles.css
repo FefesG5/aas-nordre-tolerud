@@ -1,5 +1,16 @@
 /* Default CSS properties for all */
 
+/* CSS HEX */
+/* --san-juan: #284b61;
+--stiletto: #9e3e2c;
+--catskill-white: #e1e7f0;
+--tulip-tree: #e49e3d;
+--granny-smith: #8a999c;
+--heather: #b2c0ca;
+--rodeo-dust: #cdb99e;
+--del-rio: #b19b93;
+--bazaar: #9c6b7c; */
+
 @import url("https://fonts.googleapis.com/css2?family=Neucha&family=Roboto:wght@300;500;700&display=swap");
 
 * {
