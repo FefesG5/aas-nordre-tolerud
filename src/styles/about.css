@@ -1,15 +1,36 @@
+:root {
+  --san-juan: #284b61;
+  --stiletto: #9e3e2c;
+  --catskill-white: #e1e7f0;
+  --tulip-tree: #e49e3d;
+  --granny-smith: #8a999c;
+  --heather: #b2c0ca;
+  --rodeo-dust: #cdb99e;
+  --del-rio: #b19b93;
+  --bazaar: #9c6b7c;
+}
+
 .about-container {
   width: 100%;
-  max-width: 100%;
-  padding: 0 0.5rem;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem;
+  background-color: var(--catskill-white);
+  color: var(--san-juan);
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
 }
 
 .about-image {
   width: 100%;
   height: auto;
+  border-radius: 8px;
 }
 
 .about-text {
   font-size: 1.1rem;
   text-align: left;
+  margin-top: 1rem;
+  color: var(--san-juan);
 }

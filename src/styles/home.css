@@ -1,3 +1,15 @@
+:root {
+  --san-juan: #284b61;
+  --stiletto: #9e3e2c;
+  --catskill-white: #e1e7f0;
+  --tulip-tree: #e49e3d;
+  --granny-smith: #8a999c;
+  --heather: #b2c0ca;
+  --rodeo-dust: #cdb99e;
+  --del-rio: #b19b93;
+  --bazaar: #9c6b7c;
+}
+
 .home-container {
   background-image: url("../images/GingerHouseViewValley.jpg");
   background-size: cover;
@@ -13,6 +25,7 @@
   max-width: 100%;
   min-height: 100vh;
   padding: 0 0.5rem;
+  padding: 2rem;
 }
 
 .home-image {
@@ -23,6 +36,5 @@
 .home-text {
   font-size: 1.4rem;
   text-align: left;
-  color: #fff;
   text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
 }

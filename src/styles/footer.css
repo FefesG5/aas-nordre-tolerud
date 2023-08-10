@@ -1,5 +1,17 @@
+:root {
+  --san-juan: #284b61;
+  --stiletto: #9e3e2c;
+  --catskill-white: #e1e7f0;
+  --tulip-tree: #e49e3d;
+  --granny-smith: #8a999c;
+  --heather: #b2c0ca;
+  --rodeo-dust: #cdb99e;
+  --del-rio: #b19b93;
+  --bazaar: #9c6b7c;
+}
+
 .footer-container {
-  background-color: pink;
+  background-color: var(--catskill-white);
   padding: 20px 0;
   text-align: center;
   display: flex;
@@ -9,7 +21,7 @@
 
 .footer-container p {
   margin: 5px 0;
-  color: #333;
+  color: var(--san-juan);
 }
 
 @media (max-width: 768px) {
