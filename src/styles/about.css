@@ -1,13 +1,11 @@
 :root {
-  --san-juan: #284b61;
-  --stiletto: #9e3e2c;
-  --catskill-white: #e1e7f0;
-  --tulip-tree: #e49e3d;
-  --granny-smith: #8a999c;
-  --heather: #b2c0ca;
-  --rodeo-dust: #cdb99e;
-  --del-rio: #b19b93;
-  --bazaar: #9c6b7c;
+  --white: #ffffff;
+  --charcoal: #54595f;
+  --pale-teal: #c0dbd5;
+  --whisper-gray: #f6f7f9;
+  --gray-chateau: #d8dde1;
+  --cadet-blue: #5f6f7d;
+  --black: #000000;
 }
 
 .about-container {
