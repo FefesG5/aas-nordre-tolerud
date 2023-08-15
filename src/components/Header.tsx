@@ -29,6 +29,11 @@ function Header() {
         <CustomLink to="/menu">{t("Menu")}</CustomLink>
         <CustomLink to="/contact">{t("Contact")}</CustomLink>
       </ul>
+      <div className="hamburger">
+        <span className="bar"></span>
+        <span className="bar"></span>
+        <span className="bar"></span>
+      </div>
       <div className="language-buttons">
         <div
           className={`language-button ${

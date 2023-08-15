@@ -17,6 +17,20 @@
   padding: 1rem 1rem;
 }
 
+.hamburger {
+  border: 1px red solid;
+}
+
+.bar {
+  display: block;
+  width: 25px;
+  height: 3px;
+  margin: 5px auto;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  background-color: white;
+}
+
 .site-title {
   font-size: 1.05rem;
 }
