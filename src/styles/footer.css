@@ -9,19 +9,34 @@
 }
 
 .footer-container {
-  background-color: var(--catskill-white);
+  background-color: var(--pale-teal);
   padding: 20px 0;
   text-align: center;
   display: flex;
   flex-direction: column;
   align-items: center;
+  color: var(--cadet-blue);
 }
 
-.footer-container p {
-  margin: 5px 0;
-  color: var(--san-juan);
+.footer-flag-icon {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
 }
 
+.flag-attribution-container {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: inherit;
+}
+
+.attribution-link {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: inherit;
+}
 @media (max-width: 768px) {
   .footer-container {
     padding: 20px;
