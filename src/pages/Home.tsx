@@ -1,6 +1,5 @@
 import { useTranslation } from "react-i18next";
 import "../styles/home.css";
-import Panzanella from "../images/Panzanella.jpg";
 
 function Home() {
   const { t } = useTranslation();
@@ -10,6 +9,7 @@ function Home() {
       <div className="home-container">
         <div className="background-image">
           <h1 className="image-heading">{t("headline")}</h1>
+          <p className="panzanella-text">Panzanella: Tradional Italian Salad</p>
         </div>
         <div className="overlay"></div>
         <div className="text-container">
