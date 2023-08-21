@@ -32,21 +32,28 @@
   color: inherit;
 }
 
+.flaticon-link {
+  margin-bottom: 5px;
+}
+
 .attribution-link {
   display: flex;
   align-items: center;
   text-decoration: none;
   color: inherit;
-  margin-bottom: 10px;
+  margin-bottom: 0px;
 }
 @media (max-width: 768px) {
   .footer-container {
     padding: 20px;
   }
   .attribution-link {
-    margin-bottom: 20px;
+    margin-bottom: 0px;
   }
   .footer-flag-icon {
     margin-right: 12px;
+  }
+  .flag-attribution-container .flaticon-link {
+    margin-bottom: 0;
   }
 }
