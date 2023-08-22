@@ -1,5 +1,7 @@
 import { useTranslation } from "react-i18next";
 import "../styles/home.css";
+import mainDish from "../images/MainDish.jpg";
+import ProductCard from "../components/ProductCard";
 
 function Home() {
   const { t } = useTranslation();
@@ -14,7 +16,11 @@ function Home() {
         <div className="overlay"></div>
         <div className="text-container">
           <h2 className="home-heading">{t("AasNordreTolerudGard")}</h2>
-          <p className="home-text">{t("homeText")}</p>
+          <div className="home-text">
+            <div className="home-text-section">{t("homeTextHistory")}</div>
+
+            <div className="home-text-section">{t("homeTextProducts")}</div>
+          </div>
         </div>
       </div>
     </>
