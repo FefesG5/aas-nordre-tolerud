@@ -18,7 +18,7 @@ function Home() {
           <h2 className="home-heading">{t("AasNordreTolerudGard")}</h2>
           <div className="home-text">
             <div className="home-text-section">{t("homeTextHistory")}</div>
-
+            <ProductCard imageSrc={mainDish} altText={"h"} />
             <div className="home-text-section">{t("homeTextProducts")}</div>
           </div>
         </div>

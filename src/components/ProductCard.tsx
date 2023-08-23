@@ -1,3 +1,5 @@
+import "../styles/productCard.css";
+
 interface ProductCardProps {
   imageSrc: string;
   altText: string;
@@ -10,8 +12,11 @@ export default function ProductCard({
   linkTo,
 }: ProductCardProps) {
   return (
-    <div>
-      <img src={imageSrc} alt={altText} className="product-card" />
+    <div className="product-card">
+      <img src={imageSrc} alt={altText} className="card-image" loading="lazy" />
+      <div className="card-button">
+        <button>Button</button>
+      </div>
     </div>
   );
 }
