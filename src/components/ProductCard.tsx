@@ -13,7 +13,14 @@ export default function ProductCard({
 }: ProductCardProps) {
   return (
     <div className="product-card">
-      <img src={imageSrc} alt={altText} className="card-image" loading="lazy" />
+      <a href={linkTo} className="card-link">
+        <img
+          src={imageSrc}
+          alt={altText}
+          className="card-image"
+          loading="lazy"
+        />
+      </a>
       <div className="card-button">
         <button>Button</button>
       </div>
