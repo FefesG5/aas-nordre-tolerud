@@ -5,7 +5,7 @@
 
 .product-card {
   display: inline-block;
-
+  margin: 10px;
   background-color: black;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
   overflow: hidden;
@@ -17,17 +17,17 @@
 }
 
 .card-image {
-  width: 100%;
+  max-width: 100%;
   height: auto;
   display: block;
   margin: 0;
-  padding: 10px;
+  padding: 10px 10px 0 10px;
   background-color: black;
 }
 
 .card-button {
   text-align: center;
-  margin-top: 10px; /* Adjust as needed */
+  align-items: center;
 }
 
 .card-button button {
@@ -39,4 +39,5 @@
   border-radius: 4px;
   cursor: pointer;
   transition: background-color 0.3s color 0.3s;
+  font-size: 1.2rem;
 }

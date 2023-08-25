@@ -4,12 +4,14 @@ interface ProductCardProps {
   imageSrc: string;
   altText: string;
   linkTo?: string;
+  buttonName: string;
 }
 
 export default function ProductCard({
   imageSrc,
   altText,
   linkTo,
+  buttonName,
 }: ProductCardProps) {
   return (
     <div className="product-card">
@@ -22,7 +24,7 @@ export default function ProductCard({
         />
       </a>
       <div className="card-button">
-        <button>Button</button>
+        <button>{buttonName}</button>
       </div>
     </div>
   );
