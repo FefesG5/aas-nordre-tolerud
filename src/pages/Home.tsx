@@ -17,7 +17,7 @@ function Home() {
       <div className="home-container">
         <div className="background-image">
           <h1 className="image-heading">{t("headline")}</h1>
-          <p className="panzanella-text">Panzanella: Tradional Italian Salad</p>
+          <p className="panzanella-text">{t("PanzanellaText")}</p>
         </div>
         <div className="overlay"></div>
         <div className="text-container">
