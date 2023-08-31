@@ -5,6 +5,7 @@ interface ProductCardProps {
   altText: string;
   linkTo?: string;
   buttonName: string;
+  dishName?: string;
 }
 
 export default function ProductCard({
@@ -12,6 +13,7 @@ export default function ProductCard({
   altText,
   linkTo,
   buttonName,
+  dishName,
 }: ProductCardProps) {
   return (
     <div className="product-card">
@@ -23,6 +25,7 @@ export default function ProductCard({
           loading="lazy"
         />
       </a>
+      <p className="dish-name-title">{dishName}</p>
       <div className="card-button">
         <button>{buttonName}</button>
       </div>
