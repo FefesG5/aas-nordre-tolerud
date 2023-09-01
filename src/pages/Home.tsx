@@ -6,6 +6,7 @@ import lasagnaMain from "../images/Lasagna.jpg";
 import dessert from "../images/Desserts.jpg";
 import appetizers from "../images/Appetizers.jpg";
 import mediterraneanTheme from "../images/MediterraneanTheme.jpg";
+import cocktails from "../images/Cocktails.jpg";
 
 import ProductCard from "../components/ProductCard";
 
@@ -23,7 +24,7 @@ function Home() {
         <div className="text-container">
           <h2 className="home-heading">{t("AasNordreTolerudGard")}</h2>
           <div className="home-text">
-            <div className="home-text-section">{t("homeTextHistory")}</div>
+            <div className="home-text-section">{t("productCardTitle")}</div>
             <ProductCard
               imageSrc={appetizers}
               altText={"Appetizers on a wooden chopping board"}
@@ -54,7 +55,14 @@ function Home() {
               buttonName={"Dessert Euphoria"}
               dishName="Wholemeal Waffles"
             />
+            <ProductCard
+              imageSrc={cocktails}
+              altText={"Grapefruit cocktail drink"}
+              buttonName={"Crafted Chemistry"}
+              dishName="Grapefruit Oasis"
+            />
             <div className="home-text-section">{t("homeTextProducts")}</div>
+            <div className="home-text-section">{t("homeTextHistory")}</div>
           </div>
         </div>
       </div>
