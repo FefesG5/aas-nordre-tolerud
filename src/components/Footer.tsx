@@ -34,8 +34,18 @@ function Footer() {
           <a
             href="https://unsplash.com/photos/vIm26fn_QKg?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
             className="attribution-link"
+            target="_blank"
+            rel="noopener noreferrer nofollow"
           >
             {t("panzanellaAttributionText")}
+          </a>
+          <a
+            href="https://unsplash.com/photos/GJAHkC6UMf0?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
+            className="attribution-link"
+            target="_blank"
+            rel="noopener noreferrer nofollow"
+          >
+            {t("wholemealWafflesAttributionText")}
           </a>
         </div>
       </div>
