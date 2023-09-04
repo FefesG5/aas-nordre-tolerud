@@ -1,5 +1,7 @@
 # Aas Nordre Tolerud Gard Website
 
+**Live Site**: [Aas Nordre Tolerud Gard](https://aas-nordre-tolerud-5vy5.onrender.com/)
+
 Welcome to Aas Nordre Tolerud Gard's official website. This project illustrates my skills in creating dynamic, user-friendly, and visually appealing web applications.
 
 ## Overview
@@ -33,5 +35,5 @@ Another challenge was setting up a test environment that reflected the diverse u
 
 I am passionate about crafting web experiences that resonate. This project is a reflection of that commitment. Open to feedback and keen on exploring new opportunities.
 
-[LinkedIn Profile] https://www.linkedin.com/in/gee-chai-54a46780/
-[Portfolio] https://github.com/FefesG5
+- [LinkedIn Profile](https://www.linkedin.com/in/gee-chai-54a46780/)
+- [Portfolio](https://github.com/FefesG5)
