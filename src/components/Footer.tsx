@@ -3,6 +3,8 @@ import { useTranslation } from "react-i18next";
 import NorwayIcon from "../images/NorwayIcon.png";
 import UnitedKingdomIcon from "../images/UnitedKingdomIcon.png";
 
+import Attribution from "./Attribution";
+
 function Footer() {
   const { t } = useTranslation();
   return (
@@ -31,22 +33,34 @@ function Footer() {
           <p>{t("geekClickIconsAttributionText")}</p>
         </div>
         <div>
-          <a
+          <Attribution
             href="https://unsplash.com/photos/vIm26fn_QKg?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
-            className="attribution-link"
-            target="_blank"
-            rel="noopener noreferrer nofollow"
-          >
-            {t("panzanellaAttributionText")}
-          </a>
-          <a
+            translationKey="panzanellaAttributionText"
+          />
+          <Attribution
+            href="https://unsplash.com/@foodistika?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
+            translationKey="capreseCrostiniAttributionText"
+          />
+          <Attribution
+            href="https://unsplash.com/@stefentan?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
+            translationKey="lasagnaAttributionText"
+          />
+          <Attribution
+            href="https://unsplash.com/@youjeencho?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
+            translationKey="aglioOlioAttributionText"
+          />
+          <Attribution
+            href="https://unsplash.com/@margzu?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
+            translationKey="bruschettaAttributionText"
+          />
+          <Attribution
             href="https://unsplash.com/photos/GJAHkC6UMf0?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
-            className="attribution-link"
-            target="_blank"
-            rel="noopener noreferrer nofollow"
-          >
-            {t("wholemealWafflesAttributionText")}
-          </a>
+            translationKey="wholemealWafflesAttributionText"
+          />
+          <Attribution
+            href="https://unsplash.com/@saracervera?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
+            translationKey="grapefruitOasisAttributionText"
+          />
         </div>
       </div>
     </>
