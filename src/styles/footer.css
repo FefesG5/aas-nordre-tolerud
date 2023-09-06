@@ -41,8 +41,16 @@
   align-items: center;
   text-decoration: none;
   color: inherit;
-  margin-bottom: 0px;
 }
+
+.unsplash-attribution-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+}
+
 @media (max-width: 768px) {
   .footer-container {
     padding: 20px;
