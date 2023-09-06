@@ -4,11 +4,14 @@ import { useTranslation } from "react-i18next";
 interface AttributionProps {
   href: string;
   translationKey: string;
+  dishName: string;
+  photographer: string;
 }
 
 export default function Attribution({
   href,
-  translationKey,
+  dishName,
+  photographer,
 }: AttributionProps) {
   const { t } = useTranslation();
   return (
@@ -19,7 +22,7 @@ export default function Attribution({
         target="_blank"
         rel="noopener noreferrer nofollow"
       >
-        {t(translationKey)}
+        {dishName} {t("takenBy")} {photographer}
       </a>
     </>
   );
