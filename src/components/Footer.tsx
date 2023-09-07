@@ -33,6 +33,7 @@ function Footer() {
           <p>{t("geekClickIconsAttributionText")}</p>
         </div>
         <div className="unsplash-attribution-container">
+          <h3>Photos courtesy of Unsplash:</h3>
           <Attribution
             href="https://unsplash.com/photos/vIm26fn_QKg?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
             translationKey="takenBy"
