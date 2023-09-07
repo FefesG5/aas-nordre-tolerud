@@ -1,46 +1,39 @@
-# Getting Started with Create React App
+# Aas Nordre Tolerud Gard Website
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+**Live Site**: [Aas Nordre Tolerud Gard](https://aas-nordre-tolerud-5vy5.onrender.com/)
 
-## Available Scripts
+Welcome to Aas Nordre Tolerud Gard's official website. This project illustrates my skills in creating dynamic, user-friendly, and visually appealing web applications.
 
-In the project directory, you can run:
+## Overview
 
-### `npm start`
+**Aas Nordre Tolerud Gard** is set in the picturesque Tolerud region. The website elegantly presents its rich culinary offerings and narrates the legacy of the family-owned farm.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Technical Highlights
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+- **Responsive Design**: The site is optimized for various screen sizes, ensuring a seamless experience on both desktop and mobile.
+- **React**: Built using React, emphasizing modularity and maintainability.
+- **Internationalization**: Implemented multilingual support with `react-i18next` for English and Norwegian.
+- **UI/UX**: Prioritized user experience with intuitive navigation.
 
-### `npm test`
+## Development Insights
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- **Component Modularity**: Adopted a component-driven approach with reusable components like `ProductCard`.
+- **Routing**: Leveraged `react-router-dom` for smooth and efficient page navigation.
 
-### `npm run build`
+- **Challenges**: Integrating `react-i18next` was an intriguing challenge, ensuring consistency across languages.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Another challenge was setting up a test environment that reflected the diverse use cases of the site.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## A Look Inside
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+1. **Home**: A blend of visuals and content to greet visitors.
+2. **About**: Narrates the owner of Aas Nordre Tolerud Gard.
+3. **Menu**: An interactive showcase of culinary offerings.
+4. **Contact**: Interface for inquiries.
 
-### `npm run eject`
+## About Me
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+I am passionate about crafting web experiences that resonate. This project is a reflection of that commitment. Open to feedback and keen on exploring new opportunities.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+- [LinkedIn Profile](https://www.linkedin.com/in/gee-chai-54a46780/)
+- [Portfolio](https://github.com/FefesG5)
