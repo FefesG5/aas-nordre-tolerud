@@ -30,10 +30,21 @@ function Footer() {
           >
             <img src={UnitedKingdomIcon} className="footer-flag-icon" alt="" />
           </a>
-          <p>{t("geekClickIconsAttributionText")}</p>
+          <p className="geekclick-link">{t("geekClickIconsAttributionText")}</p>
         </div>
         <div className="unsplash-attribution-container">
-          <h3>Photos courtesy of Unsplash:</h3>
+          <h3>
+            {t("courtesyOf")}
+            <a
+              href="https://unsplash.com/"
+              target="_blank"
+              rel="noopener noreferrer nofollow"
+              className="unsplash-link"
+            >
+              {" "}
+              Unsplash:
+            </a>
+          </h3>
           <Attribution
             href="https://unsplash.com/photos/vIm26fn_QKg?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
             translationKey="takenBy"

@@ -23,6 +23,7 @@
   height: 24px;
   border-radius: 50%;
   margin-right: 8px;
+  vertical-align: middle;
 }
 
 .flag-attribution-container {
@@ -30,17 +31,28 @@
   align-items: center;
   text-decoration: none;
   color: inherit;
+  margin-bottom: 16px;
 }
 
 .flaticon-link {
   margin-bottom: 5px;
 }
 
+.geekclick-link {
+  color: inherit;
+}
+
 .attribution-link {
   display: flex;
   align-items: center;
   text-decoration: none;
-  color: inherit;
+  color: #808080;
+  font-size: 0.9rem;
+}
+
+.attribution-link:hover {
+  color: #606060;
+  text-decoration: underline;
 }
 
 .unsplash-attribution-container {
@@ -49,10 +61,23 @@
   flex-wrap: wrap;
   gap: 10px;
   justify-content: center;
+  margin-bottom: 16px;
 }
 
 .unsplash-attribution-container h3 {
   margin: 0;
+  font-size: 0.9rem;
+}
+
+.unsplash-link {
+  text-decoration: none;
+  color: #808080;
+  font-size: 0.9rem;
+}
+
+.unsplash-link:hover {
+  color: #606060;
+  text-decoration: underline;
 }
 
 @media (max-width: 768px) {
