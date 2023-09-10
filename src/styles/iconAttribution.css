@@ -1,0 +1,21 @@
+.flaticon-link {
+  margin-bottom: 5px;
+}
+
+.footer-flag-icon {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  margin-right: 8px;
+  vertical-align: middle;
+}
+
+.geekclick-link {
+  color: inherit;
+}
+
+@media (max-width: 768px) {
+  .footer-flag-icon {
+    margin-right: 12px;
+  }
+}

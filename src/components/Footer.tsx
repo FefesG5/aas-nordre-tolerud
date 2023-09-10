@@ -4,6 +4,7 @@ import NorwayIcon from "../images/NorwayIcon.png";
 import UnitedKingdomIcon from "../images/UnitedKingdomIcon.png";
 
 import Attribution from "./Attribution";
+import IconAttribution from "./IconAttribution";
 
 function Footer() {
   const { t } = useTranslation();
@@ -11,27 +12,6 @@ function Footer() {
     <>
       <div className="footer-container">
         @ 2023 Gee Chai | {t("allRightsReserved")}
-        <div className="attribution-link flag-attribution-container">
-          <a
-            href="https://www.flaticon.com/free-icons/norway"
-            title="norway icons"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="flaticon-link"
-          >
-            <img src={NorwayIcon} className="footer-flag-icon" alt="" />
-          </a>
-          <a
-            href="https://www.flaticon.com/free-icons/uk"
-            title="uk icons"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="flaticon-link"
-          >
-            <img src={UnitedKingdomIcon} className="footer-flag-icon" alt="" />
-          </a>
-          <p className="geekclick-link">{t("geekClickIconsAttributionText")}</p>
-        </div>
         <div className="unsplash-attribution-container">
           <h3>
             {t("courtesyOf")}
@@ -86,6 +66,18 @@ function Footer() {
             translationKey="takenBy"
             dishName="Grapefruit Oasis"
             photographer="Sara Cervera"
+          />
+        </div>
+        <div>
+          <IconAttribution
+            href="https://www.flaticon.com/free-icons/norway"
+            title="norway icon"
+            icon={NorwayIcon}
+          />
+          <IconAttribution
+            href="https://www.flaticon.com/free-icons/uk"
+            title="uk icon"
+            icon={UnitedKingdomIcon}
           />
         </div>
       </div>

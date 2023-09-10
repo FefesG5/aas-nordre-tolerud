@@ -18,30 +18,6 @@
   color: var(--cadet-blue);
 }
 
-.footer-flag-icon {
-  width: 24px;
-  height: 24px;
-  border-radius: 50%;
-  margin-right: 8px;
-  vertical-align: middle;
-}
-
-.flag-attribution-container {
-  display: flex;
-  align-items: center;
-  text-decoration: none;
-  color: inherit;
-  margin-bottom: 16px;
-}
-
-.flaticon-link {
-  margin-bottom: 5px;
-}
-
-.geekclick-link {
-  color: inherit;
-}
-
 .attribution-link {
   display: flex;
   align-items: center;
@@ -52,7 +28,6 @@
 
 .attribution-link:hover {
   color: #606060;
-  text-decoration: underline;
 }
 
 .unsplash-attribution-container {
@@ -77,7 +52,6 @@
 
 .unsplash-link:hover {
   color: #606060;
-  text-decoration: underline;
 }
 
 @media (max-width: 768px) {
