@@ -37,20 +37,28 @@
   gap: 10px;
   justify-content: center;
   margin-bottom: 16px;
+  margin-top: 16px;
 }
 
-.unsplash-attribution-container h3 {
+.unsplash-attribution-container h3,
+.icon-attribution-container h3 {
   margin: 0;
   font-size: 0.9rem;
 }
 
-.unsplash-link {
+.icon-attribution-container h3 {
+  margin-bottom: 16px;
+}
+
+.unsplash-link,
+.geek-click-link {
   text-decoration: none;
   color: #808080;
   font-size: 0.9rem;
 }
 
-.unsplash-link:hover {
+.unsplash-link:hover,
+.geek-click-link:hover {
   color: #606060;
 }
 

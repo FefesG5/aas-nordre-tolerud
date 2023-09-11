@@ -68,6 +68,20 @@ function Footer() {
             photographer="Sara Cervera"
           />
         </div>
+        <div className="icon-attribution-container">
+          <h3>
+            {t("iconsCourtesyOf")}
+            <a
+              href="https://www.flaticon.com/"
+              target="_blank"
+              rel="noopener noreferrer nofollow"
+              className="geek-click-link" // add this class to your CSS file to style this link
+            >
+              {" "}
+              Flaticon
+            </a>
+          </h3>
+        </div>
         <div>
           <IconAttribution
             href="https://www.flaticon.com/free-icons/norway"
