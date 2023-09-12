@@ -47,7 +47,7 @@ function Footer() {
     },
   ];
 
-  const attributionsHTML = attributions.map((attribution, index) => (
+  const unsplashAttributionList = attributions.map((attribution, index) => (
     <Attribution
       key={index}
       href={attribution.href}
@@ -74,7 +74,7 @@ function Footer() {
               Unsplash:
             </a>
           </h3>
-          {attributionsHTML}
+          {unsplashAttributionList}
         </div>
         <div className="icon-attribution-container">
           <h3>
