@@ -3,7 +3,7 @@ import "../styles/contact.css";
 import ContactForm from "../components/ContactForm";
 import { useTranslation } from "react-i18next";
 
-function Contact() {
+export default function Contact() {
   const { t } = useTranslation();
   return (
     <>
@@ -19,5 +19,3 @@ function Contact() {
     </>
   );
 }
-
-export default Contact;
