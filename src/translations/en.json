@@ -37,5 +37,8 @@
   "contactUs": "Contact Us",
   "name": "Name",
   "email": "Email",
-  "message": "Message"
+  "message": "Message",
+  "send": "Send",
+  "confirmDecision": "Please confirm your decision ~ ",
+  "cancel": "Cancel"
 }
