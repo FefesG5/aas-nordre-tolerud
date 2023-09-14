@@ -46,27 +46,24 @@
   font-family: "Roboto", sans-serif;
 }
 
-/* Add styles for the buttons inside the modal */
 .modal-content button {
-  margin: 0 10px; /* Add some margin between buttons */
-  padding: 10px; /* Add some padding inside buttons */
-  border: none; /* Remove default border */
-  border-radius: 5px; /* Round the corners */
-  cursor: pointer; /* Change cursor on hover */
+  margin: 0 10px;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
 }
 
-/* Style for the Cancel button */
 .modal-content button:first-child {
-  background-color: var(--gray-chateau); /* Light gray background */
+  background-color: var(--gray-chateau);
   color: var(--black);
 }
 
-/* Style for the Confirm button */
 .modal-content button:last-child {
-  background-color: var(--cadet-blue); /* Blue background */
+  background-color: var(--cadet-blue);
   color: var(--white);
 }
 
 .modal-content button:hover {
-  opacity: 0.8; /* Add a hover effect */
+  opacity: 0.8;
 }

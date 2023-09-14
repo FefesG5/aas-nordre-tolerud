@@ -90,11 +90,11 @@ function ContactForm() {
         {confirmModal && (
           <div className="modal">
             <div className="modal-content">
-              <p>{t("areYouSure")}</p>
+              <p>{t("confirmDecision")}</p>
               <button onClick={() => setConfirmModal(false)}>
                 {t("cancel")}
               </button>
-              <button onClick={() => sendData()}>{t("confirm")}</button>
+              <button onClick={() => sendData()}>{t("send")}</button>
             </div>
           </div>
         )}
