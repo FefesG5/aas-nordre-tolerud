@@ -34,5 +34,8 @@
   "contactUs": "Kontakt oss",
   "name": "Navn",
   "email": "E-post",
-  "message": "Melding"
+  "message": "Melding",
+  "send": "Sende",
+  "confirmDecision": "Vennligst bekreft avgjørelsen din ~ ",
+  "cancel": "Avbryte"
 }
