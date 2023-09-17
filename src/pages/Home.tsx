@@ -1,56 +1,12 @@
 import { useTranslation } from "react-i18next";
 import "../styles/home.css";
 
-import europeanTheme from "../images/EuropeanTheme.jpg";
-import lasagnaMain from "../images/Lasagna.jpg";
-import dessert from "../images/Desserts.jpg";
-import appetizers from "../images/Appetizers.jpg";
-import mediterraneanTheme from "../images/MediterraneanTheme.jpg";
-import cocktails from "../images/Cocktails.jpg";
+import productCardImages from "../data/productCardImagesData";
 
 import ProductCard from "../components/ProductCard";
 
 function Home() {
   const { t } = useTranslation();
-
-  const productCardImages = [
-    {
-      imageSrc: appetizers,
-      altText: "Appetizers on a wooden chopping board",
-      buttonName: "Bite-sized Temptation",
-      dishName: "Caprese Crostini",
-    },
-    {
-      imageSrc: lasagnaMain,
-      altText: "Lasagna",
-      buttonName: "Classic Mainstay",
-      dishName: "Lasagna",
-    },
-    {
-      imageSrc: europeanTheme,
-      altText: "Simple spaghetti Aglio Olio",
-      buttonName: "Continental Elegance",
-      dishName: "Spaghetti Aglio Olio",
-    },
-    {
-      imageSrc: mediterraneanTheme,
-      altText: "Bruschetta",
-      buttonName: "Mediterranean Banquet",
-      dishName: "Bruschetta",
-    },
-    {
-      imageSrc: dessert,
-      altText: "Waffles with blueberries",
-      buttonName: "Dessert Euphoria",
-      dishName: "Wholemeal Waffles",
-    },
-    {
-      imageSrc: cocktails,
-      altText: "Grapefruit cocktail drink",
-      buttonName: "Crafted Chemistry",
-      dishName: "Grapefruit Oasis",
-    },
-  ];
 
   const productCardImagesList = productCardImages.map((image, index) => (
     <ProductCard
