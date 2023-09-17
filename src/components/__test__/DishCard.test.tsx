@@ -6,8 +6,8 @@ import sampleDish from "../../images/SampleDish.jpg";
 const MockDishCard = () => {
   return (
     <DishCard
-      image={sampleDish}
-      title="Sample Dish Title"
+      imageSrc={sampleDish}
+      dishName="Sample Dish Title"
       description="Sample dish Description Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt, labore?"
     />
   );
