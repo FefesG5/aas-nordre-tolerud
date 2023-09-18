@@ -1,6 +1,7 @@
 import "../styles/productCard.css";
 
 interface ProductCardProps {
+  isProductCard: boolean;
   imageSrc: string;
   altText?: string;
   linkTo?: string;
