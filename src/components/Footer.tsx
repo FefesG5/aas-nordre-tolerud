@@ -12,38 +12,43 @@ function Footer() {
   const attributions = [
     {
       href: "https://unsplash.com/photos/vIm26fn_QKg?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText",
-      dishname: "Panzanella",
+      dishName: "Panzanella",
       photographer: "Luisa Brimble",
     },
     {
       href: "https://unsplash.com/@foodistika?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText",
-      dishname: "Caprese Crostini",
+      dishName: "Caprese Crostini",
       photographer: "Elena Leya",
     },
     {
       href: "https://unsplash.com/@stefentan?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText",
-      dishname: "Lasagna",
+      dishName: "Lasagna",
       photographer: "Stefen Tan",
     },
     {
       href: "https://unsplash.com/@youjeencho?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText",
-      dishname: "Aglio Olio",
+      dishName: "Aglio Olio",
       photographer: "Youjeen Cho",
     },
     {
       href: "https://unsplash.com/@margzu?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText",
-      dishname: "Bruschetta",
+      dishName: "Bruschetta",
       photographer: "Margarita Zueva",
     },
     {
       href: "https://unsplash.com/photos/GJAHkC6UMf0?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText",
-      dishname: "Wholemeal Waffles",
+      dishName: "Wholemeal Waffles",
       photographer: "Lindsay Moe",
     },
     {
       href: "https://unsplash.com/@saracervera?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText",
-      dishname: "Grapefruit Oasis",
+      dishName: "Grapefruit Oasis",
       photographer: "Sara Cervera",
+    },
+    {
+      href: "https://unsplash.com/@weekendtripcreator?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText",
+      dishName: "Amaretti Charlotte",
+      photographer: "Lisha Riabinina",
     },
   ];
 
@@ -52,7 +57,7 @@ function Footer() {
       key={index}
       href={attribution.href}
       translationKey="takenBy"
-      dishName={attribution.dishname}
+      dishName={attribution.dishName}
       photographer={attribution.photographer}
     />
   ));

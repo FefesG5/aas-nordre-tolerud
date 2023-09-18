@@ -8,15 +8,18 @@ import ProductCard from "../components/ProductCard";
 function Home() {
   const { t } = useTranslation();
 
-  const productCardImagesList = productCardImages.map((image, index) => (
-    <ProductCard
-      key={index}
-      imageSrc={image.imageSrc}
-      altText={image.altText}
-      buttonName={image.buttonName}
-      dishName={image.dishName}
-    />
-  ));
+  const productCardImagesList = productCardImages
+    .filter((image) => image.isProductCard)
+    .map((image, index) => (
+      <ProductCard
+        isProductCard={image.isProductCard}
+        key={index}
+        imageSrc={image.imageSrc}
+        altText={image.altText}
+        buttonName={image.buttonName}
+        dishName={image.dishName}
+      />
+    ));
 
   return (
     <>
