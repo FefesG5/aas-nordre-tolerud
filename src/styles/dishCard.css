@@ -1,9 +1,13 @@
 .dish-card-container {
   max-width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .dish-card-title {
   font-size: 1.2rem;
+  text-align: center;
 }
 
 .dish-card-image {
@@ -23,12 +27,14 @@
 
 .dish-card-description {
   font-size: 1.1rem;
-  text-align: left;
+  text-align: center;
+  margin: 0.5rem 0;
+  max-width: 400px;
 }
 
 @media (min-width: 800px) {
   .dish-card-image {
     max-width: 400px;
-    height: auto;
+    /* height: auto; */
   }
 }
