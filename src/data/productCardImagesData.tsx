@@ -21,7 +21,7 @@ const productCardImages = [
   {
     isProductCard: true,
     imageSrc: lasagnaMain,
-    altText: "Lasagna",
+    altText: "Lasagna being served onto a plate.",
     buttonName: "Classic Mainstay",
     dishName: "Lasagna",
     theme: "Classic Mainstay",
@@ -31,7 +31,7 @@ const productCardImages = [
   {
     isProductCard: true,
     imageSrc: europeanTheme,
-    altText: "Simple spaghetti Aglio Olio",
+    altText: "Simple spaghetti Aglio Olio on a grey ceramic plate",
     buttonName: "Continental Elegance",
     dishName: "Spaghetti Aglio Olio",
     theme: "Continental Elegance",
@@ -41,7 +41,7 @@ const productCardImages = [
   {
     isProductCard: true,
     imageSrc: mediterraneanTheme,
-    altText: "Bruschetta",
+    altText: "Several bruschetta being served on a wooden chopping board",
     buttonName: "Mediterranean Banquet",
     dishName: "Bruschetta",
     theme: "Mediterranean Banquet",
@@ -51,7 +51,8 @@ const productCardImages = [
   {
     isProductCard: true,
     imageSrc: dessert,
-    altText: "Waffles with blueberries",
+    altText:
+      "Maple syrup drizzled onto brown wholemeal waffles with blueberries",
     buttonName: "Dessert Euphoria",
     dishName: "Wholemeal Waffles",
     theme: "Dessert Euphoria",
@@ -61,7 +62,7 @@ const productCardImages = [
   {
     isProductCard: true,
     imageSrc: cocktails,
-    altText: "Grapefruit cocktail drink",
+    altText: "Generous slice of Grapefruit served with a cocktail drink",
     buttonName: "Crafted Chemistry",
     dishName: "Grapefruit Oasis",
     theme: "Crafted Chemistry",
@@ -71,8 +72,7 @@ const productCardImages = [
   {
     isProductCard: false,
     imageSrc: amarettiCharlotte,
-    altText: "Amaretti Charlotte",
-    buttonName: "Amaretti Charlotte",
+    altText: "Amaretti Charlotte served on an oval ceramic plate",
     dishName: "Amaretti Charlotte",
     theme: "Appetizers",
     description:
