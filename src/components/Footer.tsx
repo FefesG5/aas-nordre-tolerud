@@ -50,6 +50,11 @@ function Footer() {
       dishName: "Amaretti Charlotte",
       photographer: "Lisha Riabinina",
     },
+    {
+      href: "https://unsplash.com/@kamilkalb?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText",
+      dishName: "Seared Scallops",
+      photographer: "Kamil Kalbarczyk",
+    },
   ];
 
   const unsplashAttributionList = attributions.map((attribution, index) => (

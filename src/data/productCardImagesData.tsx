@@ -4,6 +4,7 @@ import dessert from "../images/Desserts.jpg";
 import appetizers from "../images/Appetizers.jpg";
 import mediterraneanTheme from "../images/MediterraneanTheme.jpg";
 import cocktails from "../images/Cocktails.jpg";
+import searedScallops from "../images/SearedScallops.jpg";
 
 import amarettiCharlotte from "../images/AmarettiCharlotte.jpg";
 
@@ -77,6 +78,15 @@ const productCardImages = [
     theme: "Appetizers",
     description:
       "A French-inspired appetizer featuring a cream-filled pastry shaped like a pouring cup, adorned with a sprinkling of brown topping, possibly crumbled amaretti cookies, offering a delightful mix of textures and flavors in every bite.",
+  },
+  {
+    isProductCard: false,
+    imageSrc: searedScallops,
+    altText: "Bite sized scallops appetizers served on a wooden board.",
+    dishName: "Seared Scallops",
+    theme: "Appetizers",
+    description:
+      "This delicacy features scallops artfully seared to perfection, cradled in a light herb butter that whispers secrets of distant shores. Experience a mesmerizing duet of textures and flavors as each bite offers a tender interior meeting a crisply seared exterior.",
   },
 ];
 
