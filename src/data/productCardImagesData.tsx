@@ -17,7 +17,7 @@ const productCardImages = [
     dishName: "Caprese Crostini",
     theme: "Appetizers",
     description:
-      "Indulge in the simple yet delightful taste of Caprese Crostini. Crispy crostini slices are topped with fresh, juicy tomatoes, creamy mozzarella, and a hint of aromatic basil — a vibrant trio that brings the spirit of Italy to every bite. Finished with a drizzle of balsamic reduction, it's a timeless appetizer that pairs perfectly with any occasion.",
+      "Savor the simplicity of Caprese Crostini, featuring crispy slices topped with fresh tomatoes, creamy mozzarella, and aromatic basil. Drizzled with balsamic reduction, this timeless Italian appetizer complements any occasion.",
   },
   {
     isProductCard: true,
@@ -27,7 +27,7 @@ const productCardImages = [
     dishName: "Lasagna",
     theme: "Classic Mainstay",
     description:
-      "Experience the comforting embrace of classic Lasagna, where layers of tender pasta harmoniously unite with rich, hearty meat sauce and a creamy béchamel. Each bite delivers a perfect symphony of flavors, with generous sprinkles of mozzarella and parmesan cheese adding a luxurious touch. A timeless Italian delight that promises satisfaction in every layer.",
+      "Delight in our classic Lasagna, a harmonious blend of tender pasta, rich meat sauce, and creamy béchamel, elevated by flavorful mozzarella and parmesan. A timeless and satisfying Italian favorite in every bite.",
   },
   {
     isProductCard: true,
@@ -37,7 +37,7 @@ const productCardImages = [
     dishName: "Spaghetti Aglio Olio",
     theme: "Continental Elegance",
     description:
-      "Savor the elegant simplicity of Spaghetti Aglio Olio, where perfectly cooked spaghetti combines with a fragrant blend of garlic and top-quality olive oil. Tossed with a generous sprinkling of red pepper flakes and freshly chopped parsley, this dish delivers a subtle heat and a refreshing herbaceous note, offering a true celebration of Italian flavors in every forkful.",
+      "Relish the simplicity of Spaghetti Aglio Olio, a harmonious mix of perfectly cooked spaghetti, fragrant garlic, and high-quality olive oil, spiced with red pepper flakes and fresh parsley. Every forkful offers a subtle heat and a celebration of authentic Italian flavors.",
   },
   {
     isProductCard: true,
@@ -47,7 +47,7 @@ const productCardImages = [
     dishName: "Bruschetta",
     theme: "Mediterranean Banquet",
     description:
-      "Delight in the freshness of Bruschetta, a classic Italian starter that showcases ripe, juicy tomatoes atop crisp, grilled bread. Each piece is adorned with fresh basil and a drizzle of extra virgin olive oil, creating a harmonious blend of textures and flavors that dance delightfully on your palate. It's a vibrant start to any meal, promising a burst of Mediterranean sunshine with every bite.",
+      "Savor the vibrant Bruschetta, featuring ripe tomatoes on crisp grilled bread, adorned with fresh basil and a drizzle of olive oil. This classic Italian starter offers a harmonious blend of textures and flavors, promising a burst of Mediterranean delight in every bite.",
   },
   {
     isProductCard: true,
@@ -58,7 +58,7 @@ const productCardImages = [
     dishName: "Wholemeal Waffles",
     theme: "Dessert Euphoria",
     description:
-      "Treat yourself to the rich yet nourishing delight of Wholemeal Waffles. Crafted with whole grains, these waffles present a hearty and fulfilling base, ready to be topped with your choice of sweet delights - be it a scoop of velvety ice cream, a drizzle of golden honey, or a sprinkle of fresh berries. It's a canvas for your dessert dreams, offering both indulgence and wholesome goodness in every bite.",
+      "Indulge in the wholesome goodness of Wholemeal Waffles. Made with hearty whole grains and ready for your favorite toppings, be it velvety ice cream, golden honey, or fresh berries. This versatile treat offers a delightful balance of indulgence and nourishment with every bite.",
   },
   {
     isProductCard: true,
@@ -68,7 +68,7 @@ const productCardImages = [
     dishName: "Grapefruit Oasis",
     theme: "Crafted Chemistry",
     description:
-      "Dive into the refreshing experience of the Grapefruit Oasis, a cocktail that perfectly balances tartness and sweetness. Crafted with freshly squeezed grapefruit juice, this vibrant drink invites a burst of citrus joy in every sip, paired seamlessly with a touch of premium spirits to add depth and excitement. Garnished with a grapefruit slice, it's your personal oasis of refreshing flavors, promising a sophisticated and refreshing escape in every glass.",
+      "Experience the refreshing balance of tart and sweet with the Grapefruit Oasis cocktail. Made with fresh grapefruit juice and premium spirits, this drink offers a burst of citrus joy and sophisticated depth in every sip. Garnished with a grapefruit slice, it promises a refreshing escape in every glass.",
   },
   {
     isProductCard: false,
