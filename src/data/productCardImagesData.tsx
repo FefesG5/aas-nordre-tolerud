@@ -4,9 +4,11 @@ import dessert from "../images/Desserts.jpg";
 import appetizers from "../images/Appetizers.jpg";
 import mediterraneanTheme from "../images/MediterraneanTheme.jpg";
 import cocktails from "../images/Cocktails.jpg";
-import searedScallops from "../images/SearedScallops.jpg";
 
+import searedScallops from "../images/SearedScallops.jpg";
 import amarettiCharlotte from "../images/AmarettiCharlotte.jpg";
+import brownieIceCream from "../images/BrownieIceCream.jpg";
+import greenSalad from "../images/GreenSalad.jpg";
 
 const productCardImages = [
   {
@@ -87,6 +89,25 @@ const productCardImages = [
     theme: "Appetizers",
     description:
       "This delicacy features scallops artfully seared to perfection, cradled in a light herb butter that whispers secrets of distant shores. Experience a mesmerizing duet of textures and flavors as each bite offers a tender interior meeting a crisply seared exterior.",
+  },
+  {
+    isProductCard: false,
+    imageSrc: brownieIceCream,
+    altText: "Brownie with a vanilla ice cream on top.",
+    dishName: "Brownie Ice Cream",
+    theme: "Dessert Euphoria",
+    description:
+      "This dessert pairs fudgy brownies with velvety ice cream, creating a harmonious dance of textures and sweetness. Each bite offers a euphoric journey through chocolaty peaks and creamy valleys, making it a truly indulgent delight.",
+  },
+  {
+    isProductCard: false,
+    imageSrc: greenSalad,
+    altText:
+      "A vibrant bowl of Green Salad with assorted fresh vegetables and a light vinaigrette.",
+    dishName: "Green Salad",
+    theme: "Appetizers",
+    description:
+      "Green Salad is a refreshing mix of assorted green vegetables, often including lettuce, cucumbers, and spinach, dressed lightly with a simple vinaigrette. It’s a crisp and refreshing side that complements a variety of meals.",
   },
 ];
 
