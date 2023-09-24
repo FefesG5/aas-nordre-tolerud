@@ -55,6 +55,16 @@ function Footer() {
       dishName: "Seared Scallops",
       photographer: "Kamil Kalbarczyk",
     },
+    {
+      href: "https://unsplash.com/@kobbymendez?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText",
+      dishName: "Brownie Ice Cream",
+      photographer: "Kobby Mendez",
+    },
+    {
+      href: "https://unsplash.com/@madseneqvist?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText",
+      dishName: "Green Salad",
+      photographer: "Mads Eneqvist",
+    },
   ];
 
   const unsplashAttributionList = attributions.map((attribution, index) => (
