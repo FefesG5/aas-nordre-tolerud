@@ -65,6 +65,21 @@ function Footer() {
       dishName: "Green Salad",
       photographer: "Mads Eneqvist",
     },
+    {
+      href: "https://unsplash.com/@briewilly?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText",
+      dishName: "Bacon Cheese Burger",
+      photographer: "Chad Montano",
+    },
+    {
+      href: "https://unsplash.com/@micheile?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText",
+      dishName: "Berry Bliss Pudding",
+      photographer: "Micheile Henderson",
+    },
+    {
+      href: "https://unsplash.com/@tatamee?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText",
+      dishName: "Savory Salmon Toast",
+      photographer: "Tammy Chan",
+    },
   ];
 
   const unsplashAttributionList = attributions.map((attribution, index) => (
