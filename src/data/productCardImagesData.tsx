@@ -9,6 +9,9 @@ import searedScallops from "../images/SearedScallops.jpg";
 import amarettiCharlotte from "../images/AmarettiCharlotte.jpg";
 import brownieIceCream from "../images/BrownieIceCream.jpg";
 import greenSalad from "../images/GreenSalad.jpg";
+import baconCheeseBurger from "../images/BaconCheeseBurger.jpg";
+import berryBlissPudding from "../images/BerryBlissPudding.jpg";
+import savorySalmonToast from "../images/SavorySalmonToast.jpg";
 
 const productCardImages = [
   {
@@ -108,6 +111,36 @@ const productCardImages = [
     theme: "Appetizers",
     description:
       "Green Salad is a refreshing mix of assorted green vegetables, often including lettuce, cucumbers, and spinach, dressed lightly with a simple vinaigrette. It’s a crisp and refreshing side that complements a variety of meals.",
+  },
+  {
+    isProductCard: false,
+    imageSrc: baconCheeseBurger,
+    altText:
+      "A succulent bacon cheeseburger with crispy bacon, melty cheese, fresh vegetables, and creamy condiments between toasted buns.",
+    dishName: "Bacon Cheese Burger",
+    theme: "Classic Mainstay",
+    description:
+      "A bacon cheeseburger combines a juicy beef patty with crispy bacon and melty cheese, nestled between toasted buns. This savory delight is often garnished with fresh veggies and creamy condiments, offering a burst of flavors with every bite.",
+  },
+  {
+    isProductCard: false,
+    imageSrc: berryBlissPudding,
+    altText:
+      "A vibrant Berry Bliss Pudding featuring assorted berries enveloped in a silky, sweet pudding, representing a harmonious balance of tart and sweet flavors.",
+    dishName: "Berry Bliss Pudding",
+    theme: "Dessert Euphoria",
+    description:
+      "Berry Bliss Pudding is a delightful concoction of assorted, juicy berries enveloped in a velvety, sweet pudding base. The symphony of tart and sweet flavors, accompanied by a silky texture, makes this dish a refreshing and indulgent dessert, perfect for any occasion.",
+  },
+  {
+    isProductCard: false,
+    imageSrc: savorySalmonToast,
+    altText:
+      "A vibrant Berry Bliss Pudding featuring assorted berries enveloped in a silky, sweet pudding, representing a harmonious balance of tart and sweet flavors.",
+    dishName: "Savory Salmon Toast",
+    theme: "Mediterranean Banquet",
+    description:
+      "Savory Salmon Toast features delicate, smoked salmon layered atop a crisp, golden slice of toast. Complemented by a light spread of creamy herb-infused sauce, creates a harmonious blend of textures and flavors, making it a sophisticated and satisfying dish.",
   },
 ];
 
