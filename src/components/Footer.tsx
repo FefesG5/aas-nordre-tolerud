@@ -80,6 +80,21 @@ function Footer() {
       dishName: "Savory Salmon Toast",
       photographer: "Tammy Chan",
     },
+    {
+      href: "https://unsplash.com/@nerfee?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText",
+      dishName: "Verde Pesto Paradiso",
+      photographer: "Nerfee Mirandilla",
+    },
+    {
+      href: "https://unsplash.com/@marijeane?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText",
+      dishName: "Riviera Ratatouille",
+      photographer: "Marjan Sadeghi",
+    },
+    {
+      href: "https://unsplash.com/@dilja96?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText",
+      dishName: "Quintessential Quiche",
+      photographer: "Diliara Garifullina",
+    },
   ];
 
   const unsplashAttributionList = attributions.map((attribution, index) => (
