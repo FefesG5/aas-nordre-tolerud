@@ -12,6 +12,9 @@ import greenSalad from "../images/GreenSalad.jpg";
 import baconCheeseBurger from "../images/BaconCheeseBurger.jpg";
 import berryBlissPudding from "../images/BerryBlissPudding.jpg";
 import savorySalmonToast from "../images/SavorySalmonToast.jpg";
+import verdePestoParadiso from "../images/VerdePestoParadiso.jpg";
+import rivieraRatatouille from "../images/RivieraRatatouille.jpg";
+import quintessentialQuiche from "../images/QuintessentialQuiche.jpg";
 
 const productCardImages = [
   {
@@ -73,7 +76,7 @@ const productCardImages = [
     dishName: "Grapefruit Oasis",
     theme: "Crafted Chemistry",
     description:
-      "Experience the refreshing balance of tart and sweet with the Grapefruit Oasis cocktail. Made with fresh grapefruit juice and premium spirits, this drink offers a burst of citrus joy and sophisticated depth in every sip. Garnished with a grapefruit slice, it promises a refreshing escape in every glass.",
+      "Savor the tart and sweet balance of the Grapefruit Oasis cocktail. Blending fresh juice and premium spirits, it offers citrus joy and depth. Garnished with grapefruit, it’s a refreshing escape in every sip.",
   },
   {
     isProductCard: false,
@@ -141,6 +144,36 @@ const productCardImages = [
     theme: "Mediterranean Banquet",
     description:
       "Savory Salmon Toast features delicate, smoked salmon layered atop a crisp, golden slice of toast. Complemented by a light spread of creamy herb-infused sauce, creates a harmonious blend of textures and flavors, making it a sophisticated and satisfying dish.",
+  },
+  {
+    isProductCard: false,
+    imageSrc: verdePestoParadiso,
+    altText:
+      "A plate of al dente pasta coated in green pesto, garnished with Parmesan and lemon zest, with basil leaves and pine nuts in the background.",
+    dishName: "Verde Pesto Paradiso",
+    theme: "Continental Elegance",
+    description:
+      "Savor the vibrant Verde Pesto Paradiso, a delightful mix of basil, pine nuts, and Parmesan, enveloping al dente pasta. A touch of lemon zest adds a fresh twist to this Italian favorite.",
+  },
+  {
+    isProductCard: false,
+    imageSrc: rivieraRatatouille,
+    altText:
+      "A vibrant dish of roasted vegetables in rich tomato sauce, seasoned with herbs, representing a classic Ratatouille.",
+    dishName: "Riviera Ratatouille",
+    theme: "Continental Elegance",
+    description:
+      "Bask in the flavors of our Riviera Ratatouille, a colorful medley of roasted vegetables, seasoned with herbs de Provence and olive oil, embodying the essence of sunny Provence.",
+  },
+  {
+    isProductCard: false,
+    imageSrc: quintessentialQuiche,
+    altText:
+      "A golden-brown quiche with a creamy filling and flaky crust, garnished with fresh herbs.",
+    dishName: "Quintessential Quiche",
+    theme: "Mediterranean Banquet",
+    description:
+      "Savor a slice of Quintessential Quiche Elegance, featuring a creamy filling of eggs, cream, cheese, and a medley of vegetables, all encased in a buttery, flaky crust. A symphony of textures and flavors, it's a timeless brunch classic.",
   },
 ];
 
