@@ -15,6 +15,7 @@ import savorySalmonToast from "../images/SavorySalmonToast.jpg";
 import verdePestoParadiso from "../images/VerdePestoParadiso.jpg";
 import rivieraRatatouille from "../images/RivieraRatatouille.jpg";
 import quintessentialQuiche from "../images/QuintessentialQuiche.jpg";
+import berryMist from "../images/BerryMist.jpg";
 
 const productCardImages = [
   {
@@ -174,6 +175,16 @@ const productCardImages = [
     theme: "Mediterranean Banquet",
     description:
       "Savor a slice of Quintessential Quiche Elegance, featuring a creamy filling of eggs, cream, cheese, and a medley of vegetables, all encased in a buttery, flaky crust. A symphony of textures and flavors, it's a timeless brunch classic.",
+  },
+  {
+    isProductCard: false,
+    imageSrc: berryMist,
+    altText:
+      "A striking cocktail, Berry Mist, with a red blackberry-mint base and a layer of white foam dotted with red, offering a blend of flavors and textures.",
+    dishName: "Berry Mist",
+    theme: "Crafted Chemistry",
+    description:
+      "Indulge in Berry Mist, a vibrant blend of tart blackberries and refreshing mint, topped with a thick layer of velvety white foam sprinkled with tiny red dots. A symphony of flavors and textures, this cocktail is a sensory delight.",
   },
 ];
 

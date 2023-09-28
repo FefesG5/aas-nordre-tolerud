@@ -95,6 +95,11 @@ function Footer() {
       dishName: "Quintessential Quiche",
       photographer: "Diliara Garifullina",
     },
+    {
+      href: "https://unsplash.com/@niki_mir?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText",
+      dishName: "Berry Mist",
+      photographer: "Nikita Tikhomirov",
+    },
   ];
 
   const unsplashAttributionList = attributions.map((attribution, index) => (
