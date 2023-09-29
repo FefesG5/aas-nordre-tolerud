@@ -26,7 +26,7 @@ const productCardImages = [
     dishName: "Caprese Crostini",
     theme: "Appetizers",
     description:
-      "Savor the simplicity of Caprese Crostini, featuring crispy slices topped with fresh tomatoes, creamy mozzarella, and aromatic basil. Drizzled with balsamic reduction, this timeless Italian appetizer complements any occasion.",
+      "Savor the classic Italian appetizer, Caprese Crostini, featuring crispy slices topped with fresh tomatoes, creamy mozzarella, basil, and a drizzle of balsamic reduction, perfect for any occasion.",
   },
   {
     isProductCard: true,
@@ -36,7 +36,7 @@ const productCardImages = [
     dishName: "Lasagna",
     theme: "Classic Mainstay",
     description:
-      "Delight in our classic Lasagna, a harmonious blend of tender pasta, rich meat sauce, and creamy béchamel, elevated by flavorful mozzarella and parmesan. A timeless and satisfying Italian favorite in every bite.",
+      "Indulge in our classic Lasagna, a perfect blend of tender pasta, rich meat sauce, creamy béchamel, mozzarella, and parmesan, delivering a timeless Italian favorite in every bite.",
   },
   {
     isProductCard: true,
@@ -46,7 +46,7 @@ const productCardImages = [
     dishName: "Spaghetti Aglio Olio",
     theme: "Continental Elegance",
     description:
-      "Relish the simplicity of Spaghetti Aglio Olio, a harmonious mix of perfectly cooked spaghetti, fragrant garlic, and high-quality olive oil, spiced with red pepper flakes and fresh parsley. Every forkful offers a subtle heat and a celebration of authentic Italian flavors.",
+      "Enjoy the simplicity of Spaghetti Aglio Olio, combining perfectly cooked spaghetti, fragrant garlic, quality olive oil, red pepper flakes, and fresh parsley for a subtle heat and authentic Italian flavor celebration in every bite.",
   },
   {
     isProductCard: true,
@@ -56,7 +56,7 @@ const productCardImages = [
     dishName: "Bruschetta",
     theme: "Mediterranean Banquet",
     description:
-      "Savor the vibrant Bruschetta, featuring ripe tomatoes on crisp grilled bread, adorned with fresh basil and a drizzle of olive oil. This classic Italian starter offers a harmonious blend of textures and flavors, promising a burst of Mediterranean delight in every bite.",
+      "Relish the lively Bruschetta with ripe tomatoes, crisp grilled bread, fresh basil, and a drizzle of olive oil. This classic Italian starter blends textures and flavors for a burst of Mediterranean delight in every bite.",
   },
   {
     isProductCard: true,
@@ -67,7 +67,7 @@ const productCardImages = [
     dishName: "Wholemeal Waffles",
     theme: "Dessert Euphoria",
     description:
-      "Indulge in the wholesome goodness of Wholemeal Waffles. Made with hearty whole grains and ready for your favorite toppings, be it velvety ice cream, golden honey, or fresh berries. This versatile treat offers a delightful balance of indulgence and nourishment with every bite.",
+      "Indulge in Wholemeal Waffles made from hearty whole grains, ready for your choice of toppings such as velvety ice cream, golden honey, or fresh berries. This versatile treat provides a delightful balance of indulgence and nourishment.",
   },
   {
     isProductCard: true,
@@ -77,7 +77,7 @@ const productCardImages = [
     dishName: "Grapefruit Oasis",
     theme: "Crafted Chemistry",
     description:
-      "Savor the tart and sweet balance of the Grapefruit Oasis cocktail. Blending fresh juice and premium spirits, it offers citrus joy and depth. Garnished with grapefruit, it’s a refreshing escape in every sip.",
+      "Enjoy the Grapefruit Oasis cocktail, a blend of fresh juice and premium spirits, delivering a tart and sweet balance. Garnished with grapefruit, this drink provides a refreshing escape with each sip.",
   },
   {
     isProductCard: false,
@@ -86,7 +86,7 @@ const productCardImages = [
     dishName: "Amaretti Charlotte",
     theme: "Appetizers",
     description:
-      "A French-inspired appetizer featuring a cream-filled pastry shaped like a pouring cup, adorned with a sprinkling of brown topping, possibly crumbled amaretti cookies, offering a delightful mix of textures and flavors in every bite.",
+      "Savor a French-inspired appetizer with cream-filled pastry shaped like a pouring cup, topped with possibly crumbled amaretti cookies. This dish presents a delightful blend of textures and flavors.",
   },
   {
     isProductCard: false,
@@ -95,7 +95,7 @@ const productCardImages = [
     dishName: "Seared Scallops",
     theme: "Appetizers",
     description:
-      "This delicacy features scallops artfully seared to perfection, cradled in a light herb butter that whispers secrets of distant shores. Experience a mesmerizing duet of textures and flavors as each bite offers a tender interior meeting a crisply seared exterior.",
+      "This delicacy presents perfectly seared scallops in a light herb butter, hinting at exotic flavors. Experience a captivating blend of textures and flavors with a tender interior and crisply seared exterior.",
   },
   {
     isProductCard: false,
@@ -104,7 +104,7 @@ const productCardImages = [
     dishName: "Brownie Ice Cream",
     theme: "Dessert Euphoria",
     description:
-      "This dessert pairs fudgy brownies with velvety ice cream, creating a harmonious dance of textures and sweetness. Each bite offers a euphoric journey through chocolaty peaks and creamy valleys, making it a truly indulgent delight.",
+      "Pairing fudgy brownies with smooth ice cream, this dessert crafts a symphony of texture and sweetness. Each morsel transports you through indulgent chocolaty highs and creamy lows, epitomizing decadent delight.",
   },
   {
     isProductCard: false,
@@ -114,7 +114,7 @@ const productCardImages = [
     dishName: "Green Salad",
     theme: "Appetizers",
     description:
-      "Green Salad is a refreshing mix of assorted green vegetables, often including lettuce, cucumbers, and spinach, dressed lightly with a simple vinaigrette. It’s a crisp and refreshing side that complements a variety of meals.",
+      "Green Salad blends assorted green vegetables like lettuce, cucumbers, and spinach, lightly dressed with a simple vinaigrette. This crisp, refreshing side harmoniously enhances a myriad of dishes.",
   },
   {
     isProductCard: false,
@@ -124,7 +124,7 @@ const productCardImages = [
     dishName: "Bacon Cheese Burger",
     theme: "Classic Mainstay",
     description:
-      "A bacon cheeseburger combines a juicy beef patty with crispy bacon and melty cheese, nestled between toasted buns. This savory delight is often garnished with fresh veggies and creamy condiments, offering a burst of flavors with every bite.",
+      "A bacon cheeseburger unites a succulent beef patty, crispy bacon, and melted cheese within toasted buns. Garnished with fresh veggies and creamy condiments, this savory ensemble delivers an explosion of flavors in each mouthful.",
   },
   {
     isProductCard: false,
@@ -134,7 +134,7 @@ const productCardImages = [
     dishName: "Berry Bliss Pudding",
     theme: "Dessert Euphoria",
     description:
-      "Berry Bliss Pudding is a delightful concoction of assorted, juicy berries enveloped in a velvety, sweet pudding base. The symphony of tart and sweet flavors, accompanied by a silky texture, makes this dish a refreshing and indulgent dessert, perfect for any occasion.",
+      "Berry Bliss Pudding is a charming mix of juicy, assorted berries nestled in a velvety, sweet base. The interplay of tart and sweet flavors, coupled with a silky texture, renders this dessert both refreshing and indulgent, suitable for any occasion.",
   },
   {
     isProductCard: false,
@@ -144,7 +144,7 @@ const productCardImages = [
     dishName: "Savory Salmon Toast",
     theme: "Mediterranean Banquet",
     description:
-      "Savory Salmon Toast features delicate, smoked salmon layered atop a crisp, golden slice of toast. Complemented by a light spread of creamy herb-infused sauce, creates a harmonious blend of textures and flavors, making it a sophisticated and satisfying dish.",
+      "Savory Salmon Toast showcases delicate smoked salmon atop a golden, crisp slice of toast. Enhanced by a creamy, herb-infused spread, this dish presents a sophisticated fusion of textures and flavors, proving to be a satisfying delight.",
   },
   {
     isProductCard: false,
@@ -164,7 +164,7 @@ const productCardImages = [
     dishName: "Riviera Ratatouille",
     theme: "Continental Elegance",
     description:
-      "Bask in the flavors of our Riviera Ratatouille, a colorful medley of roasted vegetables, seasoned with herbs de Provence and olive oil, embodying the essence of sunny Provence.",
+      "Delight in our Riviera Ratatouille, a vibrant medley of roasted vegetables seasoned with herbs de Provence and olive oil, capturing the sunny essence of Provence.",
   },
   {
     isProductCard: false,
@@ -174,7 +174,7 @@ const productCardImages = [
     dishName: "Quintessential Quiche",
     theme: "Mediterranean Banquet",
     description:
-      "Savor a slice of Quintessential Quiche Elegance, featuring a creamy filling of eggs, cream, cheese, and a medley of vegetables, all encased in a buttery, flaky crust. A symphony of textures and flavors, it's a timeless brunch classic.",
+      "Relish a slice of Quintessential Quiche Elegance, a creamy mix of eggs, cream, cheese, and vegetables in a buttery crust, embodying a harmonious blend of flavors and textures, a timeless brunch classic.",
   },
   {
     isProductCard: false,
@@ -184,7 +184,7 @@ const productCardImages = [
     dishName: "Berry Mist",
     theme: "Crafted Chemistry",
     description:
-      "Indulge in Berry Mist, a vibrant blend of tart blackberries and refreshing mint, topped with a thick layer of velvety white foam sprinkled with tiny red dots. A symphony of flavors and textures, this cocktail is a sensory delight.",
+      "Savor Berry Mist, a blend of tart blackberries and fresh mint, topped with velvety foam and red dots, delivering a sensory delight with its mix of flavors and textures.",
   },
 ];
 
