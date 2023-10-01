@@ -21,18 +21,19 @@
   "featuredCuisineTitle": "Featured Cuisine",
   "mediterraneanCuisineTitle": "Mediterranean Theme Cuisine",
   "dishCard": {
-    "chickenBaconCrunchSaladTitle": "Chicken Bacon Crunch Salad",
-    "chickenBaconCrunchSaladDescription": " Indulge in the irresistible combination of tender chicken breast, smoky bacon, and crispy croutons, creating a symphony of flavors and textures. This refreshing salad is enhanced by a zesty dressing that perfectly complements the medley of fresh vegetables. With its harmonious blend of savory, salty, and tangy elements, our Chicken Bacon Crunch Salad is an ideal choice for those seeking a fulfilling and delicious meal.",
-    "jalapenoPepperMacAndCheeseTitle": "Spicy Jalapeno Pepper Mac and Cheese",
-    "jalapenoPepperMacAndCheeseDescription": "Indulge in a fiery twist on the classic mac and cheese with our Spicy Jalapeno Pepper Mac and Cheese. This flavorful dish features creamy macaroni smothered in a rich cheese sauce, infused with the perfect amount of heat from jalapeno peppers. The spicy kick of the jalapenos adds an exciting element to the velvety mac and cheese, creating a delightful balance of flavors. Our Spicy Jalapeno Pepper Mac and Cheese is a must-try.",
-    "cauliflowerCheeseTitle": "Cauliflower Cheese",
-    "cauliflowerCheeseDescription": "Cauliflower Cheese: A comforting and delectable dish that brings together the richness of cheese and the wholesome goodness of cauliflower. This delightful casserole features tender cauliflower florets enveloped in a creamy and velvety cheese sauce, creating a perfect harmony of flavors and textures. The cauliflower becomes tender and succulent, while the cheese sauce adds a creamy, savory touch that tantalizes the taste buds. With its hearty and satisfying taste, Cauliflower Cheese is a wonderful comfort food.",
-    "ratatouilleTitle": "Ratatouille",
-    "ratatouilleDescription": "Ratatouille: A delightful and rustic French vegetable stew that celebrates the vibrant flavors of the Mediterranean. This classic dish brings together a colorful array of fresh vegetables such as tomatoes, eggplants, zucchini, and bell peppers, all cooked to tender perfection. Infused with aromatic herbs like thyme, rosemary, and basil, Ratatouille boasts a harmonious blend of savory and herbal notes that dance on the palate. The tender vegetables simmered in a rich tomato base create a luscious texture, while the medley of herbs elevates the taste to new heights. With its wholesome and heartwarming taste, Ratatouille is a true celebration of the bountiful flavors nature has to offer.",
-    "greekSpinachQuicheTitle": "Greek Spinach Quiche",
-    "greekSpinachQuicheDescription": "Greek Spinach Quiche: A delightful dish that combines the flavors of creamy and savory filling. This quiche features a golden, flaky crust filled with a luscious mixture of spinach, feta cheese, onions, and aromatic herbs. The harmonious blend of tangy feta, earthy spinach, and fragrant herbs creates a mouthwatering experience.",
-    "greekRatatouilleTitle": "Greek Ratatouille",
-    "greekRatatouilleDescription": "Greek Ratatouille: A medley of fresh vegetables such as eggplant, zucchini, bell peppers, and tomatoes, all simmered together with herbs and spices. Bursting with Mediterranean flavors, this hearty and healthy dish offers a perfect balance of textures and tastes. Each spoonful unveils tender vegetables infused with fragrant herbs, creating a harmonious blend that is both satisfying and comforting."
+    "capreseCrostini": {
+      "name": "Caprese Crostini",
+      "description": "Savor the classic Italian appetizer, Caprese Crostini, featuring crispy slices topped with fresh tomatoes, creamy mozzarella, basil, and a drizzle of balsamic reduction, perfect for any occasion.",
+      "altText": "Italian appetizers on a wooden chopping board"
+    }
+  },
+  "themes": {
+    "appetizers": "Appetizers",
+    "classic": "Classic Mainstay",
+    "european": "Continental Elegance",
+    "mediterranean": "Mediterranean Banquet",
+    "dessert": "Dessert Euphoria",
+    "drinks": "Crafted Chemistry"
   },
   "contactUs": "Contact Us",
   "name": "Name",
