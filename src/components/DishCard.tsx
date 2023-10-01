@@ -1,4 +1,5 @@
 import "../styles/dishCard.css";
+import { useTranslation } from "react-i18next";
 
 interface DishCardProps {
   imageSrc: string;
@@ -11,6 +12,7 @@ interface DishCardProps {
 }
 
 function DishCard({ imageSrc, dishName, description }: DishCardProps) {
+  const { t } = useTranslation();
   return (
     <div className="dish-card-container">
       <h3 className="dish-card-title">{dishName}</h3>

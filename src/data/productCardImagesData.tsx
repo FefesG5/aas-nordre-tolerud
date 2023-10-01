@@ -21,7 +21,7 @@ const productCardImages = [
   {
     isProductCard: true,
     imageSrc: appetizers,
-    altText: "Appetizers on a wooden chopping board",
+    altText: "Italian appetizers on a wooden chopping board",
     buttonName: "Bite-sized Temptation",
     dishName: "Caprese Crostini",
     theme: "Appetizers",
@@ -130,7 +130,7 @@ const productCardImages = [
     isProductCard: false,
     imageSrc: berryBlissPudding,
     altText:
-      "A vibrant Berry Bliss Pudding featuring assorted berries enveloped in a silky, sweet pudding, representing a harmonious balance of tart and sweet flavors.",
+      "Berry Bliss Pudding with assorted berries in a balanced tart and sweet flavor profile",
     dishName: "Berry Bliss Pudding",
     theme: "Dessert Euphoria",
     description:
@@ -140,7 +140,7 @@ const productCardImages = [
     isProductCard: false,
     imageSrc: savorySalmonToast,
     altText:
-      "A vibrant Berry Bliss Pudding featuring assorted berries enveloped in a silky, sweet pudding, representing a harmonious balance of tart and sweet flavors.",
+      "Savory Salmon Toast featuring crispy toast topped with flavorful smoked salmon and fresh herbs.",
     dishName: "Savory Salmon Toast",
     theme: "Mediterranean Banquet",
     description:
@@ -150,7 +150,7 @@ const productCardImages = [
     isProductCard: false,
     imageSrc: verdePestoParadiso,
     altText:
-      "A plate of al dente pasta coated in green pesto, garnished with Parmesan and lemon zest, with basil leaves and pine nuts in the background.",
+      "Al dente pasta with green pesto, garnished with Parmesan, lemon zest, basil leaves, and pine nuts.",
     dishName: "Verde Pesto Paradiso",
     theme: "Continental Elegance",
     description:
@@ -160,7 +160,7 @@ const productCardImages = [
     isProductCard: false,
     imageSrc: rivieraRatatouille,
     altText:
-      "A vibrant dish of roasted vegetables in rich tomato sauce, seasoned with herbs, representing a classic Ratatouille.",
+      "Vibrant roasted vegetables in rich tomato sauce and herbs, representing classic Ratatouille.",
     dishName: "Riviera Ratatouille",
     theme: "Continental Elegance",
     description:
@@ -180,7 +180,7 @@ const productCardImages = [
     isProductCard: false,
     imageSrc: berryMist,
     altText:
-      "A striking cocktail, Berry Mist, with a red blackberry-mint base and a layer of white foam dotted with red, offering a blend of flavors and textures.",
+      "Berry Mist cocktail with blackberry-mint base and textured white foam, offering varied flavors.",
     dishName: "Berry Mist",
     theme: "Crafted Chemistry",
     description:
