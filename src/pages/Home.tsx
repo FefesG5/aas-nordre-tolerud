@@ -5,19 +5,72 @@ import productCardImages from "../data/productCardImagesData";
 
 import ProductCard from "../components/ProductCard";
 
+// TO BE REMOVED LATER
+import europeanTheme from "../images/EuropeanTheme.jpg";
+import lasagnaMain from "../images/Lasagna.jpg";
+import dessert from "../images/Desserts.jpg";
+import appetizers from "../images/Appetizers.jpg";
+import mediterraneanTheme from "../images/MediterraneanTheme.jpg";
+import cocktails from "../images/Cocktails.jpg";
+
 function Home() {
   const { t } = useTranslation();
 
-  const productCardImagesList = productCardImages
+  const productCardImagesTest = [
+    {
+      isProductCard: true,
+      imageKey: "capreseCrostini",
+      imageSrc: appetizers,
+      buttonName: "Bite-sized Temptation",
+      theme: "Appetizers",
+    },
+    {
+      isProductCard: true,
+      imageKey: "lasagna",
+      imageSrc: lasagnaMain,
+      buttonName: "Classic Mainstay",
+      theme: "Classic Mainstay",
+    },
+    {
+      isProductCard: true,
+      imageKey: "spaghettiAglioOlio",
+      imageSrc: europeanTheme,
+      buttonName: "Continental Elegance",
+      theme: "Continental Elegance",
+    },
+    {
+      isProductCard: true,
+      imageKey: "bruschetta",
+      imageSrc: mediterraneanTheme,
+      buttonName: "Mediterranean Banquet",
+      theme: "Mediterranean Banquet",
+    },
+    {
+      isProductCard: true,
+      imageKey: "wholemealWaffles",
+      imageSrc: dessert,
+      buttonName: "Dessert Euphoria",
+      theme: "Dessert Euphoria",
+    },
+    {
+      isProductCard: true,
+      imageKey: "grapefruitOasis",
+      imageSrc: cocktails,
+      buttonName: "Crafted Chemistry",
+      theme: "Crafted Chemistry",
+    },
+  ];
+
+  const productCardImagesList = productCardImagesTest
     .filter((image) => image.isProductCard)
     .map((image, index) => (
       <ProductCard
         isProductCard={image.isProductCard}
         key={index}
         imageSrc={image.imageSrc}
-        altText={image.altText}
+        altText={t(`dishCard.${image.imageKey}.altText`)}
         buttonName={image.buttonName}
-        dishName={image.dishName}
+        dishName={t(`dishCard.${image.imageKey}.name`)}
       />
     ));
 
