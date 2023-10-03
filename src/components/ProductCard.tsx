@@ -1,3 +1,4 @@
+import { useTranslation } from "react-i18next";
 import "../styles/productCard.css";
 
 interface ProductCardProps {
@@ -16,8 +17,10 @@ export default function ProductCard({
   altText,
   linkTo,
   buttonName,
-  dishName,
+  dishName: dishNameKey,
 }: ProductCardProps) {
+  const { t } = useTranslation();
+
   return (
     <div className="product-card">
       <a href={linkTo} className="card-link">
@@ -28,7 +31,7 @@ export default function ProductCard({
           loading="lazy"
         />
       </a>
-      <p className="dish-name-title">{dishName}</p>
+      <p className="dish-name-title">{t(dishNameKey)}</p>
       <div className="card-button">
         <button>{buttonName}</button>
       </div>

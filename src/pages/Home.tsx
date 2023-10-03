@@ -1,6 +1,7 @@
 import { useTranslation } from "react-i18next";
 import "../styles/home.css";
 
+// DATA TO BE USE ONCE REFIXED
 import productCardImages from "../data/productCardImagesData";
 
 import ProductCard from "../components/ProductCard";
@@ -16,48 +17,43 @@ import cocktails from "../images/Cocktails.jpg";
 function Home() {
   const { t } = useTranslation();
 
+  // TO BE REMOVED LATER AND USE ACTUAL DATA FROM data file
   const productCardImagesTest = [
     {
       isProductCard: true,
       imageKey: "capreseCrostini",
       imageSrc: appetizers,
-      buttonName: "Bite-sized Temptation",
-      theme: "Appetizers",
+      theme: "appetizers",
     },
     {
       isProductCard: true,
       imageKey: "lasagna",
       imageSrc: lasagnaMain,
-      buttonName: "Classic Mainstay",
-      theme: "Classic Mainstay",
+      theme: "classic",
     },
     {
       isProductCard: true,
       imageKey: "spaghettiAglioOlio",
       imageSrc: europeanTheme,
-      buttonName: "Continental Elegance",
-      theme: "Continental Elegance",
+      theme: "european",
     },
     {
       isProductCard: true,
       imageKey: "bruschetta",
       imageSrc: mediterraneanTheme,
-      buttonName: "Mediterranean Banquet",
-      theme: "Mediterranean Banquet",
+      theme: "mediterranean",
     },
     {
       isProductCard: true,
       imageKey: "wholemealWaffles",
       imageSrc: dessert,
-      buttonName: "Dessert Euphoria",
-      theme: "Dessert Euphoria",
+      theme: "dessert",
     },
     {
       isProductCard: true,
       imageKey: "grapefruitOasis",
       imageSrc: cocktails,
-      buttonName: "Crafted Chemistry",
-      theme: "Crafted Chemistry",
+      theme: "drinks",
     },
   ];
 
@@ -69,7 +65,7 @@ function Home() {
         key={index}
         imageSrc={image.imageSrc}
         altText={t(`dishCard.${image.imageKey}.altText`)}
-        buttonName={image.buttonName}
+        buttonName={t(`themes.${image.theme}`)}
         dishName={t(`dishCard.${image.imageKey}.name`)}
       />
     ));
