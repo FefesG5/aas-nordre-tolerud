@@ -9,27 +9,52 @@
   "homeText": "På Nordre Tolerud gård, som ligger vakkert til i Tolerud-regionen, finner du en familiedrevet gård med en rik historie som strekker seg flere århundrer tilbake. Gården vår er en av to i Tolerud-området og har vært i familiens eie siden 1840. Våre dype røtter i regionen strekker seg enda lenger tilbake, med forfedre som har bodd i Tolerud helt siden middelalderen. Opplev den tidløse skjønnheten på gården vår, smak på kvaliteten av våre lokalt produserte varer, samtidig som du støtter et stykke historie.",
   "homeTextHistory": "Skjult i den pittoreske Tolerud-regionen ligger Nordre Tolerud Gård.",
   "homeTextProducts": "Kom og opplev den tidløse skjønnheten på gården vår og smak kvaliteten til produktene våre som er lokalt hentet.",
+  "productCardTitle": "Vår forpliktelse til lokalt dyrket og ferskt tilberedte måltider garanterer eksepsjonelle retter.",
   "allRightsReserved": "Alle rettigheter reservert",
   "geekClickIconsAttributionText": "Symboler opprettet av GeekClick - Flaticon",
   "panzanellaAttributionText": "Panzanella hovedsiden bilde tatt av Luisa Brimble - Unsplash",
   "meetIngvarTitle": "Møt Ingvar",
   "about-text-1": "En ydmyk kokk med en lidenskap for matlaging og en fantastisk sans for humor. Med en ønske om å skape deilige og tilfredsstillende måltider, blander Ingvar smak, presentasjon og kvalitet for å skape uforglemmelige kulinariske opplevelser. Som en lokal innbygger i hjembyen sin er Ingvar stolt av å bruke kun de ferskeste ingrediensene, og sikrer at hver rett er laget med omsorg og oppmerksomhet på detaljer.",
   "about-text-2": "Bli med Ingvar på et herlig måltid, der humor og smak kommer sammen i perfekt harmoni.",
-  "featuredCuisineTitle": "Ukens Spesialiteter",
-  "mediterraneanCuisineTitle": "Middelhavstema Kjøkken",
   "dishCard": {
-    "chickenBaconCrunchSaladTitle": "Kylling Bacon Knasende Salat",
-    "chickenBaconCrunchSaladDescription": "Nyt den uimotståelige kombinasjonen av saftig kyllingbryst, røykt bacon og sprø krutonger, som skaper en symfoni av smaker og teksturer. Denne forfriskende salaten blir forsterket av en krydret dressing som perfekt komplementerer en medley av ferske grønnsaker. Med sin harmoniske blanding av smaksrike, salte og syrlige elementer, er vår Kylling Bacon Knasende Salat et ideelt valg for de som ønsker et tilfredsstillende og deilig måltid. Enten det nytes som en lett lunsj eller en mettende middag, vil denne herlige retten etterlate dine smaksløker som ønsker mer.",
-    "jalapenoPepperMacAndCheeseTitle": "Krydret Jalapeno Pepper Mac and Cheese",
-    "jalapenoPepperMacAndCheeseDescription": "Nyt en ildfull vri på den klassiske mac and cheese med vår Krydrede Jalapeno Pepper Mac and Cheese. Denne smaksrike retten har kremet makaroni overtrukket med en fyldig ostesaus, infused med akkurat passe mengde varme fra jalapeno peppers. Den krydrede kicken fra jalapenos tilfører en spennende dimensjon til den fløyelsmyke mac and cheese, og skaper en herlig balanse av smaker. Vår Krydrede Jalapeno Pepper Mac and Cheese er et must-try for de som lengter etter litt ekstra hetta i deres komfortmat.",
-    "cauliflowerCheeseTitle": "Blomkåloste",
-    "cauliflowerCheeseDescription": "Blomkåloste: En beroligende og delikat rett som kombinerer rikheten av ost og den sunne godheten til blomkål. Denne herlige gratengen inneholder ømfintlige blomkålbuketter omfavnet av en kremet og fløyelsmyk ostesaus, og skaper en perfekt harmoni av smaker og teksturer. Blomkålen blir mør og saftig, mens ostesausen tilfører en kremet og hjertelig touch som pirrer smaksløkene. Med sin fyldige og tilfredsstillende smak er blomkåloste en herlig komfortmat som lover en varm og trøstende matopplevelse.",
-    "ratatouilleTitle": "Ratatouille",
-    "ratatouilleDescription": "En herlig og rustikk fransk grønnsaksstuing som feirer de levende smakene fra Middelhavet. Denne klassiske retten kombinerer et fargerikt utvalg av friske grønnsaker som tomater, auberginer, squash og paprika, alt kokt til perfeksjon. Krydret med aromatiske urter som timian, rosmarin og basilikum, skryter Ratatouille av en harmonisk blanding av smakfulle og urteaktige toner som danser på ganen. De ømfintlige grønnsakene, som simrer i en rik tomatsaus, skaper en smaksrik tekstur, mens urteblandingen løfter smaken til nye høyder. Med sin næringsrike og hjertevarmende smak er Ratatouille en ekte hyllest til de overflodige smakene naturen har å tilby. Nyt denne eksklusive retten alene eller som en allsidig siderett og nyt smaken av landsbygda i Middelhavet.",
-    "greekSpinachQuicheTitle": "Gresk Spinatpai",
-    "greekSpinachQuicheDescription": "Gresk Spinatpai: En herlig rett som kombinerer smakene av kremet og smakfull fylling. Denne paien har en gylden, sprø skorpe fylt med en deilig blanding av spinat, fetaost, løk og aromatiske urter. Den harmoniske blandingen av syrlig fetaost, jordaktig spinat og duftende urter skaper en vannfremkallende opplevelse.",
-    "greekRatatouilleTitle": "Gresk Ratatouille",
-    "greekRatatouilleDescription": "Gresk Ratatouille: En blanding av ferske grønnsaker som aubergine, squash, paprika og tomater, alt kokt sammen med urter og krydder. Sprudlende av middelhavsflavorer, er denne hjertevarme og sunne retten en perfekt balanse av teksturer og smaker. Hver skje avslører ømme grønnsaker som er infundert med duftende urter, og skaper en harmonisk blanding som er både tilfredsstillende og trøstende."
+    "capreseCrostini": {
+      "name": "Caprese Crostini",
+      "description": "Nyt den klassiske italienske forretten, Caprese Crostini, med sprø skiver toppet med friske tomater, kremet mozzarella, basilikum og en drypp av balsamicoreduksjon, perfekt for enhver anledning.",
+      "altText": "Italienske forretter på en trehakkebrett"
+    },
+    "lasagna": {
+      "name": "Lasagne",
+      "description": "Nyt vår klassiske lasagne, en perfekt kombinasjon av myk pasta, rik kjøttsaus, kremet béchamel, mozzarella og parmesan, som gir en tidløs italiensk favoritt i hver bit.",
+      "altText": "Lasagne blir servert på en tallerken"
+    },
+    "spaghettiAglioOlio": {
+      "name": "Spaghetti Aglio Olio",
+      "description": "Nyt enkelheten av Spaghetti Aglio Olio, som kombinerer perfekt kokt spaghetti, velduftende hvitløk, kvalitetsolivenolje, rød pepperflak og fersk persille for en subtil varme og autentisk italiensk smaksfeiring i hver bit.",
+      "altText": "Enkel spaghetti Aglio Olio på en grå keramikktallerken"
+    },
+    "bruschetta": {
+      "name": "Bruschetta",
+      "description": "Nyt den livlige Bruschettaen med modne tomater, sprø grillet brød, fersk basilikum og en dæsj olivenolje. Denne klassiske italienske forretten blander teksturer og smaker for en eksplosjon av middelhavsglede i hver bit.",
+      "altText": "Flere bruschetta blir servert på et trehakkebrett"
+    },
+    "wholemealWaffles": {
+      "name": "Fullkornsvafler",
+      "description": "Nyt fullkornsvafler laget av hjerte-sunt helkorn, klare for ditt valg av pålegg som fløyelsaktig iskrem, gylden honning eller ferske bær. Denne allsidige godbiten gir en herlig balanse av nytelse og næring.",
+      "altText": "Lønnesirup dryppes over brune fullkornsvafler med blåbær"
+    },
+    "grapefruitOasis": {
+      "name": "Grapefrukt Oasis",
+      "description": "Nyt Grapefrukt Oasis-cocktailen, en blanding av fersk juice og premium brennevin, som gir en balanse mellom syrlig og søtt. Pyntet med grapefrukt, gir denne drinken en forfriskende flukt med hver slurk.",
+      "altText": "Stort stykke grapefrukt servert med en cocktaildrink"
+    }
+  },
+  "themes": {
+    "appetizers": "Forretter",
+    "classic": "Klassisk Hovedrett",
+    "european": "Europeisk Eleganse",
+    "mediterranean": "Middelhavs Festmåltid",
+    "dessert": "Dessert Eufori",
+    "drinks": "Håndlaget Kjemi"
   },
   "contactUs": "Kontakt oss",
   "name": "Navn",

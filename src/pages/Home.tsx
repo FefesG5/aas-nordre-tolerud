@@ -1,23 +1,72 @@
 import { useTranslation } from "react-i18next";
 import "../styles/home.css";
 
+// DATA TO BE USE ONCE REFIXED
 import productCardImages from "../data/productCardImagesData";
 
 import ProductCard from "../components/ProductCard";
 
+// TO BE REMOVED LATER
+import europeanTheme from "../images/EuropeanTheme.jpg";
+import lasagnaMain from "../images/Lasagna.jpg";
+import dessert from "../images/Desserts.jpg";
+import appetizers from "../images/Appetizers.jpg";
+import mediterraneanTheme from "../images/MediterraneanTheme.jpg";
+import cocktails from "../images/Cocktails.jpg";
+
 function Home() {
   const { t } = useTranslation();
 
-  const productCardImagesList = productCardImages
+  // TO BE REMOVED LATER AND USE ACTUAL DATA FROM data file
+  const productCardImagesTest = [
+    {
+      isProductCard: true,
+      imageKey: "capreseCrostini",
+      imageSrc: appetizers,
+      theme: "appetizers",
+    },
+    {
+      isProductCard: true,
+      imageKey: "lasagna",
+      imageSrc: lasagnaMain,
+      theme: "classic",
+    },
+    {
+      isProductCard: true,
+      imageKey: "spaghettiAglioOlio",
+      imageSrc: europeanTheme,
+      theme: "european",
+    },
+    {
+      isProductCard: true,
+      imageKey: "bruschetta",
+      imageSrc: mediterraneanTheme,
+      theme: "mediterranean",
+    },
+    {
+      isProductCard: true,
+      imageKey: "wholemealWaffles",
+      imageSrc: dessert,
+      theme: "dessert",
+    },
+    {
+      isProductCard: true,
+      imageKey: "grapefruitOasis",
+      imageSrc: cocktails,
+      theme: "drinks",
+    },
+  ];
+
+  const productCardImagesList = productCardImagesTest
     .filter((image) => image.isProductCard)
     .map((image, index) => (
       <ProductCard
         isProductCard={image.isProductCard}
         key={index}
         imageSrc={image.imageSrc}
-        altText={image.altText}
-        buttonName={image.buttonName}
-        dishName={image.dishName}
+        altText={t(`dishCard.${image.imageKey}.altText`)}
+        buttonName={t(`themes.${image.theme}`)}
+        dishName={t(`dishCard.${image.imageKey}.name`)}
       />
     ));
 
