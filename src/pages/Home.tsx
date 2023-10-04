@@ -3,6 +3,7 @@ import "../styles/home.css";
 
 // DATA TO BE USE ONCE REFIXED
 import productCardImages from "../data/productCardImagesData";
+import menuArray from "../data/menuData";
 
 import ProductCard from "../components/ProductCard";
 
