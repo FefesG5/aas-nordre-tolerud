@@ -3,32 +3,29 @@ import DishCard from "../components/DishCard";
 import { useTranslation } from "react-i18next";
 import "../styles/menu.css";
 
-import productCardImages from "../data/productCardImagesData";
+import menuArray from "../data/menuData";
 
 export default function Menu() {
   const { t } = useTranslation();
 
-  interface Product {
+  interface MenuArray {
     isProductCard: boolean;
+    imageKey: string;
     imageSrc: string;
-    altText: string;
-    buttonName?: string;
-    dishName: string;
     theme: string;
-    description: string;
   }
 
-  const dishesByTheme = productCardImages.reduce<Record<string, Product[]>>(
-    (productsByThemeAccumulator, product) => {
-      if (!productsByThemeAccumulator[product.theme]) {
-        productsByThemeAccumulator[product.theme] = [];
+  const dishesByTheme = menuArray.reduce<Record<string, MenuArray[]>>(
+    (accumulator: Record<string, MenuArray[]>, product: MenuArray) => {
+      if (!accumulator[product.theme]) {
+        accumulator[product.theme] = [];
       }
 
-      productsByThemeAccumulator[product.theme].push(product);
+      accumulator[product.theme].push(product);
 
-      return productsByThemeAccumulator;
+      return accumulator;
     },
-    {}
+    {} as Record<string, MenuArray[]>
   );
 
   return (
@@ -41,9 +38,9 @@ export default function Menu() {
               <DishCard
                 key={index}
                 imageSrc={product.imageSrc}
-                altText={product.altText}
-                dishName={product.dishName}
-                description={product.description}
+                altText={t(`dishCard.${product.imageKey}.altText`)}
+                dishName={t(`dishCard.${product.imageKey}.name`)}
+                description={t(`dishCard.${product.imageKey}.description`)}
               />
             ))}
           </div>
