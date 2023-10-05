@@ -1,64 +1,14 @@
 import { useTranslation } from "react-i18next";
 import "../styles/home.css";
 
-// DATA TO BE USE ONCE REFIXED
-import productCardImages from "../data/productCardImagesData";
-import menuArray from "../data/menuData";
+import menuData from "../data/menuData";
 
 import ProductCard from "../components/ProductCard";
-
-// TO BE REMOVED LATER
-import europeanTheme from "../images/EuropeanTheme.jpg";
-import lasagnaMain from "../images/Lasagna.jpg";
-import dessert from "../images/Desserts.jpg";
-import appetizers from "../images/Appetizers.jpg";
-import mediterraneanTheme from "../images/MediterraneanTheme.jpg";
-import cocktails from "../images/Cocktails.jpg";
 
 function Home() {
   const { t } = useTranslation();
 
-  // TO BE REMOVED LATER AND USE ACTUAL DATA FROM data file
-  const productCardImagesTest = [
-    {
-      isProductCard: true,
-      imageKey: "capreseCrostini",
-      imageSrc: appetizers,
-      theme: "appetizers",
-    },
-    {
-      isProductCard: true,
-      imageKey: "lasagna",
-      imageSrc: lasagnaMain,
-      theme: "classic",
-    },
-    {
-      isProductCard: true,
-      imageKey: "spaghettiAglioOlio",
-      imageSrc: europeanTheme,
-      theme: "european",
-    },
-    {
-      isProductCard: true,
-      imageKey: "bruschetta",
-      imageSrc: mediterraneanTheme,
-      theme: "mediterranean",
-    },
-    {
-      isProductCard: true,
-      imageKey: "wholemealWaffles",
-      imageSrc: dessert,
-      theme: "dessert",
-    },
-    {
-      isProductCard: true,
-      imageKey: "grapefruitOasis",
-      imageSrc: cocktails,
-      theme: "drinks",
-    },
-  ];
-
-  const productCardImagesList = productCardImagesTest
+  const productCardImagesList = menuData
     .filter((image) => image.isProductCard)
     .map((image, index) => (
       <ProductCard
