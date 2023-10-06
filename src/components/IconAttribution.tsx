@@ -1,4 +1,3 @@
-import { useTranslation } from "react-i18next";
 import "../styles/iconAttribution.css";
 
 interface IconAttributionProps {
@@ -12,8 +11,6 @@ export default function IconAttribution({
   title,
   icon,
 }: IconAttributionProps) {
-  const { t } = useTranslation();
-
   return (
     <a
       href={href}
