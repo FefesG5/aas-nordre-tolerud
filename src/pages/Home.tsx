@@ -5,15 +5,15 @@ import menuData from "../data/menuData";
 
 import ProductCard from "../components/ProductCard";
 
-function Home() {
+export default function Home() {
   const { t } = useTranslation();
 
   const productCardImagesList = menuData
     .filter((image) => image.isProductCard)
-    .map((image, index) => (
+    .map((image) => (
       <ProductCard
         isProductCard={image.isProductCard}
-        key={index}
+        key={image.imageKey}
         imageSrc={image.imageSrc}
         altText={t(`dishCard.${image.imageKey}.altText`)}
         buttonName={t(`themes.${image.theme}`)}
@@ -27,11 +27,11 @@ function Home() {
       <div className="home-container">
         <div className="background-image">
           <h1 className="image-heading">{t("headline")}</h1>
-          <p className="panzanella-text">{t("PanzanellaText")}</p>
+          <p className="panzanella-text">{t("panzanellaText")}</p>
         </div>
         <div className="overlay"></div>
         <div className="text-container">
-          <h2 className="home-heading">{t("AasNordreTolerudGard")}</h2>
+          <h2 className="home-heading">{t("aasNordreTolerudGard")}</h2>
           <div className="home-text">
             <div className="home-text-section">{t("productCardTitle")}</div>
             {productCardImagesList}
@@ -43,5 +43,3 @@ function Home() {
     </>
   );
 }
-
-export default Home;

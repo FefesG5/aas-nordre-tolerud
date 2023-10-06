@@ -25,9 +25,9 @@ function Header() {
         Aas Nordre Tolerud
       </Link>
       <ul>
-        <CustomLink to="/about">{t("About")}</CustomLink>
-        <CustomLink to="/menu">{t("Menu")}</CustomLink>
-        <CustomLink to="/contact">{t("Contact")}</CustomLink>
+        <CustomLink to="/about">{t("about")}</CustomLink>
+        <CustomLink to="/menu">{t("menu")}</CustomLink>
+        <CustomLink to="/contact">{t("contact")}</CustomLink>
       </ul>
       <div className="language-buttons">
         <div

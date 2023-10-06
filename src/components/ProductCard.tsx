@@ -4,12 +4,10 @@ import "../styles/productCard.css";
 interface ProductCardProps {
   isProductCard: boolean;
   imageSrc: string;
-  altText?: string;
+  altText: string;
   linkTo?: string;
-  buttonName?: string;
+  buttonName: string;
   dishName: string;
-  theme?: string;
-  description?: string;
 }
 
 export default function ProductCard({

@@ -1,18 +1,14 @@
 import "../styles/dishCard.css";
-import { useTranslation } from "react-i18next";
 
+// altText requires ? due to testing components
 interface DishCardProps {
   imageSrc: string;
   altText?: string;
-  linkTo?: string;
-  buttonName?: string;
   dishName: string;
-  theme?: string;
-  description?: string;
+  description: string;
 }
 
 function DishCard({ imageSrc, dishName, description }: DishCardProps) {
-  const { t } = useTranslation();
   return (
     <div className="dish-card-container">
       <h3 className="dish-card-title">{dishName}</h3>
