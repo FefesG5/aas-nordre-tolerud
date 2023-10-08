@@ -24,7 +24,7 @@ export default function InputField({
   const { t } = useTranslation();
 
   return (
-    <div>
+    <div className="contact-form-field">
       <label htmlFor={id} className="contact-form-label">
         {t(name)}:{" "}
       </label>
