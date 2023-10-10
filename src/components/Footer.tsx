@@ -2,6 +2,7 @@ import "../styles/footer.css";
 import { useTranslation } from "react-i18next";
 import NorwayIcon from "../images/NorwayIcon.png";
 import UnitedKingdomIcon from "../images/UnitedKingdomIcon.png";
+import { Link } from "react-router-dom";
 
 import Attribution from "./Attribution";
 import IconAttribution from "./IconAttribution";
@@ -25,6 +26,9 @@ export default function Footer() {
     <>
       <div className="footer-container">
         @ 2023 Gee Chai | {t("allRightsReserved")}
+        <Link to="/attributions" className="attributions-link">
+          {t("viewAllAttributions")}
+        </Link>
         <div className="unsplash-attribution-container">
           <h3>
             {t("courtesyOf")}
