@@ -8,7 +8,7 @@ import IconAttribution from "./IconAttribution";
 
 import attributions from "../data/attributionData";
 
-function Footer() {
+export default function Footer() {
   const { t } = useTranslation();
 
   const unsplashAttributionList = attributions.map((attribution, index) => (
@@ -70,5 +70,3 @@ function Footer() {
     </>
   );
 }
-
-export default Footer;
