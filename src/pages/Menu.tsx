@@ -10,6 +10,8 @@ interface MenuData {
   imageKey: string;
   imageSrc: string;
   theme: string;
+  href?: string;
+  photographer?: string;
 }
 
 export default function Menu() {

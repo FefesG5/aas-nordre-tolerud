@@ -2,13 +2,14 @@ import "../styles/footer.css";
 import { useTranslation } from "react-i18next";
 import NorwayIcon from "../images/NorwayIcon.png";
 import UnitedKingdomIcon from "../images/UnitedKingdomIcon.png";
+import { Link } from "react-router-dom";
 
 import Attribution from "./Attribution";
 import IconAttribution from "./IconAttribution";
 
 import attributions from "../data/attributionData";
 
-function Footer() {
+export default function Footer() {
   const { t } = useTranslation();
 
   const unsplashAttributionList = attributions.map((attribution, index) => (
@@ -25,6 +26,9 @@ function Footer() {
     <>
       <div className="footer-container">
         @ 2023 Gee Chai | {t("allRightsReserved")}
+        <Link to="/attributions" className="attributions-link">
+          {t("viewAllAttributions")}
+        </Link>
         <div className="unsplash-attribution-container">
           <h3>
             {t("courtesyOf")}
@@ -70,5 +74,3 @@ function Footer() {
     </>
   );
 }
-
-export default Footer;
