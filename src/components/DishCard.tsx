@@ -8,7 +8,11 @@ interface DishCardProps {
   description: string;
 }
 
-function DishCard({ imageSrc, dishName, description }: DishCardProps) {
+export default function DishCard({
+  imageSrc,
+  dishName,
+  description,
+}: DishCardProps) {
   return (
     <div className="dish-card-container">
       <h3 className="dish-card-title">{dishName}</h3>
@@ -17,5 +21,3 @@ function DishCard({ imageSrc, dishName, description }: DishCardProps) {
     </div>
   );
 }
-
-export default DishCard;

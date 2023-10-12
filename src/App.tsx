@@ -4,7 +4,7 @@ import Menu from "./pages/Menu";
 import Contact from "./pages/Contact";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
-import AttributionPage from "./pages/Attributions";
+import AttributionPage from "./pages/AttributionsPage";
 import { Route, Routes } from "react-router-dom";
 import { I18nextProvider } from "react-i18next";
 import i18n from "./i18n";

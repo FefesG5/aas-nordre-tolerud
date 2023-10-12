@@ -39,7 +39,7 @@
 }
 
 .modal-content {
-  background: var(--pale-teal);
+  background: #fff;
   padding: 20px;
   border-radius: 5px;
   color: var(--cadet-blue);

@@ -4,30 +4,17 @@ import NorwayIcon from "../images/NorwayIcon.png";
 import UnitedKingdomIcon from "../images/UnitedKingdomIcon.png";
 import { Link } from "react-router-dom";
 
-import Attribution from "./Attribution";
 import IconAttribution from "./IconAttribution";
-
-import attributions from "../data/attributionData";
 
 export default function Footer() {
   const { t } = useTranslation();
-
-  const unsplashAttributionList = attributions.map((attribution, index) => (
-    <Attribution
-      key={index}
-      href={attribution.href}
-      translationKey="takenBy"
-      dishName={attribution.dishName}
-      photographer={attribution.photographer}
-    />
-  ));
 
   return (
     <>
       <div className="footer-container">
         @ 2023 Gee Chai | {t("allRightsReserved")}
-        <Link to="/attributions" className="attributions-link">
-          {t("viewAllAttributions")}
+        <Link to="/attributions" className="attribution-link">
+          {t("attributions")}
         </Link>
         <div className="unsplash-attribution-container">
           <h3>
@@ -42,7 +29,6 @@ export default function Footer() {
               Unsplash:
             </a>
           </h3>
-          {unsplashAttributionList}
         </div>
         <div className="icon-attribution-container">
           <h3>

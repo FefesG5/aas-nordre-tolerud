@@ -1,4 +1,4 @@
-import "../styles/attribution.css";
+import "../styles/attributionsPage.css";
 import { useTranslation } from "react-i18next";
 
 interface AttributionProps {
@@ -12,10 +12,10 @@ interface AttributionProps {
 export default function AttributionPage({ data }: AttributionProps) {
   const { t } = useTranslation();
   return (
-    <div>
-      <h1>Image Attributions</h1>
+    <div className="attribution-container">
+      <h1 className="attribution-title">Image Attributions</h1>
       {data.map((item, index) => (
-        <div key={index} className="attribution-item">
+        <div key={index} className="attribution-entry">
           <a
             href={item.href}
             target="_blank"
