@@ -13,8 +13,8 @@ export default function Footer() {
     <>
       <div className="footer-container">
         @ 2023 Gee Chai | {t("allRightsReserved")}
-        <Link to="/attributions" className="attributions-link">
-          {t("viewAllAttributions")}
+        <Link to="/attributions" className="attribution-link">
+          {t("attributions")}
         </Link>
         <div className="unsplash-attribution-container">
           <h3>
