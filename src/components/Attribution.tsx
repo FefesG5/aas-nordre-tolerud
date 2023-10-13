@@ -15,15 +15,13 @@ export default function Attribution({
 }: AttributionProps) {
   const { t } = useTranslation();
   return (
-    <>
-      <a
-        href={href}
-        className="attribution-link"
-        target="_blank"
-        rel="noopener noreferrer nofollow"
-      >
-        {dishName} {t("takenBy")} {photographer}
-      </a>
-    </>
+    <a
+      href={href}
+      className="attribution-link"
+      target="_blank"
+      rel="noopener noreferrer nofollow"
+    >
+      {dishName} {t("takenBy")} {photographer}
+    </a>
   );
 }

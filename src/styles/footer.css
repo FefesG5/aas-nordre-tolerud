@@ -44,6 +44,7 @@
 
 .unsplash-link,
 .geek-click-link {
+  margin-left: 5px;
   text-decoration: none;
   color: #808080;
   font-size: 0.9rem;
