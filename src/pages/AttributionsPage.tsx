@@ -14,16 +14,15 @@ export default function AttributionPage({ data }: AttributionProps) {
   return (
     <div className="attribution-container">
       <h1 className="attribution-title">Image Attributions</h1>
-      {data.map((item, index) => (
-        <div key={index} className="attribution-entry">
+      {data.map(({ href, imageKey, photographer }) => (
+        <div key={href} className="attribution-entry">
           <a
-            href={item.href}
+            href={href}
             target="_blank"
             rel="noopener noreferrer nofollow"
             className="attribution-link"
           >
-            {t(`dishCard.${item.imageKey}.name`)} {t("takenBy")}{" "}
-            {item.photographer}
+            {t(`dishCard.${imageKey}.name`)} {t("takenBy")} {photographer}
           </a>
         </div>
       ))}

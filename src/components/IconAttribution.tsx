@@ -19,7 +19,7 @@ export default function IconAttribution({
       rel="noopener noreferrer"
       className="flaticon-link"
     >
-      <img src={icon} className="footer-flag-icon" alt="" />
+      <img src={icon} className="footer-flag-icon" alt="Icon attributions" />
     </a>
   );
 }

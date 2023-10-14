@@ -1,9 +1,9 @@
-import europeanTheme from "../images/EuropeanTheme.jpg";
-import lasagnaMain from "../images/Lasagna.jpg";
-import dessert from "../images/Desserts.jpg";
-import appetizers from "../images/Appetizers.jpg";
-import mediterraneanTheme from "../images/MediterraneanTheme.jpg";
-import cocktails from "../images/Cocktails.jpg";
+import europeanCategory from "../images/EuropeanTheme.jpg";
+import mainDishCategory from "../images/Lasagna.jpg";
+import dessertCategory from "../images/Desserts.jpg";
+import appetizerCategory from "../images/Appetizers.jpg";
+import mediterraneanCategory from "../images/MediterraneanTheme.jpg";
+import cocktailsCategory from "../images/Cocktails.jpg";
 
 import searedScallops from "../images/SearedScallops.jpg";
 import amarettiCharlotte from "../images/AmarettiCharlotte.jpg";
@@ -21,7 +21,7 @@ const menuArray = [
   {
     isProductCard: true,
     imageKey: "capreseCrostini",
-    imageSrc: appetizers,
+    imageSrc: appetizerCategory,
     theme: "appetizers",
     href: "https://unsplash.com/@foodistika?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText",
     photographer: "Elena Leya",
@@ -29,7 +29,7 @@ const menuArray = [
   {
     isProductCard: true,
     imageKey: "lasagna",
-    imageSrc: lasagnaMain,
+    imageSrc: mainDishCategory,
     theme: "classic",
     href: "https://unsplash.com/@stefentan?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText",
     photographer: "Stefen Tan",
@@ -37,7 +37,7 @@ const menuArray = [
   {
     isProductCard: true,
     imageKey: "spaghettiAglioOlio",
-    imageSrc: europeanTheme,
+    imageSrc: europeanCategory,
     theme: "european",
     href: "https://unsplash.com/@youjeencho?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText",
     photographer: "Youjeen Cho",
@@ -45,7 +45,7 @@ const menuArray = [
   {
     isProductCard: true,
     imageKey: "bruschetta",
-    imageSrc: mediterraneanTheme,
+    imageSrc: mediterraneanCategory,
     theme: "mediterranean",
     href: "https://unsplash.com/@margzu?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText",
     photographer: "Margarita Zueva",
@@ -53,7 +53,7 @@ const menuArray = [
   {
     isProductCard: true,
     imageKey: "wholemealWaffles",
-    imageSrc: dessert,
+    imageSrc: dessertCategory,
     theme: "dessert",
     href: "https://unsplash.com/photos/GJAHkC6UMf0?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText",
     photographer: "Lindsay Moe",
@@ -61,7 +61,7 @@ const menuArray = [
   {
     isProductCard: true,
     imageKey: "grapefruitOasis",
-    imageSrc: cocktails,
+    imageSrc: cocktailsCategory,
     theme: "drinks",
     href: "https://unsplash.com/@saracervera?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText",
     photographer: "Sara Cervera",

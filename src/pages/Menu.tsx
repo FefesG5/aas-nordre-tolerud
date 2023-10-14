@@ -1,9 +1,9 @@
 import DishCard from "../components/DishCard";
 import { useTranslation } from "react-i18next";
 
-import "../styles/menu.css";
-
 import menuData from "../data/menuData";
+
+import "../styles/menu.css";
 
 interface MenuData {
   isProductCard: boolean;

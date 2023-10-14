@@ -26,7 +26,7 @@ export default function InputField({
   return (
     <div className="contact-form-field">
       <label htmlFor={id} className="contact-form-label">
-        {t(name)}:{" "}
+        {t(name)}:
       </label>
       <input
         className="contact-form-input"
