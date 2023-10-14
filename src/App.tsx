@@ -14,7 +14,7 @@ export default function App() {
   return (
     <I18nextProvider i18n={i18n}>
       <Header />
-      <div className="container">
+      <main className="container">
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
@@ -25,7 +25,7 @@ export default function App() {
             element={<AttributionPage data={menuArray} />}
           />
         </Routes>
-      </div>
+      </main>
       <Footer />
     </I18nextProvider>
   );

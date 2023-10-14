@@ -10,14 +10,17 @@ interface CustomLinkProps {
   children: React.ReactNode;
 }
 
-function Header() {
-  const { i18n } = useTranslation();
+export default function Header() {
+  const { i18n, t } = useTranslation();
 
   const changeLanguage = (lng: string) => {
     i18n.changeLanguage(lng);
   };
 
-  const { t } = useTranslation();
+  const languages = [
+    { code: "en", icon: UnitedKingdomIcon },
+    { code: "no", icon: NorwayIcon },
+  ];
 
   return (
     <nav className="navbar">
@@ -30,23 +33,17 @@ function Header() {
         <CustomLink to="/contact">{t("contact")}</CustomLink>
       </ul>
       <div className="language-buttons">
-        <div
-          className={`language-button ${
-            i18n.language === "en" ? "active" : ""
-          }`}
-          onClick={() => changeLanguage("en")}
-        >
-          <img src={UnitedKingdomIcon} className="flag-icon" alt="" />
-        </div>
-        <div
-          className={`language-button ${
-            i18n.language === "no" ? "active" : ""
-          }`}
-          onClick={() => changeLanguage("no")}
-        >
-          {" "}
-          <img src={NorwayIcon} className="flag-icon" alt="" />
-        </div>
+        {languages.map((lang) => (
+          <div
+            key={lang.code}
+            className={`language-button ${
+              i18n.language === lang.code ? "active" : ""
+            }`}
+            onClick={() => changeLanguage(lang.code)}
+          >
+            <img src={lang.icon} className="flag-icon" alt="" />
+          </div>
+        ))}
       </div>
     </nav>
   );
@@ -63,5 +60,3 @@ function CustomLink({ to, children, ...props }: CustomLinkProps) {
     </li>
   );
 }
-
-export default Header;

@@ -2,7 +2,7 @@ import ingvarSitting from "../images/IngvarSitting.jpg";
 import "../styles/about.css";
 import { useTranslation } from "react-i18next";
 
-function About() {
+export default function About() {
   const { t } = useTranslation();
   return (
     <div className="about-container">
@@ -17,5 +17,3 @@ function About() {
     </div>
   );
 }
-
-export default About;

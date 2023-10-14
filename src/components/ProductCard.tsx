@@ -8,7 +8,10 @@ interface ProductCardProps {
   linkTo?: string;
   buttonName: string;
   dishName: string;
+  onButtonClick?: () => void;
 }
+
+// need to implement the link to the menu page and correct food item theme
 
 export default function ProductCard({
   imageSrc,
@@ -16,6 +19,7 @@ export default function ProductCard({
   linkTo,
   buttonName,
   dishName: dishNameKey,
+  onButtonClick,
 }: ProductCardProps) {
   const { t } = useTranslation();
 
