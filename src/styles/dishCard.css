@@ -38,6 +38,5 @@
 @media (min-width: 800px) {
   .dish-card-image {
     max-width: 400px;
-    /* height: auto; */
   }
 }
