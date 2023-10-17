@@ -8,6 +8,8 @@ interface ProductCardProps {
   linkTo?: string;
   buttonName: string;
   dishName: string;
+  width: number;
+  height: number;
   onButtonClick?: () => void;
 }
 
@@ -19,6 +21,8 @@ export default function ProductCard({
   linkTo,
   buttonName,
   dishName: dishNameKey,
+  width,
+  height,
   onButtonClick,
 }: ProductCardProps) {
   const { t } = useTranslation();
@@ -29,6 +33,8 @@ export default function ProductCard({
         <img
           src={imageSrc}
           alt={altText}
+          width={width}
+          height={height}
           className="card-image"
           loading="lazy"
         />
