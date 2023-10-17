@@ -15,6 +15,8 @@ export default function Home() {
         isProductCard={image.isProductCard}
         key={image.imageKey}
         imageSrc={image.imageSrc}
+        width={250}
+        height={250}
         altText={t(`dishCard.${image.imageKey}.altText`)}
         buttonName={t(`themes.${image.theme}`)}
         dishName={t(`dishCard.${image.imageKey}.name`)}
