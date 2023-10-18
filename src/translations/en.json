@@ -6,7 +6,6 @@
   "aasNordreTolerudGard": "Aas Nordre Tolerud Gard",
   "headline": "Savor the Authenticity",
   "panzanellaText": "Panzanella: Tradional Italian Salad",
-  "homeText": "Nestled in the picturesque Tolerud region lies Nordre Tolerud Farm, a family-owned and operated piece of land with a rich history dating back centuries. Our farm is one of two in the Tolerud area, and has been passed down through our family since 1840. Our deep roots in the region extend even further back, with ancestors residing in Tolerud as far back as the Middle Ages. Come experience the timeless beauty of our farm and taste the quality of our locally-sourced products, all while supporting a piece of history.",
   "homeTextHistory": "Nestled in the picturesque Tolerud region lies Nordre Tolerud Farm",
   "homeTextProducts": "Come experience the timeless beauty of our farm and taste the quality of our locally-sourced products",
   "productCardTitle": "Our commitment to locally grown and freshly cooked meals guarantees exceptional dishes.",
@@ -17,102 +16,101 @@
   "attributions": "Attributions",
   "iconsCourtesyOf": "Icons courtesy of",
   "meetIngvarTitle": "Meet Ingvar",
-  "about-text-1": "A humble chef with a love for cooking and a great sense of humor. With a desire to create delicious and satisfying meals, Ingvar blends taste, presentation, and quality to create unforgettable culinary experiences. As a local in his hometown, Ingvar is proud to use only the freshest ingredients, ensuring each dish is made with care and attention to detail.",
-  "about-text-2": "Join Ingvar for a delightful meal, where humor and deliciousness come together in perfect harmony.",
+  "about-text-1": "Chef Ingvar: Passionate about crafting delightful dishes using fresh local ingredients. Combining taste and presentation for an unmatched culinary experience.",
   "dishCard": {
-    "capreseCrostini": {
+    "capreseCrostini":{
       "name": "Caprese Crostini",
-      "description": "Savor the classic Italian appetizer, Caprese Crostini, featuring crispy slices topped with fresh tomatoes, creamy mozzarella, basil, and a drizzle of balsamic reduction, perfect for any occasion.",
-      "altText": "Italian appetizers on a wooden chopping board"
+      "description": "Crispy crostini topped with tomatoes, mozzarella, and basil. Finished with a balsamic drizzle for an Italian touch.",
+      "altText": "Crostini with fresh tomatoes, mozzarella, basil, and a hint of balsamic."
     },
     "lasagna": {
       "name": "Lasagna",
-      "description": "Indulge in our classic Lasagna, a perfect blend of tender pasta, rich meat sauce, creamy béchamel, mozzarella, and parmesan, delivering a timeless Italian favorite in every bite.",
+      "description": "Tender pasta layered with meat sauce, béchamel, and cheeses. Timeless Italian indulgence.",
       "altText": "Lasagna being served onto a plate"
     },
     "spaghettiAglioOlio": {
       "name": "Spaghetti Aglio Olio",
-      "description": "Enjoy the simplicity of Spaghetti Aglio Olio, combining perfectly cooked spaghetti, fragrant garlic, quality olive oil, red pepper flakes, and fresh parsley for a subtle heat and authentic Italian flavor celebration in every bite.",
+      "description": "Spaghetti with garlic, olive oil, and red pepper. An authentic Italian flavor celebration.",
       "altText": "Simple spaghetti Aglio Olio on a grey ceramic plate"
     },
     "bruschetta": {
       "name": "Bruschetta",
-      "description": "Relish the lively Bruschetta with ripe tomatoes, crisp grilled bread, fresh basil, and a drizzle of olive oil. This classic Italian starter blends textures and flavors for a burst of Mediterranean delight in every bite.",
+      "description": "Crisp bread with tomatoes, basil, and olive oil. A burst of Mediterranean delight.",
       "altText": "Several bruschetta being served on a wooden chopping board"
     },
     "wholemealWaffles": {
       "name": "Wholemeal Waffles",
-      "description": "Indulge in Wholemeal Waffles made from hearty whole grains, ready for your choice of toppings such as velvety ice cream, golden honey, or fresh berries. This versatile treat provides a delightful balance of indulgence and nourishment.",
+      "description": "Hearty waffles ready for toppings. A balance of indulgence and nourishment.",
       "altText": "Maple syrup drizzled onto brown wholemeal waffles with blueberries"
     },
     "grapefruitOasis": {
       "name": "Grapefruit Oasis",
-      "description": "Enjoy the Grapefruit Oasis cocktail, a blend of fresh juice and premium spirits, delivering a tart and sweet balance. Garnished with grapefruit, this drink provides a refreshing escape with each sip.",
+      "description": "Fresh juice and spirits, tart and sweet. A refreshing grapefruit-infused escape.",
       "altText": "Generous slice of Grapefruit served with a cocktail drink"
     },
     "amarettiCharlotte": {
       "name": "Amaretti Charlotte",
-      "description": "Savor a French-inspired appetizer with cream-filled pastry shaped like a pouring cup, topped with possibly crumbled amaretti cookies. This dish presents a delightful blend of textures and flavors.",
+      "description": "Cream-filled pastry topped with amaretti. A blend of delightful textures and flavors.",
       "altText": "Amaretti Charlotte served on an oval ceramic plate"
     },
     "searedScallops": {
       "name": "Seared Scallops",
-      "description": "This delicacy presents perfectly seared scallops in a light herb butter, hinting at exotic flavors. Experience a captivating blend of textures and flavors with a tender interior and crisply seared exterior.",
+      "description": "Scallops in herb butter, with a crisp exterior. A hint of exotic flavors.",
       "altText": "Bite sized scallops appetizers served on a wooden board."
     },
     "brownieIceCream": {
       "name": "Brownie Ice Cream",
-      "description": "Pairing fudgy brownies with smooth ice cream, this dessert crafts a symphony of texture and sweetness. Each morsel transports you through indulgent chocolaty highs and creamy lows, epitomizing decadent delight.",
+      "description": "Fudgy brownies paired with smooth ice cream. A symphony of sweetness and texture.",
       "altText": "Brownie with a vanilla ice cream on top."
     },
     "greenSalad": {
       "name": "Green Salad",
-      "description": "Green Salad blends assorted green vegetables like lettuce, cucumbers, and spinach, lightly dressed with a simple vinaigrette. This crisp, refreshing side harmoniously enhances a myriad of dishes.",
+      "description": "Fresh lettuce, cucumbers, and spinach in a light vinaigrette. A crisp companion to any meal.",
       "altText": "A vibrant bowl of Green Salad with assorted fresh vegetables and a light vinaigrette."
     },
     "baconCheeseBurger": {
       "name": "Bacon Cheese Burger",
-      "description": "A bacon cheeseburger unites a succulent beef patty, crispy bacon, and melted cheese within toasted buns. Garnished with fresh veggies and creamy condiments, this savory ensemble delivers an explosion of flavors in each mouthful.",
+      "description": "Juicy beef patty, crispy bacon, and melted cheese in toasted buns. A flavor-packed delight.",
       "altText": "A succulent bacon cheeseburger with crispy bacon, melty cheese, fresh vegetables, and creamy condiments between toasted buns."
     },
     "berryBlissPudding": {
       "name": "Berry Bliss Pudding",
-      "description": "Berry Bliss Pudding is a charming mix of juicy, assorted berries nestled in a velvety, sweet base. The interplay of tart and sweet flavors, coupled with a silky texture, renders this dessert both refreshing and indulgent, suitable for any occasion.",
+      "description": "Assorted berries in a velvety base. A balanced dance of tart and sweet flavors.",
       "altText": "Berry Bliss Pudding with assorted berries in a balanced tart and sweet flavor profile"
     },
     "savorySalmonToast": {
       "name": "Savory Salmon Toast",
-      "description": "Savory Salmon Toast showcases delicate smoked salmon atop a golden, crisp slice of toast. Enhanced by a creamy, herb-infused spread, this dish presents a sophisticated fusion of textures and flavors, proving to be a satisfying delight.",
+      "description": "Smoked salmon on crisp toast with herb spread. A fusion of textures and rich flavors.",
       "altText": "Savory Salmon Toast featuring crispy toast topped with flavorful smoked salmon and fresh herbs."
     },
     "verdePestoParadiso": {
       "name": "Verde Pesto Paradiso",
-      "description": "Savor the vibrant Verde Pesto Paradiso, a delightful mix of basil, pine nuts, and Parmesan, enveloping al dente pasta. A touch of lemon zest adds a fresh twist to this Italian favorite.",
+      "description": "Basil, pine nuts, and Parmesan with al dente pasta. An Italian classic with a zesty twist.",
       "altText": "Al dente pasta with green pesto, garnished with Parmesan, lemon zest, basil leaves, and pine nuts."
     },
     "rivieraRatatouille": {
       "name": "Riviera Ratatouille",
-      "description": "Delight in our Riviera Ratatouille, a vibrant medley of roasted vegetables seasoned with herbs de Provence and olive oil, capturing the sunny essence of Provence.",
+      "description": "Roasted vegetables with herbs de Provence. Capturing the sunny essence of Provence.",
       "altText": "Vibrant roasted vegetables in rich tomato sauce and herbs, representing classic Ratatouille."
     },
     "quintessentialQuiche": {
       "name": "Quintessential Quiche",
-      "description": "Relish a slice of Quintessential Quiche Elegance, a creamy mix of eggs, cream, cheese, and vegetables in a buttery crust, embodying a harmonious blend of flavors and textures, a timeless brunch classic.",
+      "description": "Creamy eggs, cheese, and veggies in a buttery crust. A brunch classic blending flavors and textures.",
       "altText": "A golden-brown quiche with a creamy filling and flaky crust, garnished with fresh herbs."
     },
     "berryMist": {
       "name": "Berry Mist",
-      "description": "Savor Berry Mist, a blend of tart blackberries and fresh mint, topped with velvety foam and red dots, delivering a sensory delight with its mix of flavors and textures.",
+      "description": "Blackberries and mint topped with velvety foam. A cocktail that's a sensory treat.",
       "altText": "Berry Mist cocktail with blackberry-mint base and textured white foam, offering varied flavors."
     }
   },
-  "themes": {
-    "appetizers": "Appetizers",
-    "classic": "Classic Mainstay",
-    "european": "Continental Elegance",
-    "mediterranean": "Mediterranean Banquet",
-    "dessert": "Dessert Euphoria",
-    "drinks": "Crafted Chemistry"
+    "themes": {
+      "appetizers": "Appetizers",
+      "classic": "Classic Mainstay",
+      "european": "Continental Elegance",
+      "mediterranean": "Mediterranean Banquet",
+      "dessert": "Dessert Euphoria",
+      "drinks": "Crafted Chemistry"
   },
   "contactUs": "Contact Us",
   "name": "Name",

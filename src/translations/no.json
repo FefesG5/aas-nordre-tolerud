@@ -6,48 +6,102 @@
   "aasNordreTolerudGard": "Aas Nordre Tolerud Gard",
   "headline": "Nyt Ekteheten",
   "panzanellaText": "Panzanella: Tradisjonell Italiensk Salat",
-  "homeText": "På Nordre Tolerud gård, som ligger vakkert til i Tolerud-regionen, finner du en familiedrevet gård med en rik historie som strekker seg flere århundrer tilbake. Gården vår er en av to i Tolerud-området og har vært i familiens eie siden 1840. Våre dype røtter i regionen strekker seg enda lenger tilbake, med forfedre som har bodd i Tolerud helt siden middelalderen. Opplev den tidløse skjønnheten på gården vår, smak på kvaliteten av våre lokalt produserte varer, samtidig som du støtter et stykke historie.",
   "homeTextHistory": "Skjult i den pittoreske Tolerud-regionen ligger Nordre Tolerud Gård.",
   "homeTextProducts": "Kom og opplev den tidløse skjønnheten på gården vår og smak kvaliteten til produktene våre som er lokalt hentet.",
   "productCardTitle": "Vår forpliktelse til lokalt dyrket og ferskt tilberedte måltider garanterer eksepsjonelle retter.",
   "allRightsReserved": "Alle rettigheter reservert",
   "geekClickIconsAttributionText": "Symboler opprettet av GeekClick - Flaticon",
-  "panzanellaAttributionText": "Panzanella hovedsiden bilde tatt av Luisa Brimble - Unsplash",
+  "takenBy": "tatt av",
+  "attributions": "Attributions",
   "meetIngvarTitle": "Møt Ingvar",
-  "about-text-1": "En ydmyk kokk med en lidenskap for matlaging og en fantastisk sans for humor. Med en ønske om å skape deilige og tilfredsstillende måltider, blander Ingvar smak, presentasjon og kvalitet for å skape uforglemmelige kulinariske opplevelser. Som en lokal innbygger i hjembyen sin er Ingvar stolt av å bruke kun de ferskeste ingrediensene, og sikrer at hver rett er laget med omsorg og oppmerksomhet på detaljer.",
-  "about-text-2": "Bli med Ingvar på et herlig måltid, der humor og smak kommer sammen i perfekt harmoni.",
+  "about-text-1": "Kokk Ingvar: Lidenskapelig opptatt av å lage deilige retter med ferske lokale ingredienser. Kombinerer smak og presentasjon for en uovertruffen kulinarisk opplevelse.",
   "courtesyOf": "Med tillatelse fra",
   "iconsCourtesyOf": "Takket være",
   "dishCard": {
     "capreseCrostini": {
       "name": "Caprese Crostini",
-      "description": "Nyt den klassiske italienske forretten, Caprese Crostini, med sprø skiver toppet med friske tomater, kremet mozzarella, basilikum og en drypp av balsamicoreduksjon, perfekt for enhver anledning.",
-      "altText": "Italienske forretter på en trehakkebrett"
+      "description": "Sprø crostini toppet med tomater, mozzarella og basilikum. Avsluttet med en balsamico-drizzle for en italiensk vri.",
+      "altText": "Crostini med friske tomater, mozzarella, basilikum, og et hint av balsamico."
     },
     "lasagna": {
-      "name": "Lasagne",
-      "description": "Nyt vår klassiske lasagne, en perfekt kombinasjon av myk pasta, rik kjøttsaus, kremet béchamel, mozzarella og parmesan, som gir en tidløs italiensk favoritt i hver bit.",
-      "altText": "Lasagne blir servert på en tallerken"
+      "name": "Lasagna",
+      "description": "Mør pasta laget med kjøttsaus, béchamel og oster. Tidløs italiensk nytelse.",
+      "altText": "Lasagna blir servert på en tallerken"
     },
     "spaghettiAglioOlio": {
       "name": "Spaghetti Aglio Olio",
-      "description": "Nyt enkelheten av Spaghetti Aglio Olio, som kombinerer perfekt kokt spaghetti, velduftende hvitløk, kvalitetsolivenolje, rød pepperflak og fersk persille for en subtil varme og autentisk italiensk smaksfeiring i hver bit.",
-      "altText": "Enkel spaghetti Aglio Olio på en grå keramikktallerken"
+      "description": "Spaghetti med hvitløk, olivenolje og rød pepper. En autentisk italiensk smaksfeiring.",
+      "altText": "Enkel spaghetti Aglio Olio på en grå keramisk tallerken"
     },
     "bruschetta": {
       "name": "Bruschetta",
-      "description": "Nyt den livlige Bruschettaen med modne tomater, sprø grillet brød, fersk basilikum og en dæsj olivenolje. Denne klassiske italienske forretten blander teksturer og smaker for en eksplosjon av middelhavsglede i hver bit.",
-      "altText": "Flere bruschetta blir servert på et trehakkebrett"
+      "description": "Sprøtt brød med tomater, basilikum og olivenolje. Et utbrudd av middelhavsnytelse.",
+      "altText": "Flere bruschetta blir servert på en trehakkebrett"
     },
     "wholemealWaffles": {
-      "name": "Fullkornsvafler",
-      "description": "Nyt fullkornsvafler laget av hjerte-sunt helkorn, klare for ditt valg av pålegg som fløyelsaktig iskrem, gylden honning eller ferske bær. Denne allsidige godbiten gir en herlig balanse av nytelse og næring.",
-      "altText": "Lønnesirup dryppes over brune fullkornsvafler med blåbær"
+      "name": "Fullkornsvaffler",
+      "description": "Hjerte vaffler klare for pålegg. En balanse mellom nytelse og næring.",
+      "altText": "Lønnesirup dryppet på brune fullkornsvaffler med blåbær"
     },
     "grapefruitOasis": {
       "name": "Grapefrukt Oasis",
-      "description": "Nyt Grapefrukt Oasis-cocktailen, en blanding av fersk juice og premium brennevin, som gir en balanse mellom syrlig og søtt. Pyntet med grapefrukt, gir denne drinken en forfriskende flukt med hver slurk.",
+      "description": "Fersk juice og sprit, syrlig og søt. En forfriskende grapefruktinfundert flukt.",
       "altText": "Stort stykke grapefrukt servert med en cocktaildrink"
+    },
+    "amarettiCharlotte": {
+      "name": "Amaretti Charlotte",
+      "description": "Kremfylt bakverk toppet med amaretti. En blanding av herlige teksturer og smaker.",
+      "altText": "Amaretti Charlotte servert på en oval keramisk tallerken"
+    },
+    "searedScallops": {
+      "name": "Stekte Kamskjell",
+      "description": "Kamskjell i urtesmør, med en sprø utside. Et hint av eksotiske smaker.",
+      "altText": "Stekte kamskjell forretter servert på en treplate."
+    },
+    "brownieIceCream": {
+      "name": "Brownie Iskrem",
+      "description": "Sjokoladebrownies sammen med glatt iskrem. En symfoni av sødme og tekstur.",
+      "altText": "Brownie med vaniljeiskrem på toppen."
+    },
+    "greenSalad": {
+      "name": "Grønn Salat",
+      "description": "Fersk salat, agurker og spinat i en lett vinaigrette. En sprø ledsager til ethvert måltid.",
+      "altText": "En livlig bolle med Grønn Salat med assorterte friske grønnsaker og en lett vinaigrette."
+    },
+    "baconCheeseBurger": {
+      "name": "Bacon Osteburger",
+      "description": "Saftig biffkake, sprø bacon og smeltet ost i ristede boller. En smaksrik glede.",
+      "altText": "En saftig bacon osteburger med sprø bacon, smeltet ost, friske grønnsaker og kremete tilbehør mellom ristede boller."
+    },
+    "berryBlissPudding": {
+      "name": "Bær Bliss Pudding",
+      "description": "Assorterte bær i en fløyelsaktig base. En balansert dans av syrlige og søte smaker.",
+      "altText": "Bær Bliss Pudding med assorterte bær i en balansert syrlig og søt smaksprofil"
+    },
+    "savorySalmonToast": {
+      "name": "Savory Laks Toast",
+      "description": "Røkt laks på sprø toast med urtespread. En fusjon av teksturer og rike smaker.",
+      "altText": "Savory Laks Toast med sprø toast toppet med velsmakende røkt laks og friske urter."
+    },
+    "verdePestoParadiso": {
+      "name": "Verde Pesto Paradiso",
+      "description": "Basilikum, pinjekjerner og parmesan med al dente pasta. En italiensk klassiker med en sprudlende vri.",
+      "altText": "Al dente pasta med grønn pesto, pyntet med parmesan, sitronskall, basilikumblader og pinjekjerner."
+    },
+    "rivieraRatatouille": {
+      "name": "Riviera Ratatouille",
+      "description": "Stekte grønnsaker med Provence-urter. Fanger den solfylte essensen av Provence.",
+      "altText": "Livlige stekte grønnsaker i rik tomatsaus og urter, som representerer klassisk Ratatouille."
+    },
+    "quintessentialQuiche": {
+      "name": "Kvintessensiell Quiche",
+      "description": "Kremete egg, ost og grønnsaker i en smørrik skorpe. En brunch-klassiker som blander smaker og teksturer.",
+      "altText": "En gyllenbrun quiche med en kremet fylling og sprø skorpe, pyntet med friske urter."
+    },
+    "berryMist": {
+      "name": "Bær Tåke",
+      "description": "Bjørnebær og mynte toppet med fløyelsaktig skum. En cocktail som er en sensorisk nytelse.",
+      "altText": "Bær Tåke cocktail med bjørnebær-mynte base og teksturert hvitt skum, som tilbyr varierte smaker."
     }
   },
   "themes": {
