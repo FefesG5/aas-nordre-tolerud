@@ -1,13 +1,3 @@
-:root {
-  --white: #ffffff;
-  --charcoal: #54595f;
-  --pale-teal: #c0dbd5;
-  --whisper-gray: #f6f7f9;
-  --gray-chateau: #d8dde1;
-  --cadet-blue: #5f6f7d;
-  --black: #000000;
-}
-
 .home-container {
   position: relative;
   display: flex;
@@ -70,12 +60,12 @@
 .home-heading {
   font-size: 2.5rem;
   margin-bottom: 1rem;
-  color: var(--stiletto);
+  color: black;
 }
 
 .home-text {
   font-size: 1.4rem;
-  color: var(--charcoal);
+  color: black;
   text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
 }
 
