@@ -1,21 +1,11 @@
-:root {
-  --white: #ffffff;
-  --charcoal: #54595f;
-  --pale-teal: #c0dbd5;
-  --whisper-gray: #f6f7f9;
-  --gray-chateau: #d8dde1;
-  --cadet-blue: #5f6f7d;
-  --black: #000000;
-}
-
 .footer-container {
-  background-color: var(--pale-teal);
+  background-color: white;
   padding: 20px 0;
   text-align: center;
   display: flex;
   flex-direction: column;
   align-items: center;
-  color: var(--cadet-blue);
+  color: #5f6f7d;
 }
 
 .attribution-link:hover {
