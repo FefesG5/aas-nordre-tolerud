@@ -1,5 +1,3 @@
-import "../styles/iconAttribution.css";
-
 interface IconAttributionProps {
   href: string;
   title: string;
