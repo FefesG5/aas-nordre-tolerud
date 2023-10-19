@@ -13,7 +13,6 @@ export default function About() {
         className="about-image"
       />
       <p className="about-text">{t("about-text-1")}</p>
-      <p className="about-text">{t("about-text-2")}</p>
     </div>
   );
 }
