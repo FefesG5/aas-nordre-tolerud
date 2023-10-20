@@ -6,6 +6,7 @@ import menuData from "../data/menuData";
 import "../styles/menu.css";
 
 interface MenuData {
+  isBanner: boolean;
   isProductCard: boolean;
   imageKey: string;
   imageSrc: string;

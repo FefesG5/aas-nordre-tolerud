@@ -3,7 +3,6 @@ import { useTranslation } from "react-i18next";
 
 interface AttributionProps {
   href: string;
-  translationKey: string;
   dishName: string;
   photographer: string;
 }
