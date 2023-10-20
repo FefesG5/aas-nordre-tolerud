@@ -17,18 +17,20 @@ interface MenuData {
 export default function Menu() {
   const { t } = useTranslation();
 
-  const dishesByTheme = menuData.reduce<Record<string, MenuData[]>>(
-    (accumulator: Record<string, MenuData[]>, product: MenuData) => {
-      if (!accumulator[product.theme]) {
-        accumulator[product.theme] = [];
-      }
+  const dishesByTheme = menuData
+    .filter((item) => !item.isBanner)
+    .reduce<Record<string, MenuData[]>>(
+      (accumulator: Record<string, MenuData[]>, product: MenuData) => {
+        if (!accumulator[product.theme]) {
+          accumulator[product.theme] = [];
+        }
 
-      accumulator[product.theme].push(product);
+        accumulator[product.theme].push(product);
 
-      return accumulator;
-    },
-    {}
-  );
+        return accumulator;
+      },
+      {}
+    );
 
   return (
     <>

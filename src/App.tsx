@@ -10,7 +10,7 @@ import Footer from "./components/Footer";
 import Header from "./components/Header";
 
 // Data
-import menuArray from "./data/menuData";
+import menuData from "./data/menuData";
 
 // Libraries
 import { Route, Routes } from "react-router-dom";
@@ -27,7 +27,7 @@ export default function App() {
           <Route path="/contact" element={<Contact />} />
           <Route
             path="/attributions"
-            element={<AttributionPage data={menuArray} />}
+            element={<AttributionPage data={menuData} />}
           />
         </Routes>
       </main>
