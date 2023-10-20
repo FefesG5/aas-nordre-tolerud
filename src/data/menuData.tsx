@@ -1,3 +1,5 @@
+import panzanella from "../images/Panzanella.jpg";
+
 import europeanCategory from "../images/EuropeanTheme.jpg";
 import mainDishCategory from "../images/Lasagna.jpg";
 import dessertCategory from "../images/Desserts.jpg";
@@ -19,6 +21,16 @@ import berryMist from "../images/BerryMist.jpg";
 
 const menuArray = [
   {
+    isBanner: true,
+    isProductCard: false,
+    imageKey: "panzanella",
+    imageSrc: panzanella,
+    theme: "appetizers",
+    href: "https://unsplash.com/photos/vIm26fn_QKg?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText",
+    photographer: "Luisa Brimble",
+  },
+  {
+    isBanner: false,
     isProductCard: true,
     imageKey: "capreseCrostini",
     imageSrc: appetizerCategory,
@@ -27,6 +39,7 @@ const menuArray = [
     photographer: "Elena Leya",
   },
   {
+    isBanner: false,
     isProductCard: true,
     imageKey: "lasagna",
     imageSrc: mainDishCategory,
@@ -35,6 +48,7 @@ const menuArray = [
     photographer: "Stefen Tan",
   },
   {
+    isBanner: false,
     isProductCard: true,
     imageKey: "spaghettiAglioOlio",
     imageSrc: europeanCategory,
@@ -43,6 +57,7 @@ const menuArray = [
     photographer: "Youjeen Cho",
   },
   {
+    isBanner: false,
     isProductCard: true,
     imageKey: "bruschetta",
     imageSrc: mediterraneanCategory,
@@ -51,6 +66,7 @@ const menuArray = [
     photographer: "Margarita Zueva",
   },
   {
+    isBanner: false,
     isProductCard: true,
     imageKey: "wholemealWaffles",
     imageSrc: dessertCategory,
@@ -59,6 +75,7 @@ const menuArray = [
     photographer: "Lindsay Moe",
   },
   {
+    isBanner: false,
     isProductCard: true,
     imageKey: "grapefruitOasis",
     imageSrc: cocktailsCategory,
@@ -67,6 +84,7 @@ const menuArray = [
     photographer: "Sara Cervera",
   },
   {
+    isBanner: false,
     isProductCard: false,
     imageKey: "amarettiCharlotte",
     imageSrc: amarettiCharlotte,
@@ -75,6 +93,7 @@ const menuArray = [
     photographer: "Lisha Riabinina",
   },
   {
+    isBanner: false,
     isProductCard: false,
     imageKey: "searedScallops",
     imageSrc: searedScallops,
@@ -83,6 +102,7 @@ const menuArray = [
     photographer: "Kamil Kalbarczyk",
   },
   {
+    isBanner: false,
     isProductCard: false,
     imageKey: "brownieIceCream",
     imageSrc: brownieIceCream,
@@ -91,6 +111,7 @@ const menuArray = [
     photographer: "Kobby Mendez",
   },
   {
+    isBanner: false,
     isProductCard: false,
     imageKey: "greenSalad",
     imageSrc: greenSalad,
@@ -99,6 +120,7 @@ const menuArray = [
     photographer: "Mads Eneqvist",
   },
   {
+    isBanner: false,
     isProductCard: false,
     imageKey: "baconCheeseBurger",
     imageSrc: baconCheeseBurger,
@@ -107,6 +129,7 @@ const menuArray = [
     photographer: "Chad Montano",
   },
   {
+    isBanner: false,
     isProductCard: false,
     imageKey: "berryBlissPudding",
     imageSrc: berryBlissPudding,
@@ -115,6 +138,7 @@ const menuArray = [
     photographer: "Micheile Henderson",
   },
   {
+    isBanner: false,
     isProductCard: false,
     imageKey: "savorySalmonToast",
     imageSrc: savorySalmonToast,
@@ -123,6 +147,7 @@ const menuArray = [
     photographer: "Tammy Chan",
   },
   {
+    isBanner: false,
     isProductCard: false,
     imageKey: "verdePestoParadiso",
     imageSrc: verdePestoParadiso,
@@ -131,6 +156,7 @@ const menuArray = [
     photographer: "Nerfee Mirandilla",
   },
   {
+    isBanner: false,
     isProductCard: false,
     imageKey: "rivieraRatatouille",
     imageSrc: rivieraRatatouille,
@@ -139,6 +165,7 @@ const menuArray = [
     photographer: "Marjan Sadeghi",
   },
   {
+    isBanner: false,
     isProductCard: false,
     imageKey: "quintessentialQuiche",
     imageSrc: quintessentialQuiche,
@@ -147,6 +174,7 @@ const menuArray = [
     photographer: "Diliara Garifullina",
   },
   {
+    isBanner: false,
     isProductCard: false,
     imageKey: "berryMist",
     imageSrc: berryMist,
