@@ -7,6 +7,7 @@ import UnitedKingdomIcon from "../images/UnitedKingdomIcon.png";
 
 interface CustomLinkProps {
   to: string;
+  className: string;
   children: React.ReactNode;
 }
 
@@ -28,9 +29,15 @@ export default function Header() {
         Aas Nordre Tolerud
       </Link>
       <ul>
-        <CustomLink to="/about">{t("about")}</CustomLink>
-        <CustomLink to="/menu">{t("menu")}</CustomLink>
-        <CustomLink to="/contact">{t("contact")}</CustomLink>
+        <CustomLink to="/about" className="navbar-link">
+          {t("about")}
+        </CustomLink>
+        <CustomLink to="/menu" className="navbar-link">
+          {t("menu")}
+        </CustomLink>
+        <CustomLink to="/contact" className="navbar-link">
+          {t("contact")}
+        </CustomLink>
       </ul>
       <div className="language-buttons">
         {languages.map((lang) => (
@@ -49,12 +56,12 @@ export default function Header() {
   );
 }
 
-function CustomLink({ to, children, ...props }: CustomLinkProps) {
+function CustomLink({ to, children, className, ...props }: CustomLinkProps) {
   const resolvedPath = useResolvedPath(to);
   const isActive = useMatch({ path: resolvedPath.pathname, end: true });
   return (
     <li className={isActive ? "active" : ""}>
-      <Link to={to} {...props}>
+      <Link to={to} className={className} {...props}>
         {children}
       </Link>
     </li>

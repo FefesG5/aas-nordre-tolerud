@@ -16,9 +16,15 @@
   "attributions": "Attributions",
   "iconsCourtesyOf": "Icons courtesy of",
   "meetIngvarTitle": "Meet Ingvar",
+  "imageAttributions": "Image Attributions",
   "about-text-1": "Chef Ingvar: Passionate about crafting delightful dishes using fresh local ingredients. Combining taste and presentation for an unmatched culinary experience.",
   "dishCard": {
-    "capreseCrostini":{
+    "panzanella": {
+      "name": "Panzanella",
+      "description": "Traditional Italian bread salad with tomatoes, cucumbers, and fresh basil.",
+      "altText": "Italian bread salad."
+    },
+    "capreseCrostini": {
       "name": "Caprese Crostini",
       "description": "Crispy crostini topped with tomatoes, mozzarella, and basil. Finished with a balsamic drizzle for an Italian touch.",
       "altText": "Crostini with fresh tomatoes, mozzarella, basil, and a hint of balsamic."
@@ -104,13 +110,13 @@
       "altText": "Berry Mist cocktail with blackberry-mint base and textured white foam, offering varied flavors."
     }
   },
-    "themes": {
-      "appetizers": "Appetizers",
-      "classic": "Classic Mainstay",
-      "european": "Continental Elegance",
-      "mediterranean": "Mediterranean Banquet",
-      "dessert": "Dessert Euphoria",
-      "drinks": "Crafted Chemistry"
+  "themes": {
+    "appetizers": "Appetizers",
+    "classic": "Classic Mainstay",
+    "european": "Continental Elegance",
+    "mediterranean": "Mediterranean Banquet",
+    "dessert": "Dessert Euphoria",
+    "drinks": "Crafted Chemistry"
   },
   "contactUs": "Contact Us",
   "name": "Name",
