@@ -12,7 +12,7 @@ export default function AttributionPage({ data }: AttributionProps) {
   const { t } = useTranslation();
   return (
     <div className="attribution-container">
-      <h1 className="attribution-title">Image Attributions</h1>
+      <h1 className="attribution-title">{t("imageAttributions")}</h1>
       {data.map(({ href, imageKey, photographer }) => (
         <div key={href} className="attribution-entry">
           <a

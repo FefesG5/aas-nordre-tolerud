@@ -15,9 +15,15 @@
   "attributions": "Attributions",
   "meetIngvarTitle": "Møt Ingvar",
   "about-text-1": "Kokk Ingvar: Lidenskapelig opptatt av å lage deilige retter med ferske lokale ingredienser. Kombinerer smak og presentasjon for en uovertruffen kulinarisk opplevelse.",
+  "imageAttributions": "Bildeattribusjoner",
   "courtesyOf": "Med tillatelse fra",
   "iconsCourtesyOf": "Takket være",
   "dishCard": {
+    "panzanella": {
+      "name": "Panzanella",
+      "description": "Tradisjonell italiensk brødsalat med tomater, agurker og fersk basilikum.",
+      "altText": "Italiensk brødsalat."
+    },
     "capreseCrostini": {
       "name": "Caprese Crostini",
       "description": "Sprø crostini toppet med tomater, mozzarella og basilikum. Avsluttet med en balsamico-drizzle for en italiensk vri.",
