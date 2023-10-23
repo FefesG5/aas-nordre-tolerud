@@ -38,11 +38,12 @@
   position: absolute;
   bottom: 5px;
   right: 10px;
-  font-size: 1rem;
+  font-size: 0.9rem;
   color: white;
   background-color: rgba(0, 0, 0, 0.5);
   padding: 5px 10px;
   border-radius: 5px;
+  font-family: "Poppins", sans-serif;
 }
 
 .text-container {
@@ -63,10 +64,12 @@
   color: black;
 }
 
-.home-text {
-  font-size: 1.4rem;
+.home-text-section {
+  font-size: 1.2rem;
+  font-family: "Poppins", sans-serif;
   color: black;
   text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+  margin: 1rem 0;
 }
 
 @media (max-width: 768px) {
