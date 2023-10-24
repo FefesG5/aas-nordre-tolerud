@@ -8,6 +8,28 @@
   color: #5f6f7d;
 }
 
+.copyright-section {
+  display: flex;
+  align-items: center;
+  padding: 8px 16px;
+}
+
+.author-name,
+.rights-text {
+  font-family: "Poppins", sans-serif;
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+
+.author-name {
+  margin-right: 1rem;
+}
+
+.rights-text {
+  font-size: 0.8rem;
+  font-weight: 400;
+}
+
 .attribution-link:hover {
   color: #606060;
 }

@@ -12,7 +12,10 @@ export default function Footer() {
 
   return (
     <div className="footer-container">
-      @ 2023 Gee Chai | {t("allRightsReserved")}
+      <div className="copyright-section">
+        <span className="author-name">@ 2023 Gee Chai</span>
+        <span className="rights-text">{t("allRightsReserved")}</span>
+      </div>
       <Link to="/attributions" className="attribution-link">
         {t("attributions")}
       </Link>
