@@ -18,11 +18,19 @@
 }
 .navbar-link {
   font-family: "Poppins", "Inter", sans-serif;
+  font-size: 1.2rem;
+}
+.navbar-link:hover {
+  color: #606060;
 }
 
 .site-title {
   font-size: 1.8rem;
   font-family: "Oleo Script";
+}
+
+.site-title:hover {
+  color: #606060;
 }
 
 .navbar ul {

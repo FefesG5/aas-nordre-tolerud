@@ -2,10 +2,6 @@ import { useTranslation } from "react-i18next";
 import { Link } from "react-router-dom";
 
 import "../styles/footer.css";
-import NorwayIcon from "../images/NorwayIcon.png";
-import UnitedKingdomIcon from "../images/UnitedKingdomIcon.png";
-
-import IconAttribution from "./IconAttribution";
 
 export default function Footer() {
   const { t } = useTranslation();
@@ -20,7 +16,7 @@ export default function Footer() {
         {t("attributions")}
       </Link>
       <div className="unsplash-attribution-container">
-        <h3>
+        <span className="photo-courtesy-unsplash">
           {t("courtesyOf")}
           <a
             href="https://unsplash.com/"
@@ -28,12 +24,12 @@ export default function Footer() {
             rel="noopener noreferrer nofollow"
             className="unsplash-link"
           >
-            Unsplash:
+            Unsplash
           </a>
-        </h3>
+        </span>
       </div>
       <div className="icon-attribution-container">
-        <h3>
+        <span className="icons-courtesy-flaticon">
           {t("iconsCourtesyOf")}
           <a
             href="https://www.flaticon.com/"
@@ -43,20 +39,9 @@ export default function Footer() {
           >
             Flaticon
           </a>
-        </h3>
+        </span>
       </div>
-      <div>
-        <IconAttribution
-          href="https://www.flaticon.com/free-icons/norway"
-          title="norway icon"
-          icon={NorwayIcon}
-        />
-        <IconAttribution
-          href="https://www.flaticon.com/free-icons/uk"
-          title="uk icon"
-          icon={UnitedKingdomIcon}
-        />
-      </div>
+      <div></div>
     </div>
   );
 }
