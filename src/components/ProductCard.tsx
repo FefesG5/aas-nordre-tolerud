@@ -1,19 +1,18 @@
 import { useTranslation } from "react-i18next";
+import { useNavigate } from "react-router-dom";
 import "../styles/productCard.css";
 
 interface ProductCardProps {
   isProductCard: boolean;
   imageSrc: string;
   altText: string;
-  linkTo?: string;
+  linkTo: string;
   buttonName: string;
   dishName: string;
   width: number;
   height: number;
   onButtonClick?: () => void;
 }
-
-// need to implement the link to the menu page and correct food item theme
 
 export default function ProductCard({
   imageSrc,
@@ -23,25 +22,29 @@ export default function ProductCard({
   dishName: dishNameKey,
   width,
   height,
-  onButtonClick,
 }: ProductCardProps) {
   const { t } = useTranslation();
+  const navigate = useNavigate();
+
+  const navigateToMenuSection = () => {
+    if (linkTo) {
+      navigate(`menu/#${linkTo}`);
+    }
+  };
 
   return (
     <div className="product-card">
-      <a href={linkTo} className="card-link">
-        <img
-          src={imageSrc}
-          alt={altText}
-          width={width}
-          height={height}
-          className="card-image"
-          loading="lazy"
-        />
-      </a>
+      <img
+        src={imageSrc}
+        alt={altText}
+        width={width}
+        height={height}
+        className="card-image"
+        loading="lazy"
+      />
       <p className="dish-name-title">{t(dishNameKey)}</p>
       <div className="card-button">
-        <button>{buttonName}</button>
+        <button onClick={navigateToMenuSection}>{buttonName}</button>
       </div>
     </div>
   );

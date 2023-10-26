@@ -1,9 +1,11 @@
 import DishCard from "../components/DishCard";
 import { useTranslation } from "react-i18next";
+import { useLocation } from "react-router-dom";
 
 import menuData from "../data/menuData";
 
 import "../styles/menu.css";
+import { useEffect } from "react";
 
 interface MenuData {
   isBanner: boolean;
@@ -17,6 +19,14 @@ interface MenuData {
 
 export default function Menu() {
   const { t } = useTranslation();
+  const location = useLocation();
+
+  useEffect(() => {
+    if (location.hash) {
+      const element = document.querySelector(location.hash);
+      element?.scrollIntoView({ behavior: "smooth" });
+    }
+  }, [location]);
 
   const dishesByTheme = menuData
     .filter((item) => !item.isBanner)
@@ -36,7 +46,7 @@ export default function Menu() {
   return (
     <>
       {Object.entries(dishesByTheme).map(([theme, products]) => (
-        <div key={theme} className="menu-section">
+        <div key={theme} id={theme} className="menu-section">
           <h2>{t(`themes.${theme}`)}</h2>
           <div className="menu-container">
             {products.map((product) => (
