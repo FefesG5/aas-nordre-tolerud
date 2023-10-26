@@ -18,6 +18,7 @@ export default function Home() {
         width={250}
         height={250}
         altText={t(`dishCard.${image.imageKey}.altText`)}
+        linkTo={image.theme}
         buttonName={t(`themes.${image.theme}`)}
         dishName={t(`dishCard.${image.imageKey}.name`)}
       />
