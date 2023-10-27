@@ -1,5 +1,5 @@
 .dish-card-container {
-  max-width: 100%;
+  max-width: 90%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -30,13 +30,22 @@
 .dish-card-description {
   font-size: 1.1rem;
   text-align: left;
-  margin: 0.5rem 0;
-  max-width: 400px;
+  margin: 0.8rem 0;
+  padding: 0 0.8rem;
   flex-grow: 1;
+  line-height: 1.4;
+  flex-grow: 1;
+  font-family: "Poppins", sans-serif;
 }
 
 @media (min-width: 800px) {
   .dish-card-image {
     max-width: 400px;
+  }
+}
+
+@media (max-width: 600px) {
+  .dish-card-description {
+    padding: 0 0.6rem;
   }
 }
