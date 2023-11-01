@@ -1,12 +1,12 @@
 import { render, screen } from "@testing-library/react";
 import "@testing-library/jest-dom/extend-expect";
 import DishCard from "../DishCard";
-import sampleDish from "../../images/SampleDish.jpg";
+import Panzanella from "../../images/Panzanella.jpg";
 
 const MockDishCard = () => {
   return (
     <DishCard
-      imageSrc={sampleDish}
+      imageSrc={Panzanella}
       dishName="Sample Dish Title"
       description="Sample dish Description Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt, labore?"
     />
@@ -30,6 +30,6 @@ describe("DishCard", () => {
     render(<MockDishCard />);
     const imageElement = screen.getByAltText(/Sample Dish Title/i);
     expect(imageElement).toBeInTheDocument();
-    expect(imageElement).toHaveAttribute("src", sampleDish);
+    expect(imageElement).toHaveAttribute("src", Panzanella);
   });
 });
