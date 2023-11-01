@@ -33,15 +33,12 @@
 }
 
 .attribution-link {
-  color: #007bff;
-  text-decoration: none;
   transition: color 0.3s ease;
   font-weight: 500;
   flex-grow: 1;
   margin-left: 15px;
-}
-
-.attribution-link:hover {
-  color: #0056b3;
-  text-decoration: underline;
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+  color: black;
+  font-size: 1.2rem;
 }

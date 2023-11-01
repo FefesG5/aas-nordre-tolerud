@@ -12,7 +12,7 @@ export default function Footer() {
         <span className="author-name">@ 2023 Gee Chai</span>
         <span className="rights-text">{t("allRightsReserved")}</span>
       </div>
-      <Link to="/attributions" className="attribution-link">
+      <Link to="/attributions" className="attribution-page-link">
         {t("attributions")}
       </Link>
       <div className="unsplash-attribution-container">
