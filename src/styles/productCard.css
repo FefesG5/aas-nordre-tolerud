@@ -7,6 +7,11 @@
   position: relative;
 }
 
+.product-card:hover {
+  cursor: pointer;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.9);
+}
+
 .card-image {
   height: 250px;
   width: 250px;
