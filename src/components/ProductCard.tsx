@@ -33,7 +33,7 @@ export default function ProductCard({
   };
 
   return (
-    <div className="product-card">
+    <div className="product-card" onClick={navigateToMenuSection}>
       <img
         src={imageSrc}
         alt={altText}
@@ -44,7 +44,7 @@ export default function ProductCard({
       />
       <p className="dish-name-title">{t(dishNameKey)}</p>
       <div className="card-button">
-        <button onClick={navigateToMenuSection}>{buttonName}</button>
+        <button>{buttonName}</button>
       </div>
     </div>
   );
