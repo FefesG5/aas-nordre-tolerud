@@ -1,4 +1,5 @@
 import UpArrow from "../images/UpArrow.png";
+import "../styles/scrollBtn.css";
 
 interface ScrollBtnProps {
   onClick: () => void;
