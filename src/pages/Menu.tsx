@@ -1,12 +1,10 @@
 import DishCard from "../components/DishCard";
 import ScrollBtn from "../components/ScrollBtn";
 import { useTranslation } from "react-i18next";
-import { useLocation } from "react-router-dom";
 
 import menuData from "../data/menuData";
 
 import "../styles/menu.css";
-import { useEffect, useState } from "react";
 
 interface MenuData {
   isBanner: boolean;
@@ -19,35 +17,7 @@ interface MenuData {
 }
 
 export default function Menu() {
-  const [showTopBtn, setShowTopBtn] = useState(false);
   const { t } = useTranslation();
-  const location = useLocation();
-
-  useEffect(() => {
-    if (location.hash) {
-      const element = document.querySelector(location.hash);
-      element?.scrollIntoView({ behavior: "smooth" });
-    }
-  }, [location]);
-
-  useEffect(() => {
-    const handleScroll = () => {
-      setShowTopBtn(window.scrollY > 400);
-    };
-
-    window.addEventListener("scroll", handleScroll);
-
-    return () => {
-      window.removeEventListener("scroll", handleScroll);
-    };
-  }, []);
-
-  const goToTopOfPage = () => {
-    window.scrollTo({
-      top: 0,
-      behavior: "smooth",
-    });
-  };
 
   const dishesByTheme = menuData
     .filter((item) => !item.isBanner)
@@ -66,7 +36,7 @@ export default function Menu() {
 
   return (
     <>
-      <ScrollBtn onClick={goToTopOfPage} show={showTopBtn} />
+      <ScrollBtn />
       {Object.entries(dishesByTheme).map(([theme, products]) => (
         <div key={theme} id={theme} className="menu-section">
           <h2>{t(`themes.${theme}`)}</h2>
@@ -83,6 +53,7 @@ export default function Menu() {
           </div>
         </div>
       ))}
+      <ScrollBtn />
     </>
   );
 }

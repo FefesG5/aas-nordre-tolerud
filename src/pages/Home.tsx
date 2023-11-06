@@ -1,6 +1,7 @@
 import { useTranslation } from "react-i18next";
 
 import ProductCard from "../components/ProductCard";
+import ScrollBtn from "../components/ScrollBtn";
 import menuData from "../data/menuData";
 
 import "../styles/home.css";
@@ -35,11 +36,13 @@ export default function Home() {
         <h2 className="home-heading">{t("aasNordreTolerudGard")}</h2>
         <div className="home-text">
           <div className="home-text-section">{t("productCardTitle")}</div>
+
           {productCardImagesList}
           <div className="home-text-section">{t("homeTextProducts")}</div>
           <div className="home-text-section">{t("homeTextHistory")}</div>
         </div>
       </div>
+      <ScrollBtn />
     </div>
   );
 }
