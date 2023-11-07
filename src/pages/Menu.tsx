@@ -1,6 +1,7 @@
 import DishCard from "../components/DishCard";
 import ScrollBtn from "../components/ScrollBtn";
 import { useTranslation } from "react-i18next";
+import { useEffect } from "react";
 
 import menuData from "../data/menuData";
 
@@ -18,6 +19,17 @@ interface MenuData {
 
 export default function Menu() {
   const { t } = useTranslation();
+
+  useEffect(() => {
+    const hash = window.location.hash;
+    if (hash) {
+      const id = hash.replace("#", "");
+      const element = document.getElementById(id);
+      if (element) {
+        element.scrollIntoView({ behavior: "smooth" });
+      }
+    }
+  }, []);
 
   const dishesByTheme = menuData
     .filter((item) => !item.isBanner)

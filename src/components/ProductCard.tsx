@@ -1,5 +1,5 @@
 import { useTranslation } from "react-i18next";
-import { useNavigate } from "react-router-dom";
+import { Link } from "react-router-dom";
 import "../styles/productCard.css";
 
 interface ProductCardProps {
@@ -24,28 +24,30 @@ export default function ProductCard({
   height,
 }: ProductCardProps) {
   const { t } = useTranslation();
-  const navigate = useNavigate();
+  // const navigate = useNavigate();
 
-  const navigateToMenuSection = () => {
-    if (linkTo) {
-      navigate(`menu/#${linkTo}`);
-    }
-  };
+  // const navigateToMenuSection = () => {
+  //   if (linkTo) {
+  //     navigate(`menu/#${linkTo}`);
+  //   }
+  // };
 
   return (
-    <div className="product-card" onClick={navigateToMenuSection}>
-      <img
-        src={imageSrc}
-        alt={altText}
-        width={width}
-        height={height}
-        className="card-image"
-        loading="lazy"
-      />
-      <p className="dish-name-title">{t(dishNameKey)}</p>
-      <div className="card-button">
-        <button>{buttonName}</button>
+    <Link to={`/menu/#${linkTo}`} className="product-card-link">
+      <div className="product-card">
+        <img
+          src={imageSrc}
+          alt={altText}
+          width={width}
+          height={height}
+          className="card-image"
+          loading="lazy"
+        />
+        <p className="dish-name-title">{t(dishNameKey)}</p>
+        <div className="card-button">
+          <button>{buttonName}</button>
+        </div>
       </div>
-    </div>
+    </Link>
   );
 }
