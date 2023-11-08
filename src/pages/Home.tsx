@@ -28,7 +28,9 @@ export default function Home() {
   return (
     <div className="home-container">
       <div className="background-image">
-        <h1 className="image-heading">{t("headline")}</h1>
+        <h1 className="hero-heading">{t("headline1")}</h1>
+        <h1 className="hero-heading">{t("headline2")}</h1>
+        <h1 className="hero-heading">{t("headline3")}</h1>
         <p className="panzanella-text">{t("panzanellaText")}</p>
       </div>
       <div className="overlay"></div>
