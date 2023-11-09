@@ -48,7 +48,6 @@ export default function Menu() {
 
   return (
     <>
-      <ScrollBtn />
       {Object.entries(dishesByTheme).map(([theme, products]) => (
         <div key={theme} id={theme} className="menu-section">
           <h2>{t(`themes.${theme}`)}</h2>

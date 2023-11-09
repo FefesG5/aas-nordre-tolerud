@@ -1,6 +1,7 @@
 import ingvarSitting from "../images/IngvarSitting.jpg";
 import "../styles/about.css";
 import { useTranslation } from "react-i18next";
+import ScrollBtn from "../components/ScrollBtn";
 
 export default function About() {
   const { t } = useTranslation();
@@ -13,6 +14,7 @@ export default function About() {
         className="about-image"
       />
       <p className="about-text">{t("about-text-1")}</p>
+      <ScrollBtn />
     </div>
   );
 }
