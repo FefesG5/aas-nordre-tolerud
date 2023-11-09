@@ -1,5 +1,7 @@
 import { useTranslation } from "react-i18next";
+import ScrollBtn from "../components/ScrollBtn";
 import "../styles/attributionsPage.css";
+import { useEffect } from "react";
 
 interface AttributionProps {
   data: Array<{
@@ -12,9 +14,17 @@ interface AttributionProps {
 
 export default function AttributionPage({ data }: AttributionProps) {
   const { t } = useTranslation();
+
+  useEffect(()=>{
+    const element = document.querySelector("#attributions")
+    if(element){
+      element.scrollIntoView({behavior: 'smooth'})
+    }
+  },[])
+
   return (
     <div className="attribution-container">
-      <h1 className="attribution-title">{t("imageAttributions")}</h1>
+      <h1 id="attributions" className="attribution-title">{t("imageAttributions")}</h1>
       {data.map(({ href, imageSrc, imageKey, photographer }) => (
         <div key={href} className="attribution-entry">
           <img
@@ -34,6 +44,7 @@ export default function AttributionPage({ data }: AttributionProps) {
           </a>
         </div>
       ))}
+      <ScrollBtn />
     </div>
   );
 }

@@ -1,6 +1,7 @@
 import gingerHouseBack from "../images/GingerHouseBack.jpg";
 import "../styles/contact.css";
 import ContactForm from "../components/ContactForm";
+import ScrollBtn from "../components/ScrollBtn";
 import { useTranslation } from "react-i18next";
 
 export default function Contact() {
@@ -16,6 +17,7 @@ export default function Contact() {
         />
       </div>
       <ContactForm />
+      <ScrollBtn />
     </>
   );
 }
