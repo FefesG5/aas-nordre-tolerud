@@ -110,6 +110,11 @@
       "name": "Berry Mist",
       "description": "Blackberries and mint topped with velvety foam. A cocktail that's a sensory treat.",
       "altText": "Berry Mist cocktail with blackberry-mint base and textured white foam, offering varied flavors."
+    },
+    "mimosaSunrise": {
+      "name": "Mimosa Sunrise",
+      "description": "Chilled champagne and orange juice, kissed with grenadine for a rosy sunrise effect.",
+      "altText": "Champagne and orange layers mimic a sunrise, topped with a cherry."
     }
   },
   "themes": {

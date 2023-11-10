@@ -24,13 +24,6 @@ export default function ProductCard({
   height,
 }: ProductCardProps) {
   const { t } = useTranslation();
-  // const navigate = useNavigate();
-
-  // const navigateToMenuSection = () => {
-  //   if (linkTo) {
-  //     navigate(`menu/#${linkTo}`);
-  //   }
-  // };
 
   return (
     <Link to={`/menu/#${linkTo}`} className="product-card-link">
