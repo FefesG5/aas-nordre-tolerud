@@ -110,6 +110,11 @@
       "name": "Bær Tåke",
       "description": "Bjørnebær og mynte toppet med fløyelsaktig skum. En cocktail som er en sensorisk nytelse.",
       "altText": "Bær Tåke cocktail med bjørnebær-mynte base og teksturert hvitt skum, som tilbyr varierte smaker."
+    },
+    "mimosaSunrise": {
+      "name": "Mimosa Soloppgang",
+      "description": "Kjølt champagne og appelsinjuice, med et hint av grenadine for en rosenrød soloppgangeffekt.",
+      "altText": "Lag av champagne og appelsin etterligner en soloppgang, toppet med et kirsebær."
     }
   },
   "themes": {

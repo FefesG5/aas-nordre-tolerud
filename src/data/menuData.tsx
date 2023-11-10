@@ -18,6 +18,7 @@ import verdePestoParadiso from "../images/VerdePestoParadiso.jpg";
 import rivieraRatatouille from "../images/RivieraRatatouille.jpg";
 import quintessentialQuiche from "../images/QuintessentialQuiche.jpg";
 import berryMist from "../images/BerryMist.jpg";
+import mimosaSunrise from "../images/MimosaSunrise.jpg";
 
 const menuArray = [
   {
@@ -181,6 +182,15 @@ const menuArray = [
     theme: "drinks",
     href: "https://unsplash.com/@niki_mir?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText",
     photographer: "Nikita Tikhomirov",
+  },
+  {
+    isBanner: false,
+    isProductCard: false,
+    imageKey: "mimosaSunrise",
+    imageSrc: mimosaSunrise,
+    theme: "drinks",
+    href: "https://unsplash.com/@picoftasty?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash",
+    photographer: "Mae Mu",
   },
 ];
 
