@@ -19,6 +19,7 @@ import rivieraRatatouille from "../images/RivieraRatatouille.jpg";
 import quintessentialQuiche from "../images/QuintessentialQuiche.jpg";
 import berryMist from "../images/BerryMist.jpg";
 import mimosaSunrise from "../images/MimosaSunrise.jpg";
+import pizzaRustica from "../images/PizzaRustica.jpg";
 
 const menuArray = [
   {
@@ -191,6 +192,15 @@ const menuArray = [
     theme: "drinks",
     href: "https://unsplash.com/@picoftasty?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash",
     photographer: "Mae Mu",
+  },
+  {
+    isBanner: false,
+    isProductCard: false,
+    imageKey: "pizzaRustica",
+    imageSrc: pizzaRustica,
+    theme: "classic",
+    href: "https://unsplash.com/@sahand_hoseini?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash",
+    photographer: "Sahand Hoseini",
   },
 ];
 

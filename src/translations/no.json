@@ -115,6 +115,11 @@
       "name": "Mimosa Soloppgang",
       "description": "Kjølt champagne og appelsinjuice, med et hint av grenadine for en rosenrød soloppgangeffekt.",
       "altText": "Lag av champagne og appelsin etterligner en soloppgang, toppet med et kirsebær."
+    },
+    "pizzaRustica": {
+      "name": "Pizza Rustica",
+      "description": "Mozzarella, italiensk pølse, stekte paprika på en sprø skorpe med urter og Parmesan.",
+      "altText": "Mozzarella, pølse og røde paprika på en sprø skorpe, garnert med urter."
     }
   },
   "themes": {
