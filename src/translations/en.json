@@ -115,6 +115,11 @@
       "name": "Mimosa Sunrise",
       "description": "Chilled champagne and orange juice, kissed with grenadine for a rosy sunrise effect.",
       "altText": "Champagne and orange layers mimic a sunrise, topped with a cherry."
+    },
+    "pizzaRustica": {
+      "name": "Pizza Rustica",
+      "description": "Mozzarella, Italian sausage, roasted peppers on a crispy crust with herbs and Parmesan.",
+      "altText": "Mozzarella, sausage, and red peppers on a crispy crust, garnished with herbs."
     }
   },
   "themes": {
