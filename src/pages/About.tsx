@@ -6,18 +6,13 @@ import "../styles/about.css";
 import { useTranslation } from "react-i18next";
 import ScrollBtn from "../components/ScrollBtn";
 
+import GingerHouseView from "../images/AasNordreTolerud/GingerHouseView.png";
+import GingerHouseViewThumbnail from "../images/AasNordreTolerud/GingerHouseViewThumbnail.png";
+
 const images = [
   {
-    original: "https://picsum.photos/id/1018/1000/600/",
-    thumbnail: "https://picsum.photos/id/1018/250/150/",
-  },
-  {
-    original: "https://picsum.photos/id/1015/1000/600/",
-    thumbnail: "https://picsum.photos/id/1015/250/150/",
-  },
-  {
-    original: "https://picsum.photos/id/1019/1000/600/",
-    thumbnail: "https://picsum.photos/id/1019/250/150/",
+    original: GingerHouseView,
+    thumbnail: GingerHouseViewThumbnail,
   },
 ];
 
