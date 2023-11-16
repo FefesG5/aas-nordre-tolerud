@@ -1,5 +1,6 @@
 import ImageGallery from "react-image-gallery";
 import "react-image-gallery/styles/css/image-gallery.css";
+import "../styles/about-gallery-custom.css";
 
 import ingvarSitting from "../images/IngvarSitting.jpg";
 import "../styles/about.css";
