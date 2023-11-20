@@ -7,28 +7,13 @@ import "../styles/about.css";
 import { useTranslation } from "react-i18next";
 import ScrollBtn from "../components/ScrollBtn";
 
-import GingerHouseView from "../images/AasNordreTolerud/GingerHouseView.png";
-import GingerHouseViewThumbnail from "../images/AasNordreTolerud/GingerHouseViewThumbnail.png";
-
-import GingerHouseBack2 from "../images/AasNordreTolerud/GingerHouseBack2.png";
-import GingerHouseBack2Thumbnail from "../images/AasNordreTolerud/GingerHouseBack2Thumbnail.png";
-
-const images = [
-  {
-    original: GingerHouseView,
-    thumbnail: GingerHouseViewThumbnail,
-  },
-  {
-    original: GingerHouseBack2,
-    thumbnail: GingerHouseBack2Thumbnail,
-  },
-];
+import galleryImages from "../data/galleryImages";
 
 export default function About() {
   const { t } = useTranslation();
   return (
     <>
-      <ImageGallery items={images} lazyLoad={true} />
+      <ImageGallery items={galleryImages} lazyLoad={true} />
       <div className="about-container">
         <h2>{t("meetIngvarTitle")}</h2>
         <img
