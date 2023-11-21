@@ -2,8 +2,8 @@ import React from "react";
 import "../styles/header.css";
 import { Link, useMatch, useResolvedPath } from "react-router-dom";
 import { useTranslation } from "react-i18next";
-import NorwayIcon from "../images/NorwayIcon.png";
-import UnitedKingdomIcon from "../images/UnitedKingdomIcon.png";
+import NorwayIcon from "../images/icons/NorwayIcon.png";
+import UnitedKingdomIcon from "../images/icons/UnitedKingdomIcon.png";
 
 interface CustomLinkProps {
   to: string;
