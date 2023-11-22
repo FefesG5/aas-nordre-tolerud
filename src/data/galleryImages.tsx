@@ -4,6 +4,9 @@ import GingerHouseViewThumbnail from "../images/AasNordreTolerud/GingerHouseView
 import GingerHouseBack2 from "../images/AasNordreTolerud/GingerHouseBack2.png";
 import GingerHouseBack2Thumbnail from "../images/AasNordreTolerud/GingerHouseBack2Thumbnail.png";
 
+import Barn from "../images/AasNordreTolerud/Barn.png";
+import BarnThumbnail from "../images/AasNordreTolerud/BarnThumbnail.png";
+
 const galleryImages = [
   {
     original: GingerHouseView,
@@ -12,6 +15,10 @@ const galleryImages = [
   {
     original: GingerHouseBack2,
     thumbnail: GingerHouseBack2Thumbnail,
+  },
+  {
+    original: Barn,
+    thumbnail: BarnThumbnail,
   },
 ];
 
