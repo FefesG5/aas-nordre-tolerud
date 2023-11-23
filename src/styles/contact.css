@@ -6,18 +6,16 @@
   padding: 0.5rem;
 }
 
-.contact-image {
-  max-width: 100%;
-  height: auto;
-}
-
 /* Form Styles */
 .contact-form-label {
+  font-family: "Poppins", "Inter", sans-serif;
   font-weight: bold;
   margin-bottom: 5px;
 }
 
 .contact-form-input {
+  font-family: "Poppins", "Inter", sans-serif;
+  max-width: 90%;
   display: block;
   width: 100%;
   padding: 8px;
@@ -25,6 +23,7 @@
   border-radius: 4px;
   box-sizing: border-box;
   font-size: 1rem;
+  margin: auto;
   margin-bottom: 0.5rem;
 }
 
