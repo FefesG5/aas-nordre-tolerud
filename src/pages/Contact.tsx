@@ -1,4 +1,3 @@
-import gingerHouseBack2 from "../images/AasNordreTolerud/GingerHouseBack2.png";
 import "../styles/contact.css";
 import ContactForm from "../components/ContactForm";
 import ScrollBtn from "../components/ScrollBtn";
@@ -9,13 +8,7 @@ export default function Contact() {
   return (
     <>
       <h2>{t("contactUs")}</h2>
-      <div className="contact-container">
-        <img
-          className="contact-image"
-          src={gingerHouseBack2}
-          alt="Ginger House Back View"
-        />
-      </div>
+      <div className="contact-container"></div>
       <ContactForm />
       <ScrollBtn />
     </>
