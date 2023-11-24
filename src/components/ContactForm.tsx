@@ -2,6 +2,7 @@ import { useState } from "react";
 import { useTranslation } from "react-i18next";
 
 import InputField from "./InputField";
+import ConfirmationModal from "./ConfirmationModal";
 
 interface FormType {
   name: string;
@@ -80,20 +81,27 @@ export default function ContactForm() {
 
       <div>
         <button type="submit">{t("send")}</button>
-        {confirmModal && (
-          <div className="modal">
-            <div className="modal-content">
-              <p>{t("confirmDecision")}</p>
-              <button onClick={() => setConfirmModal(false)}>
-                {t("cancel")}
-              </button>
-              <button onClick={() => submitContactDetails()}>
-                {t("send")}
-              </button>
-            </div>
-          </div>
-        )}
+        <ConfirmationModal
+          isVisible={confirmModal}
+          onCancel={() => setConfirmModal(false)}
+          onConfirm={submitContactDetails}
+          message={t("confirmDecision")}
+        />
       </div>
     </form>
   );
 }
+
+// {confirmModal && (
+//   <div className="modal">
+//     <div className="modal-content">
+//       <p>{t("confirmDecision")}</p>
+//       <button onClick={() => setConfirmModal(false)}>
+//         {t("cancel")}
+//       </button>
+//       <button onClick={() => submitContactDetails()}>
+//         {t("send")}
+//       </button>
+//     </div>
+//   </div>
+// )}
