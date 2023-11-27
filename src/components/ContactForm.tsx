@@ -33,6 +33,13 @@ export default function ContactForm() {
   function submitContactDetails() {
     const { name, email, message } = form;
     console.log("Sending data...", { name, email, message });
+
+    setForm({
+      name: "",
+      email: "",
+      message: "",
+    });
+
     hideConfirmationModal();
   }
 
@@ -40,8 +47,9 @@ export default function ContactForm() {
     setConfirmModal(false);
   }
 
-  function updateFormData(event: React.ChangeEvent<HTMLInputElement>) {
-    const { name, value } = event.target;
+  function updateFormData({
+    target: { name, value },
+  }: React.ChangeEvent<HTMLInputElement>) {
     setForm((prevFormValues) => ({
       ...prevFormValues,
       [name]: value,
@@ -91,17 +99,3 @@ export default function ContactForm() {
     </form>
   );
 }
-
-// {confirmModal && (
-//   <div className="modal">
-//     <div className="modal-content">
-//       <p>{t("confirmDecision")}</p>
-//       <button onClick={() => setConfirmModal(false)}>
-//         {t("cancel")}
-//       </button>
-//       <button onClick={() => submitContactDetails()}>
-//         {t("send")}
-//       </button>
-//     </div>
-//   </div>
-// )}
