@@ -88,7 +88,9 @@ export default function ContactForm() {
       />
 
       <div>
-        <button type="submit">{t("send")}</button>
+        <button className="submit-btn" type="submit">
+          {t("send")}
+        </button>
         <ConfirmationModal
           isVisible={confirmModal}
           onCancel={() => setConfirmModal(false)}
