@@ -135,6 +135,7 @@
   "email": "Email",
   "message": "Message",
   "send": "Send",
-  "confirmDecision": "Please confirm your decision ~ ",
-  "cancel": "Cancel"
+  "confirmDecision": "Please confirm your decision",
+  "cancel": "Cancel",
+  "confirm": "Confirm"
 }
