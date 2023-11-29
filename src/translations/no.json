@@ -135,6 +135,7 @@
   "email": "E-post",
   "message": "Melding",
   "send": "Sende",
-  "confirmDecision": "Vennligst bekreft avgjørelsen din ~ ",
-  "cancel": "Avbryte"
+  "confirmDecision": "Vennligst bekreft avgjørelsen din",
+  "cancel": "Avbryte",
+  "confirm": "Bekreftet"
 }

@@ -1,3 +1,5 @@
+import { useTranslation } from "react-i18next";
+
 interface ConfirmModalProps {
   isVisible: boolean;
   onConfirm: () => void;
@@ -11,14 +13,15 @@ export default function ConfirmationModal({
   onCancel,
   message,
 }: ConfirmModalProps) {
+  const { t } = useTranslation();
   if (!isVisible) return null;
 
   return (
     <div className="modal">
       <div className="modal-content">
-        <p>{message}</p>
-        <button onClick={onCancel}>Cancel</button>
-        <button onClick={onConfirm}>Confirm</button>
+        <p className="modal-message">{message}</p>
+        <button onClick={onCancel}>{t("cancel")}</button>
+        <button onClick={onConfirm}>{t("confirm")}</button>
       </div>
     </div>
   );
