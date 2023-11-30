@@ -1,4 +1,5 @@
 import { useTranslation } from "react-i18next";
+import "../styles/confirmationModal.css";
 
 interface ConfirmModalProps {
   isVisible: boolean;
@@ -20,8 +21,12 @@ export default function ConfirmationModal({
     <div className="modal">
       <div className="modal-content">
         <p className="modal-message">{message}</p>
-        <button onClick={onCancel}>{t("cancel")}</button>
-        <button onClick={onConfirm}>{t("confirm")}</button>
+        <button className="btn-text" onClick={onCancel}>
+          {t("cancel")}
+        </button>
+        <button className="btn-text" onClick={onConfirm}>
+          {t("confirm")}
+        </button>
       </div>
     </div>
   );
