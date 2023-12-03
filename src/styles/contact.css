@@ -3,12 +3,12 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 1rem;
-  /* background-image: url("../images/pexels-pixabay-159577.jpg");
+  padding: 0.5rem;
+  background-image: url("../images/ContactPageBackground.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  min-height: 400px; */
+  min-height: 300px;
 }
 
 /* Form Styles */
@@ -49,6 +49,12 @@
 
 .submit-btn:hover {
   background-color: #374151;
+}
+
+@media (min-width: 1024px) {
+  .contact-container {
+    background-size: 520px;
+  }
 }
 
 @media (min-width: 768px) {
