@@ -1,0 +1,23 @@
+.about-container {
+  width: 100%;
+  max-width: 800px;
+  margin: 1rem auto;
+  padding: 2rem;
+  background-color: white; /* Color of the Ingvar box profile*/
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.about-image {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.about-text {
+  font-size: 1.1rem;
+  text-align: left;
+  margin-top: 1rem;
+  color:black;
+}

@@ -1,0 +1,64 @@
+/* Contact Container */
+.contact-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.5rem;
+  background-image: url("../images/ContactPageBackground.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 300px;
+}
+
+/* Form Styles */
+.contact-form-label {
+  font-family: "Poppins", "Inter", sans-serif;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.contact-form-input {
+  font-family: "Poppins", "Inter", sans-serif;
+  max-width: 90%;
+  display: block;
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size: 1rem;
+  margin: auto;
+  margin-bottom: 0.5rem;
+}
+
+/* Button Styles */
+.submit-btn {
+  margin-top: 20px;
+  background-color: #111827;
+  border: 1px solid transparent;
+  color: #ffffff;
+  cursor: pointer;
+  flex: 0 0 auto;
+  font-size: 1.125rem;
+  border-radius: 0.75rem;
+  font-family: "Poppins", "Inter", sans-serif;
+  line-height: 1.5rem;
+  padding: 0.75rem 1.2rem;
+}
+
+.submit-btn:hover {
+  background-color: #374151;
+}
+
+@media (min-width: 1024px) {
+  .contact-container {
+    background-size: 520px;
+  }
+}
+
+@media (min-width: 768px) {
+  .button-40 {
+    padding: 0.75rem 1.5rem;
+  }
+}

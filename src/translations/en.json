@@ -1,0 +1,141 @@
+{
+  "welcome": "Welcome",
+  "menu": "Menu",
+  "about": "About",
+  "contact": "Contact",
+  "aasNordreTolerudGard": "Aas Nordre Tolerud Gard",
+  "headline1": "Savor",
+  "headline2": "the",
+  "headline3": "Authenticity",
+  "panzanellaText": "Panzanella: Tradional Italian Salad",
+  "homeTextHistory": "Nestled in the picturesque Tolerud region lies Nordre Tolerud Farm",
+  "homeTextProducts": "Come experience the timeless beauty of our farm and taste the quality of our locally-sourced products",
+  "productCardTitle": "Our commitment to locally grown and freshly cooked meals guarantees exceptional dishes",
+  "allRightsReserved": "All Rights Reserved",
+  "geekClickIconsAttributionText": "Icons created by GeekClick - Flaticon",
+  "takenBy": "taken by",
+  "courtesyOf": "Photos courtesy of",
+  "attributions": "Attributions",
+  "iconsCourtesyOf": "Icons courtesy of",
+  "meetIngvarTitle": "Meet Ingvar",
+  "imageAttributions": "Image Attributions",
+  "about-text-1": "Chef Ingvar: Passionate about crafting delightful dishes using fresh local ingredients. Combining taste and presentation for an unmatched culinary experience.",
+  "dishCard": {
+    "panzanella": {
+      "name": "Panzanella",
+      "description": "Traditional Italian bread salad with tomatoes, cucumbers, and fresh basil.",
+      "altText": "Italian bread salad."
+    },
+    "capreseCrostini": {
+      "name": "Caprese Crostini",
+      "description": "Crispy crostini topped with tomatoes, mozzarella, and basil. Finished with a balsamic drizzle for an Italian touch.",
+      "altText": "Crostini with fresh tomatoes, mozzarella, basil, and a hint of balsamic."
+    },
+    "lasagna": {
+      "name": "Lasagna",
+      "description": "Tender pasta layered with meat sauce, béchamel, and cheeses. Timeless Italian indulgence.",
+      "altText": "Lasagna being served onto a plate"
+    },
+    "spaghettiAglioOlio": {
+      "name": "Spaghetti Aglio Olio",
+      "description": "Spaghetti with garlic, olive oil, and red pepper. An authentic Italian flavor celebration.",
+      "altText": "Simple spaghetti Aglio Olio on a grey ceramic plate"
+    },
+    "bruschetta": {
+      "name": "Bruschetta",
+      "description": "Crisp bread with tomatoes, basil, and olive oil. A burst of Mediterranean delight.",
+      "altText": "Several bruschetta being served on a wooden chopping board"
+    },
+    "wholemealWaffles": {
+      "name": "Wholemeal Waffles",
+      "description": "Hearty waffles ready for toppings. A balance of indulgence and nourishment.",
+      "altText": "Maple syrup drizzled onto brown wholemeal waffles with blueberries"
+    },
+    "grapefruitOasis": {
+      "name": "Grapefruit Oasis",
+      "description": "Fresh juice and spirits, tart and sweet. A refreshing grapefruit-infused escape.",
+      "altText": "Generous slice of Grapefruit served with a cocktail drink"
+    },
+    "amarettiCharlotte": {
+      "name": "Amaretti Charlotte",
+      "description": "Cream-filled pastry topped with amaretti. A blend of delightful textures and flavors.",
+      "altText": "Amaretti Charlotte served on an oval ceramic plate"
+    },
+    "searedScallops": {
+      "name": "Seared Scallops",
+      "description": "Scallops in herb butter, with a crisp exterior. A hint of exotic flavors.",
+      "altText": "Bite sized scallops appetizers served on a wooden board."
+    },
+    "brownieIceCream": {
+      "name": "Brownie Ice Cream",
+      "description": "Fudgy brownies paired with smooth ice cream. A symphony of sweetness and texture.",
+      "altText": "Brownie with a vanilla ice cream on top."
+    },
+    "greenSalad": {
+      "name": "Green Salad",
+      "description": "Fresh lettuce, cucumbers, and spinach in a light vinaigrette. A crisp companion to any meal.",
+      "altText": "A vibrant bowl of Green Salad with assorted fresh vegetables and a light vinaigrette."
+    },
+    "baconCheeseBurger": {
+      "name": "Bacon Cheese Burger",
+      "description": "Juicy beef patty, crispy bacon, and melted cheese in toasted buns. A flavor-packed delight.",
+      "altText": "A succulent bacon cheeseburger with crispy bacon, melty cheese, fresh vegetables, and creamy condiments between toasted buns."
+    },
+    "berryBlissPudding": {
+      "name": "Berry Bliss Pudding",
+      "description": "Assorted berries in a velvety base. A balanced dance of tart and sweet flavors.",
+      "altText": "Berry Bliss Pudding with assorted berries in a balanced tart and sweet flavor profile"
+    },
+    "savorySalmonToast": {
+      "name": "Savory Salmon Toast",
+      "description": "Smoked salmon on crisp toast with herb spread. A fusion of textures and rich flavors.",
+      "altText": "Savory Salmon Toast featuring crispy toast topped with flavorful smoked salmon and fresh herbs."
+    },
+    "verdePestoParadiso": {
+      "name": "Verde Pesto Paradiso",
+      "description": "Basil, pine nuts, and Parmesan with al dente pasta. An Italian classic with a zesty twist.",
+      "altText": "Al dente pasta with green pesto, garnished with Parmesan, lemon zest, basil leaves, and pine nuts."
+    },
+    "rivieraRatatouille": {
+      "name": "Riviera Ratatouille",
+      "description": "Roasted vegetables with herbs de Provence. Capturing the sunny essence of Provence.",
+      "altText": "Vibrant roasted vegetables in rich tomato sauce and herbs, representing classic Ratatouille."
+    },
+    "quintessentialQuiche": {
+      "name": "Quintessential Quiche",
+      "description": "Creamy eggs, cheese, and veggies in a buttery crust. A brunch classic blending flavors and textures.",
+      "altText": "A golden-brown quiche with a creamy filling and flaky crust, garnished with fresh herbs."
+    },
+    "berryMist": {
+      "name": "Berry Mist",
+      "description": "Blackberries and mint topped with velvety foam. A cocktail that's a sensory treat.",
+      "altText": "Berry Mist cocktail with blackberry-mint base and textured white foam, offering varied flavors."
+    },
+    "mimosaSunrise": {
+      "name": "Mimosa Sunrise",
+      "description": "Chilled champagne and orange juice, kissed with grenadine for a rosy sunrise effect.",
+      "altText": "Champagne and orange layers mimic a sunrise, topped with a cherry."
+    },
+    "pizzaRustica": {
+      "name": "Pizza Rustica",
+      "description": "Mozzarella, Italian sausage, roasted peppers on a crispy crust with herbs and Parmesan.",
+      "altText": "Mozzarella, sausage, and red peppers on a crispy crust, garnished with herbs."
+    }
+  },
+  "themes": {
+    "appetizers": "Appetizers",
+    "classic": "Classic Mainstay",
+    "european": "Continental Elegance",
+    "mediterranean": "Mediterranean Banquet",
+    "dessert": "Dessert Euphoria",
+    "drinks": "Crafted Chemistry"
+  },
+  "contactUs": "Contact Us",
+  "name": "Name",
+  "email": "Email",
+  "message": "Message",
+  "send": "Send",
+  "confirmDecision": "Please confirm your decision",
+  "cancel": "Cancel",
+  "confirm": "Confirm"
+}

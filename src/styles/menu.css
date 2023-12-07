@@ -1,0 +1,18 @@
+.menu-section {
+  margin-bottom: 2rem;
+}
+
+.menu-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
+}
+
+@media (min-width: 800px) {
+  .menu-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 2rem;
+  }
+}
