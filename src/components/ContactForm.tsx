@@ -3,6 +3,7 @@ import { useTranslation } from "react-i18next";
 
 import InputField from "./InputField";
 import ConfirmationModal from "./ConfirmationModal";
+import { isValidInput } from "../utils/validate";
 
 interface FormType {
   name: string;
@@ -16,6 +17,12 @@ export default function ContactForm() {
   const [confirmModal, setConfirmModal] = useState(false);
 
   const [form, setForm] = useState<FormType>({
+    name: "",
+    email: "",
+    message: "",
+  });
+
+  const [errors, setErrors] = useState({
     name: "",
     email: "",
     message: "",
@@ -50,10 +57,19 @@ export default function ContactForm() {
   function updateFormData({
     target: { name, value },
   }: React.ChangeEvent<HTMLInputElement>) {
-    setForm((prevFormValues) => ({
-      ...prevFormValues,
-      [name]: value,
-    }));
+    if (name === "message" && !isValidInput(value)) {
+      setErrors((prevErrors) => ({
+        ...prevErrors,
+        message: "Invalid input.",
+      }));
+    } else {
+      setErrors((prevErrors) => ({ ...prevErrors, [name]: "" }));
+
+      setForm((prevFormValues) => ({
+        ...prevFormValues,
+        [name]: value,
+      }));
+    }
   }
 
   return (
@@ -86,6 +102,8 @@ export default function ContactForm() {
         placeholder={t("message")}
         onChange={updateFormData}
       />
+
+      {errors.message && <div className="error">{errors.message}</div>}
 
       <div>
         <button className="submit-btn" type="submit">
