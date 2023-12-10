@@ -21,6 +21,8 @@ import berryMist from "../images/BerryMist.jpg";
 import mimosaSunrise from "../images/MimosaSunrise.jpg";
 import pizzaRustica from "../images/PizzaRustica.jpg";
 
+import contactPage from "../images/ContactPage.jpg";
+
 const menuArray = [
   {
     isBanner: true,
@@ -201,6 +203,15 @@ const menuArray = [
     theme: "classic",
     href: "https://unsplash.com/@sahand_hoseini?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash",
     photographer: "Sahand Hoseini",
+  },
+  {
+    isBanner: false,
+    isProductCard: false,
+    imageKey: "sakrysoyaVillage",
+    imageSrc: contactPage,
+    theme: "attributions",
+    href: "https://unsplash.com/@masisandy?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash",
+    photographer: "André Mašek",
   },
 ];
 
