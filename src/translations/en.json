@@ -120,6 +120,11 @@
       "name": "Pizza Rustica",
       "description": "Mozzarella, Italian sausage, roasted peppers on a crispy crust with herbs and Parmesan.",
       "altText": "Mozzarella, sausage, and red peppers on a crispy crust, garnished with herbs."
+    },
+    "sakrysoyaVillage": {
+      "name": "Sakrysoya Village",
+      "description": "Charming village in Norway's Lofoten with historic cabins and a renowned seafood bar.",
+      "altText": "Seaside Sakrisøy Village in Lofoten, Norway, featuring traditional architecture."
     }
   },
   "themes": {

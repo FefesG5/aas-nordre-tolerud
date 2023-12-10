@@ -32,7 +32,7 @@ export default function Menu() {
   }, []);
 
   const dishesByTheme = menuData
-    .filter((item) => !item.isBanner)
+    .filter((item) => !item.isBanner && item.theme !== "attributions")
     .reduce<Record<string, MenuData[]>>(
       (accumulator: Record<string, MenuData[]>, product: MenuData) => {
         if (!accumulator[product.theme]) {
