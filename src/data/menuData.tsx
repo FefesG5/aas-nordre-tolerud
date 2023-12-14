@@ -1,25 +1,25 @@
-import panzanella from "../images/Panzanella.jpg";
+import panzanella from "../images/Panzanella.webp";
 
-import europeanCategory from "../images/EuropeanTheme.jpg";
-import mainDishCategory from "../images/Lasagna.jpg";
-import dessertCategory from "../images/Desserts.jpg";
+import europeanCategory from "../images/EuropeanTheme.webp";
+import mainDishCategory from "../images/Lasagna.webp";
+import dessertCategory from "../images/Desserts.webp";
 import appetizerCategory from "../images/Appetizers.webp";
-import mediterraneanCategory from "../images/MediterraneanTheme.jpg";
+import mediterraneanCategory from "../images/MediterraneanTheme.webp";
 import cocktailsCategory from "../images/Cocktails.webp";
 
-import searedScallops from "../images/SearedScallops.jpg";
+import searedScallops from "../images/SearedScallops.webp";
 import amarettiCharlotte from "../images/AmarettiCharlotte.webp";
 import brownieIceCream from "../images/BrownieIceCream.webp";
-import greenSalad from "../images/GreenSalad.jpg";
+import greenSalad from "../images/GreenSalad.webp";
 import baconCheeseBurger from "../images/BaconCheeseBurger.webp";
 import berryBlissPudding from "../images/BerryBlissPudding.webp";
-import savorySalmonToast from "../images/SavorySalmonToast.jpg";
-import verdePestoParadiso from "../images/VerdePestoParadiso.jpg";
-import rivieraRatatouille from "../images/RivieraRatatouille.jpg";
-import quintessentialQuiche from "../images/QuintessentialQuiche.jpg";
+import savorySalmonToast from "../images/SavorySalmonToast.webp";
+import verdePestoParadiso from "../images/VerdePestoParadiso.webp";
+import rivieraRatatouille from "../images/RivieraRatatouille.webp";
+import quintessentialQuiche from "../images/QuintessentialQuiche.webp";
 import berryMist from "../images/BerryMist.webp";
-import mimosaSunrise from "../images/MimosaSunrise.jpg";
-import pizzaRustica from "../images/PizzaRustica.jpg";
+import mimosaSunrise from "../images/MimosaSunrise.webp";
+import pizzaRustica from "../images/PizzaRustica.webp";
 
 import contactPage from "../images/ContactPage.webp";
 
