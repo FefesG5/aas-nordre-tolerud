@@ -3,25 +3,25 @@ import panzanella from "../images/Panzanella.jpg";
 import europeanCategory from "../images/EuropeanTheme.jpg";
 import mainDishCategory from "../images/Lasagna.jpg";
 import dessertCategory from "../images/Desserts.jpg";
-import appetizerCategory from "../images/Appetizers.jpg";
+import appetizerCategory from "../images/Appetizers.webp";
 import mediterraneanCategory from "../images/MediterraneanTheme.jpg";
-import cocktailsCategory from "../images/Cocktails.jpg";
+import cocktailsCategory from "../images/Cocktails.webp";
 
 import searedScallops from "../images/SearedScallops.jpg";
-import amarettiCharlotte from "../images/AmarettiCharlotte.jpg";
-import brownieIceCream from "../images/BrownieIceCream.jpg";
+import amarettiCharlotte from "../images/AmarettiCharlotte.webp";
+import brownieIceCream from "../images/BrownieIceCream.webp";
 import greenSalad from "../images/GreenSalad.jpg";
-import baconCheeseBurger from "../images/BaconCheeseBurger.jpg";
-import berryBlissPudding from "../images/BerryBlissPudding.jpg";
+import baconCheeseBurger from "../images/BaconCheeseBurger.webp";
+import berryBlissPudding from "../images/BerryBlissPudding.webp";
 import savorySalmonToast from "../images/SavorySalmonToast.jpg";
 import verdePestoParadiso from "../images/VerdePestoParadiso.jpg";
 import rivieraRatatouille from "../images/RivieraRatatouille.jpg";
 import quintessentialQuiche from "../images/QuintessentialQuiche.jpg";
-import berryMist from "../images/BerryMist.jpg";
+import berryMist from "../images/BerryMist.webp";
 import mimosaSunrise from "../images/MimosaSunrise.jpg";
 import pizzaRustica from "../images/PizzaRustica.jpg";
 
-import contactPage from "../images/ContactPage.jpg";
+import contactPage from "../images/ContactPage.webp";
 
 const menuArray = [
   {
