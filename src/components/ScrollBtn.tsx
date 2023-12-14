@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import UpArrow from "../images/icons/UpArrow.png";
+import UpArrow from "../images/icons/UpArrow.webp";
 import { debounce } from "../utils/debounce";
 import "../styles/scrollBtn.css";
 
