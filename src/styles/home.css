@@ -81,6 +81,7 @@
     height: auto;
   }
   .background-image {
+    background-image: url("../images/dishes/PanzanellaSmall.webp");
     height: 60vh;
   }
   .text-container {
@@ -93,7 +94,7 @@
     font-size: 2rem;
   }
   .home-heading {
-    font-size: 1.8 rem;
+    font-size: 1.8rem;
   }
   .home-text {
     font-size: 1.2rem;

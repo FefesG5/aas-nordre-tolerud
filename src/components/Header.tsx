@@ -48,7 +48,11 @@ export default function Header() {
             }`}
             onClick={() => changeLanguage(lang.code)}
           >
-            <img src={lang.icon} className="flag-icon" alt="" />
+            <img
+              src={lang.icon}
+              className="flag-icon"
+              alt={`${lang.code} flag`}
+            />
           </div>
         ))}
       </div>
