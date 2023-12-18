@@ -13,6 +13,7 @@ export default function About() {
   const { t } = useTranslation();
   return (
     <>
+      <h2>{t("theHeartOfOurKitchen")}</h2>
       <ImageGallery items={galleryImages} lazyLoad={true} />
       <div className="about-container">
         <h2>{t("meetIngvarTitle")}</h2>
