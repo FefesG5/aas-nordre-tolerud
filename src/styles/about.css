@@ -16,8 +16,9 @@
 }
 
 .about-text {
+  font-family: "Poppins", "Inter", sans-serif;
   font-size: 1.1rem;
   text-align: left;
   margin-top: 1rem;
-  color:black;
+  color: black;
 }
