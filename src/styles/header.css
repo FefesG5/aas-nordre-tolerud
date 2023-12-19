@@ -4,7 +4,7 @@
   justify-content: space-between;
   align-items: center;
   gap: 1rem;
-  padding: 3rem 1rem;
+  padding: 2rem 1rem;
 }
 
 .navbar a,
@@ -44,11 +44,18 @@
 
 /* navbar micro user experience highlighting active navbar. Need to change the colors*/
 .navbar li.active {
-  background-color: white;
+  color: #4a5568;
+  text-decoration: underline;
 }
 
 .navbar li:hover {
-  background-color: white;
+  color: #5a6375;
+  text-decoration: underline;
+}
+
+/* Transition from active and hover state */
+.navbar li {
+  transition: color 0.3s ease-in-out, text-decoration 0.3s ease-in-out;
 }
 
 .language-buttons {
