@@ -48,9 +48,10 @@ export default function Menu() {
 
   return (
     <>
+      <h2 className="menu-page-title">{t("ourSelections")}</h2>
       {Object.entries(dishesByTheme).map(([theme, products]) => (
         <div key={theme} id={theme} className="menu-section">
-          <h2>{t(`themes.${theme}`)}</h2>
+          <h3 className="theme-title">{t(`themes.${theme}`)}</h3>
           <div className="menu-container">
             {products.map((product) => (
               <DishCard
