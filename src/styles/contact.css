@@ -29,6 +29,12 @@
   z-index: 2; /* Ensures content is above the overlay */
 }
 
+.contact-us-title {
+  font-family: "EB Garamond", sans-serif;
+  font-size: 3rem;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
 /* Form Styles */
 .contact-form-label {
   font-family: "Poppins", "Inter", sans-serif;
