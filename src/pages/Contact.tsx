@@ -7,7 +7,7 @@ export default function Contact() {
   const { t } = useTranslation();
   return (
     <>
-      <h2 className="contact-us-title">{t("Inquire Here")}</h2>
+      <h2 className="contact-us-title">{t("inquireHere")}</h2>
       <div className="contact-container"></div>
       <ContactForm />
       <ScrollBtn />
