@@ -9,14 +9,14 @@ const scrollPositionYThreshold = 400;
 const ScrollButton = styled.button`
   position: fixed;
   bottom: 40px;
-  right: 25px;
+  right: 15px;
   z-index: 20;
 
-  background-color: white;
+  background-color: rgba(240, 240, 240, 0.7);
   border: 2px solid #fff;
   border-radius: 50%;
-  height: 80px;
-  width: 80px;
+  height: 60px;
+  width: 60px;
   color: #fff;
   cursor: pointer;
   transition: all 0.5s ease-in-out;
@@ -25,12 +25,24 @@ const ScrollButton = styled.button`
     background: #fff;
     border: 2px solid grey;
   }
+
+  @media (max-width: 600px) {
+    height: 50px;
+    width: 50px;
+  }
 `;
 
 const IconImage = styled.img`
   height: 100%;
   width: 100%;
   object-fit: contain;
+
+  @media (max-width: 600px) {
+    .scroll-button-icon {
+      height: 40px;
+      width: 40px;
+    }
+  }
 `;
 
 export default function ScrollBtn() {
